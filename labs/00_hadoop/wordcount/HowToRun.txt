@@ -1,0 +1,62 @@
+============================================================
+Step-by-step execution of the wordcount example
+
+Author: Irene Finocchi, Camil Demetrescu
+Last update: April 22, 2016
+============================================================
+
+(0)
+
+Compile first as usual (javac WordCount.java) and see what happens.
+You'll get many errors, due to classpath not properly set.
+
+(1)
+
+If you explore the hadoop directory ~/hadoop/share/hadoop/ you'll notice 
+that libraries to be linked are spread over several different subdirectories: 
+quite a mess getting oriented (at least at the beginning).
+
+Hadoop provides a convenient utility to get the CLASSPATH information you 
+need for compiling your code. Run this command from terminal:
+
+bin/hadoop classpath
+
+(2)
+
+Compile your program (now you have the appropriate classpath info)
+
+javac WordCount.java -classpath /opt/hadoop-2.7.1/etc/hadoop:/opt/hadoop-2.7.1/share/hadoop/common/lib/*:/opt/hadoop-2.7.1/share/hadoop/common/*:/opt/hadoop-2.7.1/share/hadoop/hdfs:/opt/hadoop-2.7.1/share/hadoop/hdfs/lib/*:/opt/hadoop-2.7.1/share/hadoop/hdfs/*:/opt/hadoop-2.7.1/share/hadoop/yarn/lib/*:/opt/hadoop-2.7.1/share/hadoop/yarn/*:/opt/hadoop-2.7.1/share/hadoop/mapreduce/lib/*:/opt/hadoop-2.7.1/share/hadoop/mapreduce/*:/contrib/capacity-scheduler/*.jar
+
+This command creates three .class files: besides the main class, there 
+are classes for mappers and reducers, respectively. 
+
+(3)
+
+Create your own jar
+
+jar cf WordCount.jar *.class
+
+(4)
+
+Load input to hdfs as follows:
+
+hadoop fs -put MidSummerNightsDream.txt /in.txt
+
+(5)
+
+You can now run your wordcount example in Hadoop:
+
+yarn jar WordCount.jar WordCount -r 2 /in.txt /out
+
+(6)
+
+Visualize the output:
+
+hadoop fs -cat /out/part-r-00000 | less
+
+or copy it back to local file system:
+
+hadoop fs -copyToLocal /out/part-r-00000 stats.txt
+
+for a more convenient post-processing.
+

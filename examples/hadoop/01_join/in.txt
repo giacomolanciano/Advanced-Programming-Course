@@ -1,0 +1,13 @@
+A john 23
+A jane 25
+A bob 27
+A alice 23
+A paul 22
+A liz 24
+B ap bob
+B ad bob
+B cg bob
+B ap jane
+B cg liz
+B ad john
+A bob 20
