@@ -1,5 +1,3 @@
-import java.io.DataInput;
-import java.io.DataOutput;
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -11,21 +9,22 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.KeyValueTextInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.ToolRunner;
 
 
-
-public class NodePairDistance {
+public class NodePairDistanceNoDup {
+    
+    private static final String TEMP_DIR = "/outDistanceNoDupTemp";
 
 	static int printUsage() {
-		System.out.println("NodePairDistance [-r <reduces>] <input> <output>");
+		System.out.println("NodePairDistanceNoDup [-r <reduces>] <input> <output>");
 		ToolRunner.printGenericCommandUsage(System.out);
 		return -1;
 	}
@@ -64,13 +63,16 @@ public class NodePairDistance {
         //take input and output folders from command line
 		Path input = new Path(otherArgs.get(0));
 		Path output =new Path(otherArgs.get(1));
+        
+        //tmp folder for first pass output
+        Path tmpOut = new Path(TEMP_DIR);
 		
 		Job job = Job.getInstance(conf);
-        job.setJarByClass(NodePairDistance.class);
-        job.setJobName("NodePairDistance");
+        job.setJarByClass(NodePairDistanceNoDup.class);
+        job.setJobName("NodePairDistanceNoDup");
         
 	    FileInputFormat.addInputPath(job, input);
-	    FileOutputFormat.setOutputPath(job, output);
+	    FileOutputFormat.setOutputPath(job, tmpOut);
 
 	    job.setMapperClass(MyMapper.class);
 	    //job.setCombinerClass(MyReducer.class);
@@ -82,9 +84,32 @@ public class NodePairDistance {
         // are the line of text.
 	    job.setInputFormatClass(TextInputFormat.class);
 
-        //to specify the types of intermediate result key and value
-        job.setMapOutputValueClass(EdgeWritable.class);     //it is the custom type defined below
+        //to specify the types of output key and value
+	    job.setOutputKeyClass(Text.class);
+	    job.setOutputValueClass(Text.class);
+
+	    job.waitForCompletion(true);
         
+        
+        /*
+         * begin of second pass, duplicates elimination */
+         
+        job = Job.getInstance(conf);
+        job.setJarByClass(NodePairDistanceNoDup.class);
+        job.setJobName("NodePairDistanceNoDup");
+        
+	    FileInputFormat.addInputPath(job, tmpOut);
+	    FileOutputFormat.setOutputPath(job, output);
+
+	    job.setMapperClass(MyDupRemMapper.class);
+	    //job.setCombinerClass(MyReducer.class);
+	    job.setReducerClass(MyDupRemReducer.class);
+
+        /* 
+         * An InputFormat for plain text files.
+         * Lines are borken in tokens, using space as delimiters */
+	    job.setInputFormatClass(KeyValueTextInputFormat.class);
+
         //to specify the types of output key and value
 	    job.setOutputKeyClass(Text.class);
 	    job.setOutputValueClass(Text.class);
@@ -93,7 +118,7 @@ public class NodePairDistance {
 	}
 	
     
-	public static class MyMapper extends Mapper<LongWritable, Text, Text, EdgeWritable>{
+	public static class MyMapper extends Mapper<LongWritable, Text, Text, Text>{
 		
 		@Override
 		protected void map(LongWritable key, Text value, Context context)
@@ -103,91 +128,77 @@ public class NodePairDistance {
             String[] tok = edge.split(" ");
             String start = tok[0];
             String end = tok[1];
-            int startInt = Integer.parseInt(start);
-            int endInt = Integer.parseInt(end);
             
-			context.write(new Text(start),                         //a
-                            new EdgeWritable(startInt, endInt));   //(a b)
+			context.write(new Text(start),     //a
+                            new Text(edge));   //(a b)
                             
-            context.write(new Text(end),                           //b
-                            new EdgeWritable(startInt, endInt));   //(a b)
+            context.write(new Text(end),       //b
+                            new Text(edge));   //(a b)
 			
        	}
 	}
 	
-	public static class MyReducer extends Reducer<Text, EdgeWritable, Text, Text>{
+    
+	public static class MyReducer extends Reducer<Text, Text, Text, Text>{
 
 		@Override
-		protected void reduce(Text key, Iterable<EdgeWritable> values, Context context)
+		protected void reduce(Text key, Iterable<Text> values, Context context)
 				throws IOException, InterruptedException {
             
-            List<Integer> S = new ArrayList<Integer>();
-            List<Integer> E = new ArrayList<Integer>();
+            List<String> S = new ArrayList<String>();
+            List<String> E = new ArrayList<String>();
             
-            Iterator<EdgeWritable> it = values.iterator();
+            Iterator<Text> it = values.iterator();
             
             /* 
              * necessary to verify equality between node and key.
-             * without declaring it outside the loop, output seems empty */ 
+             * without declaring it outside the loop, output seems empty */
             String keyString = key.toString();
-            int keyInt = Integer.parseInt(keyString);
             
             while (it.hasNext()) {
-                EdgeWritable v = it.next();
-                int start = v.getX();
-                int end = v.getY();
+                String v = it.next().toString();
+                String[] tok = v.split(" ");
                 
-                if (start == keyInt)
-                    E.add(end);
+                if (tok[0].equals(keyString))
+                    E.add(tok[1]);
                 else 
-                    S.add(start);
+                    S.add(tok[0]);
             }
             
-            for (Integer a : S)
-                for(Integer b : E)
-                    context.write(new Text(a.toString()), new Text(b.toString()));
+            for (String a : S)
+                for(String b : E)
+                    context.write(new Text(a), new Text(b));
             
 			
 		}
 	}
     
-    public static class EdgeWritable implements Writable {
-        
-        private int x, y;
-        
-        public EdgeWritable(){
-             /*
-              * NECESSARY, defining a non-empty constructor we "lose" the default one.
-              * when it is called by the reducer a NoSuchMethodException arise,
-              * if not defined */
-             x = 0;
-             y = 0;
-        }
-        
-        public EdgeWritable(int a, int b) {
-            x = a;
-            y = b;
-        }
-        
-        @Override
-        public void readFields(DataInput in) throws IOException {
-            x = in.readInt();
-            y = in.readInt();
-        }
-        
-        @Override
-        public void write(DataOutput out) throws IOException {
-            out.writeInt(x);
-            out.writeInt(y);
-        }
-        
-        public int getX() {
-            return x;
-        }
-        
-        public int getY() {
-            return y;
-        }
-        
-    }
+    
+    public static class MyDupRemMapper extends Mapper<Text,Text,Text,Text> {
+		private Text dummy = new Text();
+		private Text edge = new Text();
+
+		@Override
+		protected void map(Text x, Text y, Context context)
+				throws IOException, InterruptedException {
+			edge.set(x.toString()+";"+y.toString());
+			context.write(edge, dummy);
+		}
+	}
+
+
+	public static class MyDupRemReducer extends Reducer<Text,Text,Text,Text> {
+		private Text x = new Text();
+		private Text y = new Text();
+
+		@Override
+		protected void reduce(Text key, Iterable<Text> dummy, Context context)
+				throws IOException, InterruptedException {
+			String[] edge = key.toString().split(";");
+			x.set(edge[0]);
+			y.set(edge[1]);
+			context.write(x, y);
+		}
+	}
+    
 }
