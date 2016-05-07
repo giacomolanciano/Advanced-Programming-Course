@@ -78,7 +78,7 @@ public class NodePairDistance {
         // are the line of text.
 	    job.setInputFormatClass(TextInputFormat.class);
 
-        //tells the system the types of output key and value
+        //to specify the types of output key and value
 	    job.setOutputKeyClass(Text.class);
 	    job.setOutputValueClass(Text.class);
 
@@ -117,8 +117,9 @@ public class NodePairDistance {
             
             Iterator<Text> it = values.iterator();
             
-            //necessario per verificare uguaglianza tra nodo e chiave
-            //senza dichiarare la variabile prima l'output risulta vuoto 
+            /* 
+             * necessary to verify equality between node and key.
+             * without declaring it outside the loop, output seems empty */
             String keyString = key.toString();
             
             while (it.hasNext()) {

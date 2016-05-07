@@ -1,16 +1,17 @@
+import java.io.DataInput;
+import java.io.DataOutput;
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Iterator;
-import java.io.DataInput;
-import java.io.DataOutput;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
+import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
@@ -18,7 +19,6 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.ToolRunner;
-import org.apache.hadoop.io.Writable;
 
 
 
@@ -82,8 +82,10 @@ public class NodePairDistance {
         // are the line of text.
 	    job.setInputFormatClass(TextInputFormat.class);
 
-        //tells the system the types of output key and value
-        job.setMapOutputValueClass(EdgeWritable.class);     //to set the custom type
+        //to specify the types of intermediate result key and value
+        job.setMapOutputValueClass(EdgeWritable.class);     //it is the custom type defined below
+        
+        //to specify the types of output key and value
 	    job.setOutputKeyClass(Text.class);
 	    job.setOutputValueClass(Text.class);
 
@@ -138,12 +140,6 @@ public class NodePairDistance {
                     E.add(end);
                 else 
                     S.add(start);
-                /*    
-                if (tok[0].equals(keyString))
-                    E.add(tok[1]);
-                else 
-                    S.add(tok[0]);
-                */
             }
             
             for (Integer a : S)
@@ -159,10 +155,10 @@ public class NodePairDistance {
         private int x, y;
         
         public EdgeWritable(){
-            /*
-             * NECESSARIO, definendo un costruttore non vuoto si "perde" quelli di default
-             * che viene comunque chiamato nel reducer (si genera quindi NoSuchMethodException
-             * se non definito esplicitamente) */
+             /*
+              * NECESSARY, defining a non-empty constructor we "lose" the default one.
+              * when it is called by the reducer a NoSuchMethodException arise,
+              * if not defined */
              x = 0;
              y = 0;
         }
