@@ -9,18 +9,17 @@ static int euclide(int x, int y) {
     /*
      * x & y must be non-negative */
     
-    if (y == 0) {
+    if (y == 0)
         return x;
-    }
-    int mod = x%y;
-    return euclide(y, mod);
+    return euclide(y, x%y);
     
 }
 
 rat::rat(int a, int b){
     
     /*
-     * used abs() to avoid that d is negative (if the fraction has to be negative) */
+     * used abs() to avoid that d is negative (if the fraction has to be negative)
+     * see prof_sol for alternative implementation (bitwise xor used) */
     
     int gcd = euclide(abs(a), abs(b));
     
@@ -35,31 +34,31 @@ rat::rat(int a, int b){
     
 }
 
-void rat::unpack(int &a, int &b) {
+void rat::unpack(int& a, int& b) {
     a = n;
     b = d;
 }
 
-rat rat::operator+(rat r) {
-    int den = d * r.d;
-    int num = n*(den/d) + r.n*(den/r.d);
+rat rat::operator+(const rat& r) {
+    int den = d*r.d;
+    int num = n*r.d + r.n*d;
     
     rat nr(num, den);
     return nr;
     
 }
 
-rat rat::operator-(rat r) {
-    int den = d * r.d;
-    int num = n*(den/d) - r.n*(den/r.d);
+rat rat::operator-(const rat& r) {
+    int den = d*r.d;
+    int num = n*r.d - r.n*d;
     
     rat nr(num, den);
     return nr;
     
 }
 
-rat rat::operator*(rat r) {
-    int den = d * r.d;
+rat rat::operator*(const rat& r) {
+    int den = d*r.d;
     int num = n*r.n;
     
     rat nr(num, den);
@@ -67,8 +66,8 @@ rat rat::operator*(rat r) {
     
 }
 
-rat rat::operator/(rat r) {
-    int den = d * r.n;
+rat rat::operator/(const rat& r) {
+    int den = d*r.n;
     int num = n*r.d;
     
     rat nr(num, den);
@@ -80,5 +79,3 @@ rat rat::operator/(rat r) {
 void rat::print() {        
     cout << n << "/" << d << endl;
 }
-
-
