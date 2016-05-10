@@ -41,8 +41,17 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-#possible hadoop output files (maybe too large for github)
+# possible hadoop output files (maybe too large for github)
 out.txt
 
-#possible zip archives
+# possible zip archives
 *.zip
+
+# netbeans private directories
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+.nb-gradle/
