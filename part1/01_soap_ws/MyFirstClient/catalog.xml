@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://192.168.50.97:8080/MyFirstWebService/ElencoUtentiService?wsdl" uri="xml-resources/web-service-references/ElencoUtentiService/wsdl/192.168.50.97_8080/MyFirstWebService/ElencoUtentiService.wsdl"/>
+    <system systemId="http://192.168.50.97:8080/MyFirstWebService/ElencoUtentiService?xsd=1" uri="xml-resources/web-service-references/ElencoUtentiService/wsdl/192.168.50.97_8080/MyFirstWebService/ElencoUtentiService.xsd_1.xsd"/>
+</catalog>

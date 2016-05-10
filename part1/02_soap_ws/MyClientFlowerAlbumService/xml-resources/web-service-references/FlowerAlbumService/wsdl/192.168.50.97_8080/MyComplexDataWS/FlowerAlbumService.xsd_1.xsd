@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2-hudson-740-. --><xs:schema xmlns:tns="http://server/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://server/">
+
+  <xs:element name="getFlower" type="tns:getFlower" />
+
+  <xs:element name="getFlowerResponse" type="tns:getFlowerResponse" />
+
+  <xs:element name="getThumbnails" type="tns:getThumbnails" />
+
+  <xs:element name="getThumbnailsResponse" type="tns:getThumbnailsResponse" />
+
+  <xs:element name="hello" type="tns:hello" />
+
+  <xs:element name="helloResponse" type="tns:helloResponse" />
+
+  <xs:complexType name="getThumbnails">
+    <xs:sequence />
+  </xs:complexType>
+
+  <xs:complexType name="getThumbnailsResponse">
+    <xs:sequence>
+        <xs:element xmlns:xmime="http://www.w3.org/2005/05/xmlmime" name="return" type="xs:base64Binary" minOccurs="0" maxOccurs="unbounded" xmime:expectedContentTypes="image/jpeg" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="hello">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="helloResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getFlower">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getFlowerResponse">
+      <xs:sequence>
+          <xs:element xmlns:xmime="http://www.w3.org/2005/05/xmlmime" name="return" type="xs:base64Binary" minOccurs="0" xmime:expectedContentTypes="image/jpeg" /> 
+      </xs:sequence>
+  </xs:complexType>
+</xs:schema>

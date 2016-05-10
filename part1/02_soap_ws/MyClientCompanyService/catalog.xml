@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://192.168.50.97:8080/CompanyService/CompanyService?wsdl" uri="xml-resources/web-service-references/CompanyService/wsdl/192.168.50.97_8080/CompanyService/CompanyService.wsdl"/>
+    <system systemId="http://192.168.50.97:8080/CompanyService/CompanyService?xsd=1" uri="xml-resources/web-service-references/CompanyService/wsdl/192.168.50.97_8080/CompanyService/CompanyService.xsd_1.xsd"/>
+    <system systemId="http://10.0.2.15:8080/MyServerCompanyService/CompanyService?wsdl" uri="xml-resources/web-service-references/CompanyService_1/wsdl/10.0.2.15_8080/MyServerCompanyService/CompanyService.wsdl"/>
+    <system systemId="http://10.0.2.15:8080/MyServerCompanyService/CompanyService?xsd=1" uri="xml-resources/web-service-references/CompanyService_1/wsdl/10.0.2.15_8080/MyServerCompanyService/CompanyService.xsd_1.xsd"/>
+</catalog>
