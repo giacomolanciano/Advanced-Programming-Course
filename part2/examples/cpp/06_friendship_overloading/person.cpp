@@ -9,7 +9,7 @@ public:
     person(char* n) {
         name=n;
     }
-    friend ostream& operator << (ostream& o, const person& p);
+    friend ostream& operator << (ostream& o, const person& p);  //give to the function access to private fields
 };
 
 //binary operator overloading (in outer scope)

@@ -13,8 +13,8 @@ int main() {
     for(string::iterator it = s.begin(); it != s.end(); it++)    
         cout << *it << endl;    //*it is a single char of the string
         
-    cout << s[3] << endl;   //l
-    cout << s.capacity() << endl;
+    cout << "3rd char: " << s[3] << endl;   //l
+    cout << "capacity: " << s.capacity() << endl;
     
     /* 
      * string classe has a friend function that overrides << operator, as we did*/

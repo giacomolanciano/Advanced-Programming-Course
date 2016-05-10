@@ -9,7 +9,7 @@ public:
     point(double a, double b) : x(a), y(b) {}
     int compare_to(/*const*/ comparable/*<point>*/& c) {
         /* 
-         * we need a downcasting, to compare points*/
+         * we need a downcasting to compare points*/
          point* o = (point*)&c;
          if(x < o->x) return -1;
          if(x > o->x) return 1;
@@ -28,7 +28,9 @@ int main() {
     /*const*/ comparable/*<point>*/* c2 = &p2;
     /*const*/ printable/*<point>*/* t1 = &p1;
     /*const*/ printable/*<point>*/* t2 = &p2;
-    cout << c1->compare_to(*c2) << endl;
+    
+    cout << "compare_to: " << c1->compare_to(*c2) << endl;
+    
     t1->print();
     t2->print();
 }
