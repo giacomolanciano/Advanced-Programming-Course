@@ -6,5 +6,5 @@ struct comparable {
 };
 
 struct printable {
-    void print();
+    virtual void print() = 0;  //pure virtual function
 };
