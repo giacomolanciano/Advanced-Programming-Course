@@ -33,9 +33,9 @@ int main() {
     p->print();
     cout << sizeof(person) << endl;    
     cout << sizeof(student) << endl;   
-    cout << (long*)p << endl;   //print the 8 byte number that is at the beginning of vptr
-    cout << (long*)q << endl;   //print the 8 byte number that is at the beginning of vptr  (non stampa lo stesso di sopra, perchè??)
-    cout << (long*)s << endl;   //print the 8 byte number that is at the beginning of vptr
+    cout << *(long*)p << endl;   //print the 8 byte number that is at the beginning of vptr (NB bisogna dereferenziare, mettere * prima della parentesi)
+    cout << *(long*)q << endl;   //print the 8 byte number that is at the beginning of vptr
+    cout << *(long*)s << endl;   //print the 8 byte number that is at the beginning of vptr
     
     return 0;
 }
