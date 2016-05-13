@@ -27,6 +27,8 @@ import org.apache.hadoop.util.ToolRunner;
 public class TopKProducts {
     
     private static final String JOB_NAME = "TopKProducts";
+    private static final String MAP_TAG = "[mapper] ";
+    private static final String RED_TAG = "[reducer] ";
     private static final String TEMP_DIR = "/outTopKProductsTemp";
     private static final int K_PRODUCTS = 5;
 
@@ -237,6 +239,9 @@ public class TopKProducts {
              * */
             for(Text t : values)
                 list.add(t);
+                
+            //DEBUG
+            System.out.println(RED_TAG + "list before sorting: " + list);
             
             Collections.sort(list, new Comparator<Text>() {
                 public int compare(Text o1, Text o2) {
@@ -256,6 +261,8 @@ public class TopKProducts {
                 }
             });
             
+            //DEBUG
+            System.out.println(RED_TAG + "list after sorting: " + list);
             
             /*
              * returns only the top K products
@@ -268,7 +275,13 @@ public class TopKProducts {
                 topKProducts += tok[0] + "\t";
                 
                 i++;
-                if(i >= K_PRODUCTS) break;
+                if(i >= K_PRODUCTS) {
+                    
+                    //DEBUG
+                    System.out.println(RED_TAG + "break, i = " + i);
+                    
+                    break;
+                }
             }
             
             outValue.set(topKProducts.trim());
@@ -284,7 +297,9 @@ public class TopKProducts {
              /*
               * NECESSARY, defining a non-empty constructor we "lose" the default one.
               * when it is called by the reducer a NoSuchMethodException arise,
-              * if not defined */
+              * if not defined 
+              * */
+             
              p1 = 0;
              p2 = 0;
         }
