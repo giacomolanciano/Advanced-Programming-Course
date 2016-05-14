@@ -151,7 +151,7 @@ public class TopKProducts {
 				throws IOException, InterruptedException {
             
             /*
-             * clear common data structures
+             * clean common data structures
              * */
             products.clear();
                     
@@ -237,26 +237,30 @@ public class TopKProducts {
 		protected void reduce(IntWritable key, Iterable<Text> values, Context context)
 				throws IOException, InterruptedException {
             /*
-             * clear common data structures
+             * clean common data structures
              * */
             list.clear();
             
             /*
-             * sort list of values in descending order by sum
+             * copy list of values to sort it
              * */
-            //for(Text t : values)
-                //list.add(t);
-            
-            Iterator it = values.iterator();
+            Iterator<Text> it = values.iterator();
             Text aux;
             while(it.hasNext()) {
-                aux = (Text) it.next();
-                list.add(aux);
+                aux = it.next();
+                
+                /*
+                 * it is NECESSARY to create a new Text obj to add to list
+                 * */
+                list.add(new Text(aux.toString()));
             }
                 
             //DEBUG
             System.out.println(RED_TAG + "list before sorting: " + list);
             
+            /*
+             * sort list of values in descending order by sum
+             * */
             Collections.sort(list, new Comparator<Text>() {
                 public int compare(Text o1, Text o2) {
                     String line;
