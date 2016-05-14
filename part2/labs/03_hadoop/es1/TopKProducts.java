@@ -202,7 +202,7 @@ public class TopKProducts {
     public static class MyMapperKProducts extends Mapper<LongWritable,Text,IntWritable,Text>{
         
         private IntWritable outKey = new IntWritable();
-        private outValue = new Text();
+        private Text outValue = new Text();
         private String line, p1, p2Sum;
         private String[] tok;
 		
@@ -226,7 +226,7 @@ public class TopKProducts {
        	}
 	}
 	
-	public static class MyReducerKProducts extends Reducer<IntWritable,Text,Text,Text>{
+	public static class MyReducerKProducts extends Reducer<IntWritable,Text,IntWritable,Text>{
         
         private List<Text> list = new ArrayList<Text>();
         private Text outValue = new Text();
