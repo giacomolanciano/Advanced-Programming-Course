@@ -250,7 +250,8 @@ public class TopKProducts {
                 aux = it.next();
                 
                 /*
-                 * it is NECESSARY to create a new Text obj to add to list
+                 * it is NECESSARY to create a new Text obj to add to list,
+                 * because the Iterable obj is one-shot
                  * */
                 list.add(new Text(aux.toString()));
             }
