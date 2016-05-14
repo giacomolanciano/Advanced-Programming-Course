@@ -6,6 +6,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Iterator;
+import java.util.PriorityQueue;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
@@ -224,10 +225,35 @@ public class TopKProducts {
 	
 	public static class MyReducerKProducts extends Reducer<IntWritable,Text,IntWritable,Text>{
         
-        private ArrayList<Text> list = new ArrayList<Text>();
+        private static final int DEFAULT_INIT_CAPACITY = 11;
+        
         private Text outValue = new Text();
         private String line, topKProducts;
         private String[] tok;
+        
+        /*
+         * build a priority queue with a custom comparator 
+         * to sort Text objects according to the field "sum"
+         * */
+        private PriorityQueue<Text> queue = new PriorityQueue<Text>(
+                                                    DEFAULT_INIT_CAPACITY,
+                                                    new Comparator<Text>() {
+                                                        public int compare(Text o1, Text o2) {
+                                                            String line;
+                                                            String[] tok;
+                                                            Long sum1, sum2;
+                                                            
+                                                            line = o1.toString();   
+                                                            tok = line.split("\t");
+                                                            sum1 = Long.parseLong(tok[1]);
+                                                            
+                                                            line = o2.toString();   
+                                                            tok = line.split("\t");
+                                                            sum2 = Long.parseLong(tok[1]);
+                                                            
+                                                            return sum2.compareTo(sum1);
+                                                        }
+                                                    });
 
 		@Override
 		protected void reduce(IntWritable key, Iterable<Text> values, Context context)
@@ -235,10 +261,12 @@ public class TopKProducts {
             /*
              * clean common data structures
              * */
-            list.clear();
+            queue.clear();
             
             /*
-             * copy list of values to sort it
+             * copy list of values into a priority queue to sort it
+             * more efficient than an ArrayList approach, 
+             * avoid to copy the whole list before sorting
              * */
             Iterator<Text> it = values.iterator();
             Text aux;
@@ -249,54 +277,18 @@ public class TopKProducts {
                  * it is NECESSARY to create a new Text obj to add to list,
                  * because the Iterable obj is one-shot
                  * */
-                list.add(new Text(aux.toString()));
+                queue.add(new Text(aux.toString()));
             }
-                
-            //DEBUG
-            System.out.println(RED_TAG + "list before sorting: " + list);
             
-            /*
-             * sort list of values in descending order by sum
-             * */
-            Collections.sort(list, new Comparator<Text>() {
-                public int compare(Text o1, Text o2) {
-                    String line;
-                    String[] tok;
-                    Long sum1, sum2;
-                    
-                    line = o1.toString();   
-                    tok = line.split("\t");
-                    sum1 = Long.parseLong(tok[1]);
-                    
-                    line = o2.toString();   
-                    tok = line.split("\t");
-                    sum2 = Long.parseLong(tok[1]);
-                    
-                    return sum2.compareTo(sum1);
-                }
-            });
-            
-            //DEBUG
-            System.out.println(RED_TAG + "list after sorting: " + list);
             
             /*
              * returns only the top K products
              * */
             topKProducts = "";
-            int i = 0;
-            for(Text t : list) {                
-                line = t.toString();   
+            for(int i = 0; i < K_PRODUCTS && !queue.isEmpty(); i++) {
+                line = queue.poll().toString();   
                 tok = line.split("\t");
                 topKProducts += tok[0] + "\t";
-                
-                i++;
-                if(i >= K_PRODUCTS) {
-                    
-                    //DEBUG
-                    System.out.println(RED_TAG + "break, i = " + i);
-                    
-                    break;
-                }
             }
             
             outValue.set(topKProducts.trim());
