@@ -233,7 +233,7 @@ public class TopKProducts {
         
         /*
          * build a priority queue with a custom comparator 
-         * to sort Text objects according to the field "sum"
+         * to sort Text objects according to the field "sum" (descending)
          * */
         private PriorityQueue<Text> queue = new PriorityQueue<Text>(
                                                     DEFAULT_INIT_CAPACITY,
