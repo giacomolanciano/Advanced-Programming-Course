@@ -228,7 +228,7 @@ public class TopKProducts {
 	
 	public static class MyReducerKProducts extends Reducer<IntWritable,Text,IntWritable,Text>{
         
-        private List<Text> list = new ArrayList<Text>();
+        private ArrayList<Text> list = new ArrayList<Text>();
         private Text outValue = new Text();
         private String line, topKProducts;
         private String[] tok;
@@ -244,8 +244,15 @@ public class TopKProducts {
             /*
              * sort list of values in descending order by sum
              * */
-            for(Text t : values)
-                list.add(t);
+            //for(Text t : values)
+                //list.add(t);
+            
+            Iterator it = values.iterator();
+            Text aux;
+            while(it.hasNext()) {
+                aux = (Text) it.next();
+                list.add(aux);
+            }
                 
             //DEBUG
             System.out.println(RED_TAG + "list before sorting: " + list);
