@@ -123,6 +123,10 @@ public class TopKProducts {
          * An InputFormat for plain text files.
          * Lines are borken in tokens, using space as delimiters */
 	    job.setInputFormatClass(TextInputFormat.class);
+        
+        //to specify the types of intermediate result key and value
+        job.setMapOutputKeyClass(IntWritable.class);
+        job.setMapOutputValueClass(Text.class);
 
         //to specify the types of output key and value
 	    job.setOutputKeyClass(Text.class);
@@ -195,12 +199,12 @@ public class TopKProducts {
 		}
 	}
     
-    
-    public static class MyMapperKProducts extends Mapper<LongWritable,Text,Text,Text>{
+    public static class MyMapperKProducts extends Mapper<LongWritable,Text,IntWritable,Text>{
         
+        private IntWritable outKey = new IntWritable();
+        private outValue = new Text();
         private String line, p1, p2Sum;
         private String[] tok;
-        private Text outKey = new Text(), outValue = new Text();
 		
 		@Override
 		protected void map(LongWritable key, Text value, Context context)
@@ -211,15 +215,18 @@ public class TopKProducts {
             p1 = tok[0];
             p2Sum = tok[1] + "\t" + tok[2];
             
-            outKey.set(p1);
+            outKey.set(Integer.parseInt(p1));
             outValue.set(p2Sum);
             
             context.write(outKey, outValue);
+            
+            //DEBUG
+            System.out.println(MAP_TAG + "outkey: " + outKey + ", outValue: " + outValue);
 			
        	}
 	}
 	
-	public static class MyReducerKProducts extends Reducer<Text,Text,Text,Text>{
+	public static class MyReducerKProducts extends Reducer<IntWritable,Text,Text,Text>{
         
         private List<Text> list = new ArrayList<Text>();
         private Text outValue = new Text();
@@ -227,7 +234,7 @@ public class TopKProducts {
         private String[] tok;
 
 		@Override
-		protected void reduce(Text key, Iterable<Text> values, Context context)
+		protected void reduce(IntWritable key, Iterable<Text> values, Context context)
 				throws IOException, InterruptedException {
             /*
              * clear common data structures
