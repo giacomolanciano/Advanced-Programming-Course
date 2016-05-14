@@ -160,16 +160,12 @@ public class TopKProducts {
             userId = tok[0];
             
             /*
-             * create a copy of the list of products, to compute cross product
+             * compute cross product on products list
              * */
-            for(int i = 1; i < tok.length; i++) {
-                products.add(tok[i]);
-            }
-            
-            for(String prod : products) {
+            for(int j = 1; j < tok.length; j++) {
                 for(int i = 1; i < tok.length; i++) {
-                    if(!prod.equals(tok[i])) {
-                        pair.setP1(Integer.parseInt(prod));
+                    if(!tok[j].equals(tok[i])) {
+                        pair.setP1(Integer.parseInt(tok[j]));
                         pair.setP2(Integer.parseInt(tok[i]));
                         
                         context.write(pair, one);
