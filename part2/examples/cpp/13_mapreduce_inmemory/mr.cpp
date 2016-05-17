@@ -12,7 +12,7 @@ typedef int K3;
 typedef int V3;
 
 /*
- * we could use typedef also for the following types to make code more readable
+ * could use typedef also for the following types to make code more readable
  * */
 vector<pair<K1,V1> > in;
 vector<pair<K2,V2> > mid;
@@ -21,7 +21,7 @@ vector<pair<K3,V3> > out;
 
 
 /*
- * we should have a single write function with extra param 
+ * should have a single write function with extra param 
  * to decide if we use it in map or reduce (to be optimized)
  * */
 
@@ -36,7 +36,7 @@ void reduce_write(K3 k, V3 v) {
 }
 
 /*
- * we define map & reduce functions for WORDCOUNT example
+ * define map & reduce functions for WORDCOUNT example
  * */
  
 void map(K1 k, V1 v) {
@@ -99,7 +99,7 @@ void run() {
     print<K2, V2>(mid);
     
     /*
-     * now we have to group values by same key
+     * group values by same key
      * */
     pair<K2,vector<V2> > p; //group data for a given key
     K2 prev;
@@ -160,30 +160,3 @@ int main() {
     
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

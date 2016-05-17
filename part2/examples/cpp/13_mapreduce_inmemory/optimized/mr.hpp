@@ -26,7 +26,7 @@ void write(K& k, V& v, vector<pair<K,V> >& m) { //& for efficiency
 }
 
 /*
- * we define map & reduce classes for generic application,
+ * define map & reduce classes for generic application,
  * making their functions overridable
  * */
 class mapper {
@@ -101,7 +101,7 @@ public:
         print<K2, V2>(mid);
         
         /*
-         * now we have to group values by same key
+         * group values by same key
          * */
         pair<K2,vector<V2> > p; //group data for a given key
         K2 prev;
@@ -127,7 +127,7 @@ public:
         }
         if(!first_iter) {
             /*
-             * if mid is empty we do not want to execute this instruction
+             * if mid is empty then do not execute this instruction
              * */
             reduce_in.push_back(p);
         }
