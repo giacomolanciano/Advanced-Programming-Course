@@ -4,7 +4,7 @@
 
 using namespace std;
 
-typedef int K1; //to make code more readable (not use int always)
+typedef int K1; //to make code more readable (and not use int everywhere)
 typedef int V1;
 typedef int K2;
 typedef int V2;
@@ -21,7 +21,8 @@ vector<pair<K3,V3> > out;
 
 
 /*
- * we should have a single write function with extra param to decide if we use it in map or reduce
+ * we should have a single write function with extra param 
+ * to decide if we use it in map or reduce (to be optimized)
  * */
 
 void map_write(K2 k, V2 v) {
@@ -35,7 +36,7 @@ void reduce_write(K3 k, V3 v) {
 }
 
 /*
- * we define map & reduce functions for wordcount example
+ * we define map & reduce functions for WORDCOUNT example
  * */
  
 void map(K1 k, V1 v) {
@@ -52,20 +53,20 @@ void reduce(K2 k, vector<V2> l) {
     }
     
     /*
-     * write (v,1) in mid, to make it simpler, we make side-effect on global variable (wrong)
+     * write (k,sum) in out, to make it simpler, we make side-effect on global variable (wrong)
      * */
     reduce_write(k, sum);
 }
 
 /*
- * generic debugging function
+ * generic debugging function to print a vector of pairs
  * */
 template<typename K, typename V>
 void print(vector<pair<K,V> > m) {
     
     /*
-     * iterator depends from types K & V, we need to put typename to specific identify vector<...> as a type
-     * otherwise we get:
+     * iterator depends from types K & V, we need to put typename to 
+     * specify identify vector<...> as a type, otherwise we get:
      * 
      * mr.cpp: In function ‘void print(std::vector<std::pair<_T1, _T2> >)’:
         mr.cpp:65:10: error: need ‘typename’ before ‘std::vector<std::pair<_T1, _T2> >::iterator’ because ‘std::vector<std::pair<_T1, _T2> >’ is a dependent scope
@@ -74,17 +75,18 @@ void print(vector<pair<K,V> > m) {
      * 
      * */
     for (typename vector<pair<K,V> >::iterator it = m.begin(); it != m.end(); ++it) {
-        cout << (*it).first << " " << (*it).second << endl; //NB first & second are fields, not functions
+        cout << (*it).first << " " << (*it).second << endl; //NOTE: first & second are fields, not functions
     }
 }
 
 void run() {
     for (vector<pair<K1,V1> >::iterator it = in.begin(); it != in.end(); ++it) {
-        map((*it).first, (*it).second); //NB first & second are fields, not functions
+        map((*it).first, (*it).second); //NOTE: first & second are fields, not functions
     }
     
     //DEBUG
-    //print<K1, V1>(in);
+    cout << "input: " << endl;
+    print<K1, V1>(in);
     
     /*
      * default ordering on pair is in key-value fashion (lexicographic)
@@ -93,7 +95,8 @@ void run() {
     sort(mid.begin(), mid.end());
     
     //DEBUG
-    //print<K2, V2>(mid);
+    cout << "sorted intermediate: " << endl;
+    print<K2, V2>(mid);
     
     /*
      * now we have to group values by same key
@@ -151,10 +154,10 @@ int main() {
     
     run();
     
-    // read output data from out... (print function can be used)
-    for (vector<pair<K3,V3> >::iterator it = out.begin(); it != out.end(); ++it) {
-        cout << (*it).first << " " << (*it).second << endl;
-    }
+    // read output data from out...
+    cout << "output: " << endl;
+    print<K3, V3>(out);
+    
     return 0;
 }
 
