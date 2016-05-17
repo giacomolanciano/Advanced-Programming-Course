@@ -127,6 +127,7 @@ public:
         }
         if(!first_iter) {
             /*
+             * still need to put last group in reducer input
              * if mid is empty then do not execute this instruction
              * */
             reduce_in.push_back(p);
