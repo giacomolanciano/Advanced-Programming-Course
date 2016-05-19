@@ -28,6 +28,7 @@ public:
         
         iterator(const std::string ss) : s(ss) {
             has_next = s.size() > 0;
+            sort(s.begin(), s.end());
         }
         
         void next_anagram() {
@@ -69,7 +70,11 @@ public:
              * */
              
             next_anagram();
-            return *this;
+            
+            /*
+             * TODO: ask why return statement is not necessary
+             * */
+            //return *this;
         }
         
         iterator operator ++ (int) {  
@@ -80,7 +85,11 @@ public:
             
             iterator it = *this;
             next_anagram();
-            return it;  
+            
+            /*
+             * TODO: ask why return statement is not necessary
+             * */
+            //return it;  
         }
         
         std::string& operator * () {
@@ -93,30 +102,30 @@ private:
      * to make execution faster, create an empty iterator (with
      * has_next set to false) that will be returned all the times 
      * that end() is called
+     * 
+     * NOTE: it has to be declared after the definition of iterator class
+     * and before its usage in anagrams functions. therefore it is put in 
+     * a private section of anagrams class (between two public sections) 
+     * since also info hiding is important.
      * */
-    iterator empty;
+    iterator end_iter;
     
 public:
     anagrams(std::string ss) : s(ss) {
-        empty.has_next = false;
+        end_iter.has_next = false;
     }
     
     iterator begin() {
-        iterator it(s);
-        
-        if(it.has_next) 
-            sort(it.s.begin(), it.s.end());
-        
-        return it;
+        return iterator(s);
     }
     
     iterator& end() {        
         /*
-         * since empty is not created here, return a reference to it
+         * since end_iter is not created here, return a reference to it
          * (defining return type as iterator&)
          * this trick further improves the efficiency
          * */
-        return empty;
+        return end_iter;
     }
     
 };
