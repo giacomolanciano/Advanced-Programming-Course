@@ -38,7 +38,6 @@ int main() {
 * 
 * 
 * 
-* we have  
 * */
 
 

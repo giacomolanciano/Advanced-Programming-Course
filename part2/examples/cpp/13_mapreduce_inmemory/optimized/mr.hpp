@@ -47,7 +47,7 @@ void print(vector<pair<K,V> > m) {
     
     /*
      * iterator depends from types K & V, we need to put typename to 
-     * specify identify vector<...> as a type, otherwise we get:
+     * identify vector<...> as a type, otherwise we get:
      * 
      * mr.cpp: In function ‘void print(std::vector<std::pair<_T1, _T2> >)’:
         mr.cpp:65:10: error: need ‘typename’ before ‘std::vector<std::pair<_T1, _T2> >::iterator’ because ‘std::vector<std::pair<_T1, _T2> >’ is a dependent scope
