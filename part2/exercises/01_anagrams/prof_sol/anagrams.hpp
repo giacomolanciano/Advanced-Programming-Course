@@ -21,11 +21,6 @@ public:
         std::string s;
         bool has_next;
         
-        /*
-         * defined in order to use empty iterator (see below)
-         * */
-        iterator() {}
-        
         iterator(const std::string ss) : s(ss) {
             has_next = s.size() > 0;
         }
@@ -88,18 +83,7 @@ public:
         }
     };
 
-private:
-    /*
-     * to make execution faster, create an empty iterator (with
-     * has_next set to false) that will be returned all the times 
-     * that end() is called
-     * */
-    iterator empty;
-    
-public:
-    anagrams(std::string ss) : s(ss) {
-        empty.has_next = false;
-    }
+    anagrams(std::string ss) : s(ss) {}
     
     iterator begin() {
         iterator it(s);
@@ -110,13 +94,7 @@ public:
         return it;
     }
     
-    iterator& end() {        
-        /*
-         * since empty is not created here, return a reference to it
-         * (defining return type as iterator&)
-         * this trick further improves the efficiency
-         * */
-        return empty;
+    iterator end() {        
+        return iterator("");
     }
-    
 };
