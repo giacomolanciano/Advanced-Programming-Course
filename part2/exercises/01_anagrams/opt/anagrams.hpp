@@ -1,49 +1,65 @@
 #include <algorithm>
 #include <string>
-#include <vector>
 
-using namespace std;
+/*
+ * when developing headers, it is suggested not to use namespaces, better to 
+ * prefix std (for instance) all the times to avoid conflicts (be as general
+ * as possible).
+ * 
+ * NOTE: don't compile headers unless when doing a makefile! otherwise 
+ * programs which include the header will always use the precompiled version
+ * (for efficiency). then whenever you modify it you would have to recompile it
+ * all the times (better to let the compiler do it for us)
+ * */
 
 class anagrams {
-    string s;
+    std::string s;
 public:
+
     class iterator {
         
-        string s;
+        std::string s;
         bool has_next;
         
-        iterator() {
-            has_next = false;
+        /*
+         * defined in order to use empty iterator (see below)
+         * */
+        iterator() {}
+        
+        iterator(const std::string ss) : s(ss) {
+            has_next = s.size() > 0;
         }
         
-        iterator(const string ss) : s(ss) {
-            has_next = true;
-            sort(s.begin(), s.end());
+        void next_anagram() {
+            has_next = next_permutation(s.begin(), s.end());
         }
         
-        friend anagrams;   //to allow anagrams to access private fields
+        /*
+         * to allow anagrams to access private fields
+         * */
+        friend anagrams;   
         
     public:
-        bool operator != (const iterator& it) { //& for efficiency
+        bool operator != (const iterator& it) {
             /*
+             * & for efficiency, const is required
+             * 
              * assuming that operator is only used to check wheter iterator
-             * has been entirely consumed
+             * has been entirely consumed (i.e. it is the result of end())
              * */
              
             return has_next != it.has_next;   
         }
         
-        bool operator == (const iterator& it) { //& for efficiency
+        bool operator == (const iterator& it) {
             /*
+             * & for efficiency, const is required
+             * 
              * assuming that operator is only used to check wheter iterator
-             * has been entirely consumed
+             * has been entirely consumed (i.e. it is the result of end())
              * */
              
             return has_next == it.has_next;   
-        }
-        
-        void next_anagram() {
-            has_next = next_permutation(s.begin(), s.end());
         }
         
         iterator& operator ++ () {
@@ -67,19 +83,40 @@ public:
             return it;  
         }
         
-        string operator * () {
+        std::string& operator * () {
             return s;  
         }
     };
+
+private:
+    /*
+     * to make execution faster, create an empty iterator (with
+     * has_next set to false) that will be returned all the times 
+     * that end() is called
+     * */
+    iterator empty;
     
-    anagrams(string ss) : s(ss) {}
-    
-    iterator begin() {
-        return iterator(s);
+public:
+    anagrams(std::string ss) : s(ss) {
+        empty.has_next = false;
     }
     
-    iterator end() {
-        return iterator();
+    iterator begin() {
+        iterator it(s);
+        
+        if(it.has_next) 
+            sort(it.s.begin(), it.s.end());
+        
+        return it;
+    }
+    
+    iterator& end() {        
+        /*
+         * since empty is not created here, return a reference to it
+         * (defining return type as iterator&)
+         * this trick further improves the efficiency
+         * */
+        return empty;
     }
     
 };
