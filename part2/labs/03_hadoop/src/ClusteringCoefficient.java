@@ -416,8 +416,8 @@ public class ClusteringCoefficient {
                 
                 for(int i = 1; i < tok.length; i++) {
                     edgeTok = tok[i].split(",");
-                    union.add(new EdgeWritable(Integer.parseInt(tok[0]), 
-                                               Integer.parseInt(tok[1])));
+                    union.add(new EdgeWritable(Integer.parseInt(edgeTok[0]), 
+                                               Integer.parseInt(edgeTok[1])));
                 }
                 
             }
