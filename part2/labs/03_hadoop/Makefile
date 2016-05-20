@@ -13,8 +13,8 @@ copy:
 	hadoop fs -put in.txt /graph/in.txt
 
 run:
-	# time yarn jar ClusteringCoefficient.jar ClusteringCoefficient -r 1 /graph/facebook.txt /outClust
 	hadoop fs -rm -f -r -skipTrash /outClust /outClustTemp1 /outClustTemp2
+	# time yarn jar ClusteringCoefficient.jar ClusteringCoefficient -r 1 /graph/facebook.txt /outClust
 	time yarn jar ClusteringCoefficient.jar ClusteringCoefficient -r 1 /graph/in.txt /outClust
 
 .phony: clean
