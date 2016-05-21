@@ -287,7 +287,7 @@ public class ClusteringCoefficient {
                 context.write(outKey, outValue);
                 
                 //DEBUG
-                System.out.println(MAP_TAG_2 + "key = " + outKey + "\tvalue=" + outValue);
+                //System.out.println(MAP_TAG_2 + "key = " + outKey + "\tvalue = " + outValue);
             }
             
             outKey.set(node);
@@ -295,7 +295,7 @@ public class ClusteringCoefficient {
 			context.write(outKey, outValue);
 			
 			//DEBUG
-            System.out.println(MAP_TAG_2 + "key = " + outKey + "\tvalue=" + outValue);
+            //System.out.println(MAP_TAG_2 + "key = " + outKey + "\tvalue = " + outValue);
 		}
 	}
 
@@ -310,6 +310,7 @@ public class ClusteringCoefficient {
 		private Text outValue = new Text();
         private String aux;   
         private String[] tok;
+        private int keyInt;
 
 		@Override
 		protected void reduce(Text key, Iterable<Text> values, Context context)
@@ -319,6 +320,8 @@ public class ClusteringCoefficient {
             keyNeighbours.clear();
             intersection.clear();
             connections.clear();
+            
+            keyInt = Integer.parseInt(key.toString());
                         
             for(Text z : values) {
                 val.add(z.toString());
@@ -328,10 +331,13 @@ public class ClusteringCoefficient {
                 tok = z.split("\t");
                 if(tok[0].equals(key.toString())) {
                     for(int i = 1; i < tok.length; i++) {
-                        keyNeighbours.add(tok[i]);
+                        keyNeighbours.add(new String(tok[i]));
                     }
                 }
             }
+            
+            //DEBUG
+            System.out.println(RED_TAG_2 + "neighbours(" + key.toString() + ") = " + keyNeighbours);
             
             for(String z : val) {
                 tok = z.split("\t");
@@ -343,13 +349,13 @@ public class ClusteringCoefficient {
                     //compute intersection
                     for(int i = 1; i < tok.length; i++) {
                         if(keyNeighbours.contains(tok[i]))
-                            intersection.add(tok[i]);
+                            intersection.add(new String(tok[i]));
                     }
                     
                     
                     for(String w : intersection) {
-                        edge.set(keyInt, Integer.parseInt(w));
-                        connections.add(edge);
+                        //edge.set(keyInt, Integer.parseInt(w));
+                        connections.add(new EdgeWritable(keyInt, Integer.parseInt(w)));
                     }
                     
                     outKey.set(tok[0]);
