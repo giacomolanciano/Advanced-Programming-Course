@@ -337,20 +337,27 @@ public class ClusteringCoefficient {
             }
             
             //DEBUG
-            System.out.println(RED_TAG_2 + "neighbours(" + key.toString() + ") = " + keyNeighbours);
+            //System.out.println(RED_TAG_2 + "neighbours(" + key.toString() + ") = " + keyNeighbours);
             
             for(String z : val) {
+				
+				intersection.clear();
+                connections.clear();
+                
                 tok = z.split("\t");
+                
                 if(!tok[0].equals(key.toString())) {
                     
-                    intersection.clear();
-                    connections.clear();
                     
                     //compute intersection
                     for(int i = 1; i < tok.length; i++) {
-                        if(keyNeighbours.contains(tok[i]))
-                            intersection.add(new String(tok[i]));
+                        for(String w : keyNeighbours)
+							if(w.equals(tok[i]))
+								intersection.add(new String(tok[i]));
                     }
+                    
+                    //DEBUG
+					//System.out.println(RED_TAG_2 + "intersection(" + key.toString() + ", " + tok[0] + ") = " + intersection);
                     
                     
                     for(String w : intersection) {
@@ -381,7 +388,11 @@ public class ClusteringCoefficient {
 		protected void map(LongWritable x, Text y, Context context)
 				throws IOException, InterruptedException {
                     
-            String line = y.toString();   
+            String line = y.toString();
+            
+            //DEBUG
+			//System.out.println(MAP_TAG_3 + "input = " + line);   
+            
             String[] tok = line.split("\t");
             String node = tok[0];
             
@@ -394,6 +405,9 @@ public class ClusteringCoefficient {
 			outKey.set(node);
             outValue.set(line);
 			context.write(outKey, outValue);
+			
+			//DEBUG
+			//System.out.println(MAP_TAG_3 + "output = " + node + "\t" + line);
 		}
 	}
 
