@@ -9,7 +9,7 @@ import org.apache.hadoop.mapreduce.lib.output.*;
 
 public class Len2Paths2 {
 	
-	private static final String TEMP_DIR = "/tmp";
+	private static final String TEMP_DIR = "/interm";
 
 	public static void main(String[] args) throws Exception {
 

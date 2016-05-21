@@ -170,7 +170,7 @@ public class ClusteringCoefficient {
     }
 	
     
-	public static class EdgeWritable implements Writable {
+	public static class EdgeWritable /*implements Writable*/ {
 
 		private int x, y;
 
@@ -190,6 +190,7 @@ public class ClusteringCoefficient {
 			this.y = y; 
 		}
 	
+		/*
 		@Override
 		public void readFields(DataInput in) throws IOException {
 			x = in.readInt();
@@ -201,6 +202,7 @@ public class ClusteringCoefficient {
 			out.writeInt(x);
 			out.writeInt(y);
 		}
+		*/
 
 		@Override
 		public String toString() {
@@ -208,7 +210,6 @@ public class ClusteringCoefficient {
 			return x+","+y;
 		}
         
-        //change default
         @Override
         public boolean equals(Object o) {
             if (this == o) return true;
@@ -268,40 +269,47 @@ public class ClusteringCoefficient {
 	public static class MyMapper2 extends Mapper<LongWritable,Text,Text,Text> {
 		private Text outKey = new Text();
 		private Text outValue = new Text();
+		String line, node;   
+		String[] tok;
 
 		@Override
 		protected void map(LongWritable x, Text y, Context context)
 				throws IOException, InterruptedException {
             
-            String line = y.toString();   
-            String[] tok = line.split("\t");
-            String node = tok[0];
+            line = y.toString();   
+            tok = line.split("\t");
+            node = tok[0];
             
             
             for(int i = 1; i < tok.length; i++) {
                 outKey.set(tok[i]);
                 outValue.set(line);
                 context.write(outKey, outValue);
+                
+                //DEBUG
+                System.out.println(MAP_TAG_2 + "key = " + outKey + "\tvalue=" + outValue);
             }
-            
             
             outKey.set(node);
             outValue.set(line);
 			context.write(outKey, outValue);
+			
+			//DEBUG
+            System.out.println(MAP_TAG_2 + "key = " + outKey + "\tvalue=" + outValue);
 		}
 	}
 
 	public static class MyReducer2 extends Reducer<Text,Text,Text,Text> {
+        
         private ArrayList<String> val = new ArrayList<String>();
         private ArrayList<String> keyNeighbours = new ArrayList<String>();
         private ArrayList<String> intersection = new ArrayList<String>();
         private EdgeWritable edge = new EdgeWritable();
         private ArrayList<EdgeWritable> connections = new ArrayList<EdgeWritable>();
-		private Text x = new Text();
-		private Text y = new Text();
+		private Text outKey = new Text();
+		private Text outValue = new Text();
         private String aux;   
         private String[] tok;
-        private int keyInt;
 
 		@Override
 		protected void reduce(Text key, Iterable<Text> values, Context context)
@@ -311,9 +319,7 @@ public class ClusteringCoefficient {
             keyNeighbours.clear();
             intersection.clear();
             connections.clear();
-            
-            keyInt = Integer.parseInt(key.toString());
-            
+                        
             for(Text z : values) {
                 val.add(z.toString());
             }
@@ -346,14 +352,14 @@ public class ClusteringCoefficient {
                         connections.add(edge);
                     }
                     
-                    x.set(tok[0]);
+                    outKey.set(tok[0]);
                     
                     aux = "";
                     for(EdgeWritable w : connections) {
                         aux += w.toString()+"\t";
                     }
-                    y.set((tok.length -1) + "\t" + aux);
-                    context.write(x, y);
+                    outValue.set((tok.length -1) + "\t" + aux);
+                    context.write(outKey, outValue);
                 }
             }
             
@@ -361,6 +367,7 @@ public class ClusteringCoefficient {
 	}
     
     public static class MyMapper3 extends Mapper<LongWritable,Text,Text,Text> {
+		
 		private Text outKey = new Text();
 		private Text outValue = new Text();
 
