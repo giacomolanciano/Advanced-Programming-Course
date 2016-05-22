@@ -331,7 +331,6 @@ public class ClusteringCoefficient {
         private ArrayList<String> keyNeighbours = new ArrayList<String>();
         private ArrayList<String> intersection = new ArrayList<String>();
         private EdgeWritable edge = new EdgeWritable();
-        private ArrayList<EdgeWritable> connections = new ArrayList<EdgeWritable>();
 		private Text outKey = new Text();
 		private Text outValue = new Text();
         private String aux;   
@@ -345,7 +344,6 @@ public class ClusteringCoefficient {
             val.clear();
             keyNeighbours.clear();
             intersection.clear();
-            connections.clear();
             
             keyInt = Integer.parseInt(key.toString());
                         
@@ -377,7 +375,6 @@ public class ClusteringCoefficient {
             for(String z : val) {
 				
 				intersection.clear();
-                connections.clear();
                 
                 tok = z.split("\t");
                 
@@ -396,22 +393,8 @@ public class ClusteringCoefficient {
                     //DEBUG
 					//System.out.println(RED_TAG_2 + "intersection(" + key.toString() + ", " + tok[0] + ") = " + intersection);
                     
-                    
-                    /*
-                     * add connections
-                     * */
-                    for(String w : intersection) {
-                        //edge.set(keyInt, Integer.parseInt(w));
-                        connections.add(new EdgeWritable(keyInt, Integer.parseInt(w)));
-                    }
-                    
                     outKey.set(tok[0]);
-                    
-                    aux = "";
-                    for(EdgeWritable w : connections) {
-                        aux += w.toString()+"\t";
-                    }
-                    outValue.set((tok.length -1) + "\t" + aux);
+                    outValue.set((tok.length -1) + "\t" + intersection.size());
                     context.write(outKey, outValue);
                 }
             }
@@ -474,6 +457,7 @@ public class ClusteringCoefficient {
                     
             union.clear();
             val.clear();
+            num = 0;
             
             for(Text z : values) {
                 val.add(z.toString());
@@ -493,31 +477,9 @@ public class ClusteringCoefficient {
                 
                 /*
                  * compute the set of connections in neighbourhood
-                 * (without duplicates)
-                 * */
-                for(int i = 1; i < tok.length; i++) {
-                    edgeTok = tok[i].split(",");
-                    
-                    edge = new EdgeWritable(Integer.parseInt(edgeTok[0]), 
-											Integer.parseInt(edgeTok[1]));
-                    
-                    
-                    /*
-                     * add edge to union set iff it is not already in
-                     * 
-                     * NOTE: u,v is equivalent to v,u
-                     * */
-                    found = false;
-                    for(EdgeWritable z : union) {
-						if(z.equals(edge)) {
-							found = true;
-							break;
-						}
-					}
-                    
-                    if(!found)
-						union.add(edge);
-                }
+                 * (with duplicates)
+                 * */                
+                num += Integer.parseInt(tok[1]);
                 
             }
             
@@ -529,7 +491,10 @@ public class ClusteringCoefficient {
             //DEBUG
 			//System.out.println(RED_TAG_3 + "union(" + key.toString() + ") = " + union);
             
-            num = union.size();
+            /*
+             * division by 2 not to count duplicates
+             * */
+            num /= 2;
             
             //DEBUG
 			//System.out.println(RED_TAG_3 + "num = #connections among" + key.toString() + "neighbours = " + num);
