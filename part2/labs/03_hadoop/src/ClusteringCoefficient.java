@@ -246,7 +246,7 @@ public class ClusteringCoefficient {
 				throws IOException, InterruptedException {
 					
 			/*
-			 * identity function
+			 * identity function (not necessary, implemented for exercise)
 			 * 
 			 * NOTE: the undirected graph in input has to be represented
 			 * as a list of edges s.t. if u,v is in the list ALSO v,u has
@@ -429,7 +429,7 @@ public class ClusteringCoefficient {
 				throws IOException, InterruptedException {
 					
 			/*
-			 * identity function
+			 * identity function (not necessary, implemented for exercise)
 			 * */
                     
             String line = y.toString();
