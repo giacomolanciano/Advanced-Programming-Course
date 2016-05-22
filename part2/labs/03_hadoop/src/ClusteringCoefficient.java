@@ -421,7 +421,7 @@ public class ClusteringCoefficient {
         private int neighbours, num;
         private long den;
         private double clusteringCoefficient;
-        private boolean neighboursRetreived;
+        private boolean neighboursRetreived, found;
         private String[] tok, edgeTok;
         
 
@@ -432,9 +432,13 @@ public class ClusteringCoefficient {
             union.clear();
             val.clear();
             
+            for(Text z : values) {
+                val.add(z.toString());
+            }
+            
             neighboursRetreived = false;
-            for(Text x : values) {
-                tok = x.toString().split("\t");
+            for(String x : val) {
+                tok = x.split("\t");
                 
                 if(!neighboursRetreived) {
                     neighbours = Integer.parseInt(tok[0]);
@@ -443,15 +447,41 @@ public class ClusteringCoefficient {
                 
                 for(int i = 1; i < tok.length; i++) {
                     edgeTok = tok[i].split(",");
-                    union.add(new EdgeWritable(Integer.parseInt(edgeTok[0]), 
-                                               Integer.parseInt(edgeTok[1])));
+                    
+                    edge = new EdgeWritable(Integer.parseInt(edgeTok[0]), 
+											Integer.parseInt(edgeTok[1]));
+                    
+                    found = false;
+                    for(EdgeWritable z : union) {
+						if(z.equals(edge)) {
+							found = true;
+							break;
+						}
+					}
+                    
+                    if(!found)
+						union.add(edge);
                 }
                 
             }
             
+            //DEBUG
+			//System.out.println(RED_TAG_3 + "union(" + key.toString() + ") = " + union);
+            
             num = union.size();
+            
+            //DEBUG
+			//System.out.println(RED_TAG_3 + "num = #connections among" + key.toString() + "neighbours = " + num);
+			
             den = binomial(neighbours, 2);
-            clusteringCoefficient = num/den;
+            
+            //DEBUG
+			//System.out.println(RED_TAG_3 + "den = " + neighbours + " chooses 2 = " + den);
+			
+            clusteringCoefficient = (double) num / (double) den;
+            
+            //DEBUG
+			//System.out.println(RED_TAG_3 + "clusteringCoefficient = " + clusteringCoefficient);
             
             outValue.set(clusteringCoefficient+"");
             context.write(key, outValue);
