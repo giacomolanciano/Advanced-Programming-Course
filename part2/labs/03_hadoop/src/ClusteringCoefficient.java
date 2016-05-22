@@ -172,6 +172,11 @@ public class ClusteringCoefficient {
     
 	public static class EdgeWritable /*implements Writable*/ {
 
+		/*
+		 * in this context, this class is only used to easily deal with
+		 * edges. implementing Writable interface is not necessary
+		 * */
+		
 		private int x, y;
 
 		public EdgeWritable(int x, int y) {
@@ -234,12 +239,22 @@ public class ClusteringCoefficient {
 
 		private IntWritable z = new IntWritable();
 		private IntWritable w = new IntWritable();
+		int xi, yi;
 
 		@Override
 		protected void map(Text x, Text y, Context context)
 				throws IOException, InterruptedException {
-			int xi = Integer.parseInt(x.toString());
-			int yi = Integer.parseInt(y.toString());
+					
+			/*
+			 * identity function
+			 * 
+			 * NOTE: the undirected graph in input has to be represented
+			 * as a list of edges s.t. if u,v is in the list ALSO v,u has
+			 * to occur
+			 * */
+			
+			xi = Integer.parseInt(x.toString());
+			yi = Integer.parseInt(y.toString());
 			z.set(xi);        // boxing
 			w.set(yi);        // boxing
 			context.write(z, w);
@@ -255,8 +270,13 @@ public class ClusteringCoefficient {
 		@Override
 		protected void reduce(IntWritable node, Iterable<IntWritable> neighbours, Context context)
 						throws IOException, InterruptedException {
+			
+			/*
+			 * compute the neighbours list of node
+			 * */
+			
 			out="";
-
+ 
 			for (IntWritable x: neighbours)
 				out += x +"\t";
             
@@ -276,10 +296,16 @@ public class ClusteringCoefficient {
 		protected void map(LongWritable x, Text y, Context context)
 				throws IOException, InterruptedException {
             
+            /*
+             * "send" the neighbours list of the node to each of its
+             * neighbours, in order to discover connections among them
+             * 
+             * NOTE: a copy of the list is "sent" to the node itself
+             * */
+            
             line = y.toString();   
             tok = line.split("\t");
             node = tok[0];
-            
             
             for(int i = 1; i < tok.length; i++) {
                 outKey.set(tok[i]);
@@ -327,6 +353,9 @@ public class ClusteringCoefficient {
                 val.add(z.toString());
             }
             
+            /*
+             * retreive the neighbours list of the current node (key)
+             * */
             for(String z : val) {
                 tok = z.split("\t");
                 if(tok[0].equals(key.toString())) {
@@ -339,6 +368,12 @@ public class ClusteringCoefficient {
             //DEBUG
             //System.out.println(RED_TAG_2 + "neighbours(" + key.toString() + ") = " + keyNeighbours);
             
+            
+            /*
+             * for each neighbour, compute the intersection among current
+             * node list and neighbour list, to see whether there are 
+             * connections in the neighbourhood
+             * */
             for(String z : val) {
 				
 				intersection.clear();
@@ -349,7 +384,9 @@ public class ClusteringCoefficient {
                 if(!tok[0].equals(key.toString())) {
                     
                     
-                    //compute intersection
+                    /*
+                     * compute intersection
+                     * */
                     for(int i = 1; i < tok.length; i++) {
                         for(String w : keyNeighbours)
 							if(w.equals(tok[i]))
@@ -360,6 +397,9 @@ public class ClusteringCoefficient {
 					//System.out.println(RED_TAG_2 + "intersection(" + key.toString() + ", " + tok[0] + ") = " + intersection);
                     
                     
+                    /*
+                     * add connections
+                     * */
                     for(String w : intersection) {
                         //edge.set(keyInt, Integer.parseInt(w));
                         connections.add(new EdgeWritable(keyInt, Integer.parseInt(w)));
@@ -387,6 +427,10 @@ public class ClusteringCoefficient {
 		@Override
 		protected void map(LongWritable x, Text y, Context context)
 				throws IOException, InterruptedException {
+					
+			/*
+			 * identity function
+			 * */
                     
             String line = y.toString();
             
@@ -411,12 +455,12 @@ public class ClusteringCoefficient {
 		}
 	}
 
-	public static class MyReducer3 extends Reducer<Text,Text,Text,Text> {
+	public static class MyReducer3 extends Reducer<Text,Text,LongWritable,Text> {
         
         private EdgeWritable edge = new EdgeWritable();
         private HashSet<EdgeWritable> union = new HashSet<EdgeWritable>();
         private ArrayList<String> val = new ArrayList<String>();
-		private Text outKey = new Text();
+		private LongWritable outKey = new LongWritable();
 		private Text outValue = new Text();
         private int neighbours, num;
         private long den;
@@ -440,17 +484,30 @@ public class ClusteringCoefficient {
             for(String x : val) {
                 tok = x.split("\t");
                 
+				/*
+				 * retreive the size of the neighbourhood (only once)
+				 * */
                 if(!neighboursRetreived) {
                     neighbours = Integer.parseInt(tok[0]);
                     neighboursRetreived = true;
                 }
                 
+                /*
+                 * compute the set of connections in neighbourhood
+                 * (without duplicates)
+                 * */
                 for(int i = 1; i < tok.length; i++) {
                     edgeTok = tok[i].split(",");
                     
                     edge = new EdgeWritable(Integer.parseInt(edgeTok[0]), 
 											Integer.parseInt(edgeTok[1]));
                     
+                    
+                    /*
+                     * add edge to union set iff it is not already in
+                     * 
+                     * NOTE: u,v is equivalent to v,u
+                     * */
                     found = false;
                     for(EdgeWritable z : union) {
 						if(z.equals(edge)) {
@@ -465,6 +522,11 @@ public class ClusteringCoefficient {
                 
             }
             
+            
+            /*
+             * compute clustering coefficient
+             * */
+             
             //DEBUG
 			//System.out.println(RED_TAG_3 + "union(" + key.toString() + ") = " + union);
             
@@ -483,14 +545,18 @@ public class ClusteringCoefficient {
             //DEBUG
 			//System.out.println(RED_TAG_3 + "clusteringCoefficient = " + clusteringCoefficient);
             
+            outKey.set(Long.parseLong(key.toString()));
             outValue.set(clusteringCoefficient+"");
-            context.write(key, outValue);
+            context.write(outKey, outValue);
             
             
 			
 		}
         
         
+        /*
+         * utility function to compute "n chooses k"
+         * */
         private static long binomial(int n, int k) {
             if (k>n-k)
                 k=n-k;
