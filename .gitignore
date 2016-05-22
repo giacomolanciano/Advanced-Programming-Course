@@ -42,7 +42,7 @@
 hs_err_pid*
 
 # possible hadoop output files (maybe too large for github)
-out.txt
+out*.txt
 
 # possible zip archives
 *.zip
