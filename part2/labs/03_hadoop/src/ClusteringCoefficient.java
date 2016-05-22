@@ -455,12 +455,11 @@ public class ClusteringCoefficient {
 		}
 	}
 
-	public static class MyReducer3 extends Reducer<Text,Text,LongWritable,Text> {
+	public static class MyReducer3 extends Reducer<Text,Text,Text,Text> {
         
         private EdgeWritable edge = new EdgeWritable();
         private HashSet<EdgeWritable> union = new HashSet<EdgeWritable>();
         private ArrayList<String> val = new ArrayList<String>();
-		private LongWritable outKey = new LongWritable();
 		private Text outValue = new Text();
         private int neighbours, num;
         private long den;
@@ -545,9 +544,9 @@ public class ClusteringCoefficient {
             //DEBUG
 			//System.out.println(RED_TAG_3 + "clusteringCoefficient = " + clusteringCoefficient);
             
-            outKey.set(Long.parseLong(key.toString()));
-            outValue.set(clusteringCoefficient+"");
-            context.write(outKey, outValue);
+            
+            outValue.set(String.format("%.2f", clusteringCoefficient));
+            context.write(key, outValue);
             
             
 			

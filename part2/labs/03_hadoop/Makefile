@@ -9,15 +9,22 @@ all:
 copy:
 	hadoop fs -rm -f -skipTrash /graph/facebook.txt
 	hadoop fs -put facebook.txt /graph/facebook.txt
-	# FOR TESTING PURPOUSES (smaller input)
-	# hadoop fs -rm -f -skipTrash /graph/in.txt
-	# hadoop fs -put in.txt /graph/in.txt
+	hadoop fs -rm -f -skipTrash /graph/in.txt
+	hadoop fs -put in.txt /graph/in.txt
+	hadoop fs -rm -f -skipTrash /graph/small.txt
+	hadoop fs -put small.txt /graph/small.txt
 
 run:
 	hadoop fs -rm -f -r -skipTrash /outClust /outClustTemp1 /outClustTemp2
 	time yarn jar ClusteringCoefficient.jar ClusteringCoefficient -r 1 /graph/facebook.txt /outClust
-	# FOR TESTING PURPOUSES (smaller input)
-	# time yarn jar ClusteringCoefficient.jar ClusteringCoefficient -r 1 /graph/in.txt /outClust
+	
+run-in:
+	hadoop fs -rm -f -r -skipTrash /outClust-in /outClustTemp1 /outClustTemp2
+	time yarn jar ClusteringCoefficient.jar ClusteringCoefficient -r 1 /graph/in.txt /outClust-in
+	
+run-small:
+	hadoop fs -rm -f -r -skipTrash /outClust-small /outClustTemp1 /outClustTemp2
+	time yarn jar ClusteringCoefficient.jar ClusteringCoefficient -r 1 /graph/small.txt /outClust-small
 
 .phony: clean
 
