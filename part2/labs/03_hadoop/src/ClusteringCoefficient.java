@@ -1,20 +1,13 @@
-import java.io.DataInput;
-import java.io.DataOutput;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
-import java.util.Iterator;
-import java.util.HashSet;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.io.Writable;
-import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
@@ -157,10 +150,12 @@ public class ClusteringCoefficient {
 	    //job.setCombinerClass(MyReducer.class);
 	    job.setReducerClass(MyReducer3.class);
 
-        
 	    job.setInputFormatClass(TextInputFormat.class);
+	    
+	    //to specify the types of intermediate result key and value
+        job.setMapOutputKeyClass(IntWritable.class);
+        job.setMapOutputValueClass(Text.class);
         
-
         //to specify the types of output key and value
 	    job.setOutputKeyClass(Text.class);
 	    job.setOutputValueClass(Text.class);
@@ -168,9 +163,7 @@ public class ClusteringCoefficient {
 	    job.waitForCompletion(true);
 		
     }
-	
-    
-	
+
 	
 	public static class MyMapper extends Mapper<Text, Text, IntWritable, IntWritable> {
 
@@ -183,7 +176,13 @@ public class ClusteringCoefficient {
 				throws IOException, InterruptedException {
 					
 			/*
-			 * identity function (not necessary, implemented for exercise)
+			 * identity function
+			 *  
+			 * It would be not necessary to define a mapper here, since
+			 * identity function is the default. 
+			 * Although, with this implementation a smaller amount of bytes 
+			 * is passed from the mapper to the reducer. Since it represents 
+			 * the bottleneck of MapReduce, performances are improved.
 			 * 
 			 * NOTE: the undirected graph in input has to be represented
 			 * as a list of edges s.t. if u,v is in the list ALSO v,u has
@@ -338,26 +337,36 @@ public class ClusteringCoefficient {
 		}
 	}
     
-    public static class MyMapper3 extends Mapper<LongWritable,Text,Text,Text> {
+    public static class MyMapper3 extends Mapper<LongWritable,Text,IntWritable,Text> {
 		
-		private Text outKey = new Text();
+		private IntWritable outKey = new IntWritable();
 		private Text outValue = new Text();
+		String line;
+		String[] tok;
+		int node;
 
 		@Override
 		protected void map(LongWritable x, Text y, Context context)
 				throws IOException, InterruptedException {
 					
 			/*
-			 * identity function (not necessary, implemented for exercise)
+			 * identity function
+			 * 
+			 * It would be not necessary to define a mapper here, since
+			 * identity function is the default. 
+			 * Although, with this implementation a smaller amount of bytes 
+			 * is passed from the mapper to the reducer. Since it represents 
+			 * the bottleneck of MapReduce, performances are improved.
+			 * 
 			 * */
                     
-            String line = y.toString();
+            line = y.toString();
             
             //DEBUG
 			//System.out.println(MAP_TAG_3 + "input = " + line);   
             
-            String[] tok = line.split("\t");
-            String node = tok[0];
+            tok = line.split("\t");
+            node = Integer.parseInt(tok[0]);
             
             line = "";
             for(int i = 1; i < tok.length; i++) {
@@ -374,10 +383,19 @@ public class ClusteringCoefficient {
 		}
 	}
 
-	public static class MyReducer3 extends Reducer<Text,Text,Text,Text> {
+	public static class MyReducer3 extends Reducer<IntWritable,Text,Text,Text> {
+		
+		/*
+		 * NOTE: in this refined implementation, output is sorted according
+		 * to a numerical order (not lexicographical anymore).
+		 * To compare two outputs sorted in different ways, type on terminal:
+		 * 
+		 * $ sort out1.txt | sort out2.txt | diff - -
+		 * 
+		 * */
         
         private ArrayList<String> val = new ArrayList<String>();
-		private Text outValue = new Text();
+		private Text outKey = new Text(), outValue = new Text();
         private int neighbours, num;
         private long den;
         private double clusteringCoefficient;
@@ -386,7 +404,7 @@ public class ClusteringCoefficient {
         
 
 		@Override
-		protected void reduce(Text key, Iterable<Text> values, Context context)
+		protected void reduce(IntWritable key, Iterable<Text> values, Context context)
 				throws IOException, InterruptedException {
                     
             val.clear();
@@ -442,12 +460,10 @@ public class ClusteringCoefficient {
             //DEBUG
 			//System.out.println(RED_TAG_3 + "clusteringCoefficient = " + clusteringCoefficient);
             
-            
+            outKey.set(key.toString());
             outValue.set(String.format("%.2f", clusteringCoefficient));
-            context.write(key, outValue);
-            
-            
-			
+            context.write(outKey, outValue);
+            	
 		}
         
         
