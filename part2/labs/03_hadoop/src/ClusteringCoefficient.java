@@ -170,71 +170,8 @@ public class ClusteringCoefficient {
     }
 	
     
-	public static class EdgeWritable /*implements Writable*/ {
-
-		/*
-		 * in this context, this class is only used to easily deal with
-		 * edges. implementing Writable interface is not necessary
-		 * */
-		
-		private int x, y;
-
-		public EdgeWritable(int x, int y) {
-			this.set(x,y);
-		}
-		
-		public EdgeWritable() {
-			this.set(0,0);
-		}
-
-		public int getX() { return x; }
-		public int getY() { return y; }
-
-		public void set(int x, int y) { 
-			this.x = x; 
-			this.y = y; 
-		}
 	
-		/*
-		@Override
-		public void readFields(DataInput in) throws IOException {
-			x = in.readInt();
-			y = in.readInt();
-		}
-
-		@Override
-		public void write(DataOutput out) throws IOException {
-			out.writeInt(x);
-			out.writeInt(y);
-		}
-		*/
-
-		@Override
-		public String toString() {
-			//return "("+x+","+y+")";
-			return x+","+y;
-		}
-        
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (o == null || getClass() != o.getClass()) return false;
-
-            EdgeWritable pair = (EdgeWritable) o;
-
-            boolean direct = true, inverse = true;
-            
-            if (getX() != pair.getX()) direct = false;
-            if (getY() != pair.getY()) direct = false;
-            
-            if (getX() != pair.getY()) inverse = false;
-            if (getY() != pair.getX()) inverse = false;
-            
-            return direct || inverse;
-
-        }
-	}
-
+	
 	public static class MyMapper extends Mapper<Text, Text, IntWritable, IntWritable> {
 
 		private IntWritable z = new IntWritable();
@@ -330,7 +267,6 @@ public class ClusteringCoefficient {
         private ArrayList<String> val = new ArrayList<String>();
         private ArrayList<String> keyNeighbours = new ArrayList<String>();
         private ArrayList<String> intersection = new ArrayList<String>();
-        private EdgeWritable edge = new EdgeWritable();
 		private Text outKey = new Text();
 		private Text outValue = new Text();
         private String aux;   
@@ -440,8 +376,6 @@ public class ClusteringCoefficient {
 
 	public static class MyReducer3 extends Reducer<Text,Text,Text,Text> {
         
-        private EdgeWritable edge = new EdgeWritable();
-        private HashSet<EdgeWritable> union = new HashSet<EdgeWritable>();
         private ArrayList<String> val = new ArrayList<String>();
 		private Text outValue = new Text();
         private int neighbours, num;
@@ -455,7 +389,6 @@ public class ClusteringCoefficient {
 		protected void reduce(Text key, Iterable<Text> values, Context context)
 				throws IOException, InterruptedException {
                     
-            union.clear();
             val.clear();
             num = 0;
             
