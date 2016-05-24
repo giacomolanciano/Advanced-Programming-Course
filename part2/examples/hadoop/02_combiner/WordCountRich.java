@@ -33,8 +33,7 @@ public class WordCount {
 		
 		for(int i=0; i < args.length; ++i) {
 			try {
-				if ("-r".equals(args[i])) { 
-                    //to customize the number of reducers
+				if ("-r".equals(args[i])) {
 					conf.setInt("mapreduce.job.reduces", Integer.parseInt(args[++i]));
 				} else {
 					otherArgs.add(args[i]);
@@ -56,7 +55,6 @@ public class WordCount {
 			System.exit(printUsage());
 		}
 		
-        //take input and output folders from command line
 		Path input = new Path(otherArgs.get(0));
 		Path output =new Path(otherArgs.get(1));
 		
@@ -68,8 +66,8 @@ public class WordCount {
 	    FileOutputFormat.setOutputPath(job, output);
 
 	    job.setMapperClass(MyMapper.class);
-	    job.setReducerClass(MyReducer.class);
 	    //job.setCombinerClass(MyReducer.class);
+	    job.setReducerClass(MyReducer.class);
 
         // An InputFormat for plain text files. 
         // Files are broken into lines. Either linefeed or carriage-return are used 
@@ -77,51 +75,81 @@ public class WordCount {
         // are the line of text.
 	    job.setInputFormatClass(TextInputFormat.class);
 
-        //tells the system the types of output key and value
 	    job.setOutputKeyClass(Text.class);
 	    job.setOutputValueClass(IntWritable.class);
 
 	    job.waitForCompletion(true);
+
 	}
 	
-    //NESTED CLASS (not INNER) because of the 'static', i want the WordCounter class to be
-    //a name space with the mapper and reducer in it
 	public static class MyMapper extends Mapper<LongWritable, Text, Text, IntWritable>{
-		
-        //i declare 'one' and 'word' outside the method to save TIME, 
-        //avoid the garbage collector to destroy it
-        private final static IntWritable one = new IntWritable(1);
+		private final static IntWritable one = new IntWritable(1);
         private Text word = new Text();
 		
+		@Override
+		protected void cleanup(Context context) throws IOException,
+				InterruptedException {
+			// TODO Auto-generated method stub
+			super.cleanup(context);
+		}
+
 		@Override
 		protected void map(LongWritable key, Text value, Context context)
 				throws IOException, InterruptedException {
 			Scanner scanner = new Scanner(value.toString());
-			scanner.useDelimiter("\\W"); // any non-alphanumeric character
+			scanner.useDelimiter(" ");
 			while (scanner.hasNext()) {
-				word.set(scanner.next().toLowerCase());
+				word.set(scanner.next());
 				context.write(word, one);
 			}
        	}
+
+		@Override
+		public void run(Context context) throws IOException,
+				InterruptedException {
+			// TODO Auto-generated method stub
+			super.run(context);
+		}
+
+		@Override
+		protected void setup(Context context) throws IOException,
+				InterruptedException {
+			// TODO Auto-generated method stub
+			super.setup(context);
+		}
+		
 	}
 	
 	public static class MyReducer extends Reducer<Text, IntWritable, Text, IntWritable>{
 
 		@Override
+		protected void cleanup(Context context) throws IOException,
+				InterruptedException {
+			// TODO Auto-generated method stub
+			super.cleanup(context);
+		}
+		
+		@Override
 		protected void reduce(Text key, Iterable<IntWritable> values, Context context)
 				throws IOException, InterruptedException {
-            
-            //values is a list given by an iterable        
-            
 			int sum = 0;
 			for (IntWritable value : values) {
 				sum += value.get();
 			}
-			context.write(key, new IntWritable(sum));   //wrap sum to be sent in network
-			
-			//DEBUG
-			//System.out.println("reducing key = "+ key);
+			context.write(key, new IntWritable(sum));
+		}
+
+		@Override
+		public void run(Context arg0) throws IOException, InterruptedException {
+			// TODO Auto-generated method stub
+			super.run(arg0);
+		}
+
+		@Override
+		protected void setup(Context context) throws IOException,
+				InterruptedException {
+			// TODO Auto-generated method stub
+			super.setup(context);
 		}
 	}
-	
 }

@@ -69,7 +69,12 @@ public class WordCount {
 
 	    job.setMapperClass(MyMapper.class);
 	    job.setReducerClass(MyReducer.class);
+	    
+	    /*
+	     * make a combiner execute the same function as the reducer
+	     * */
 	    //job.setCombinerClass(MyReducer.class);
+	    job.setCombinerClass(MyCombiner.class);
 
         // An InputFormat for plain text files. 
         // Files are broken into lines. Either linefeed or carriage-return are used 
@@ -120,8 +125,30 @@ public class WordCount {
 			context.write(key, new IntWritable(sum));   //wrap sum to be sent in network
 			
 			//DEBUG
-			//System.out.println("reducing key = "+ key);
+			System.out.println("reducing key = "+ key);
 		}
 	}
 	
+	public static class MyCombiner extends Reducer<Text, IntWritable, Text, IntWritable>{
+		
+		/*
+		 * just to see the different prints, not good for modularity
+		 * */
+
+		@Override
+		protected void reduce(Text key, Iterable<IntWritable> values, Context context)
+				throws IOException, InterruptedException {
+            
+            //values is a list given by an iterable        
+            
+			int sum = 0;
+			for (IntWritable value : values) {
+				sum += value.get();
+			}
+			context.write(key, new IntWritable(sum));   //wrap sum to be sent in network
+			
+			//DEBUG
+			System.out.println("combining key = "+ key);
+		}
+	}
 }
