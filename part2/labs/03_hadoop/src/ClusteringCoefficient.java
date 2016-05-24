@@ -388,9 +388,10 @@ public class ClusteringCoefficient {
 		/*
 		 * NOTE: in this refined implementation, output is sorted according
 		 * to a numerical order (not lexicographical anymore).
-		 * To compare two outputs sorted in different ways, type on terminal:
+		 * To compare two outputs sorted in different ways, use the
+		 * out_diff script:
 		 * 
-		 * $ sort out1.txt | sort out2.txt | diff - -
+		 * $ ./out_diff <out1> <out2>
 		 * 
 		 * */
         
