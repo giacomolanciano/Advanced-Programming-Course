@@ -126,6 +126,10 @@ public class ClusteringCoefficient {
 
         
 	    job.setInputFormatClass(TextInputFormat.class);
+	    
+	    //to specify the types of intermediate result key and value
+        job.setMapOutputKeyClass(IntWritable.class);
+        job.setMapOutputValueClass(Text.class);
         
 
         //to specify the types of output key and value
@@ -222,8 +226,8 @@ public class ClusteringCoefficient {
 		}
 	}
 	
-	public static class MyMapper2 extends Mapper<LongWritable,Text,Text,Text> {
-		private Text outKey = new Text();
+	public static class MyMapper2 extends Mapper<LongWritable,Text,IntWritable,Text> {
+		private IntWritable outKey = new IntWritable();
 		private Text outValue = new Text();
 		String line, node;   
 		String[] tok;
@@ -244,7 +248,7 @@ public class ClusteringCoefficient {
             node = tok[0];
             
             for(int i = 1; i < tok.length; i++) {
-                outKey.set(tok[i]);
+                outKey.set(Integer.parseInt(tok[i]));
                 outValue.set(line);
                 context.write(outKey, outValue);
                 
@@ -252,7 +256,7 @@ public class ClusteringCoefficient {
                 //System.out.println(MAP_TAG_2 + "key = " + outKey + "\tvalue = " + outValue);
             }
             
-            outKey.set(node);
+            outKey.set(Integer.parseInt(node));
             outValue.set(line);
 			context.write(outKey, outValue);
 			
@@ -261,7 +265,7 @@ public class ClusteringCoefficient {
 		}
 	}
 
-	public static class MyReducer2 extends Reducer<Text,Text,Text,Text> {
+	public static class MyReducer2 extends Reducer<IntWritable,Text,Text,Text> {
         
         private ArrayList<String> val = new ArrayList<String>();
         private ArrayList<String> keyNeighbours = new ArrayList<String>();
@@ -273,14 +277,15 @@ public class ClusteringCoefficient {
         private int keyInt;
 
 		@Override
-		protected void reduce(Text key, Iterable<Text> values, Context context)
+		protected void reduce(IntWritable key, Iterable<Text> values, Context context)
 				throws IOException, InterruptedException {
 			
             val.clear();
             keyNeighbours.clear();
             intersection.clear();
             
-            keyInt = Integer.parseInt(key.toString());
+            //keyInt = Integer.parseInt(key.toString());
+            keyInt = key.get();
                         
             for(Text z : values) {
                 val.add(z.toString());
