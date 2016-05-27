@@ -1,8 +1,9 @@
 #include <stddef.h>
 #include <vector>
 
-//typedef int T;
-
+/*
+ * necessary, because of template usage
+ * */
 template<typename T>
 class tree; 
 
@@ -11,18 +12,23 @@ class node {
     T info;
     
     /*
-     * Compilator doesn't complaint if we write:
+     * Compilator doesn't complain if you write:
      * std::vector<node*> children;
      * 
-     * Maybe because node* is a pointer and it doesn't require to know
-     * the real type. Anyway, put <T> avoid errors for sure
+     * Maybe because when dealing with pointers it doesn't have to know
+     * the real type. Anyway, putting <T> is better, to avoid errors 
+     * for sure
      * */
     std::vector<node<T>*> children;
     
     node<T>* parent;
     friend class tree<T>;
 public:
-    typedef typename std::vector<node*>::iterator iterator;
+	/*
+	 * instead of define a custom node iterator, simply "box" the one that
+	 * vector class provides
+	 * */
+    typedef typename std::vector<node<T>*>::iterator iterator;
     iterator begin() {
         return children.begin();
     }
@@ -64,7 +70,9 @@ public:
     void remove(node<T>* v) {
         if (r == v) r = NULL;
         else { 
-			/* remove v from the list of children of its parent */
+			/* 
+			 * remove v from the list of children of its parent 
+			 * */
 			int i = 0;
 			for(typename node<T>::iterator it = v->parent->begin(); 
 				it != v->parent->end() && *it != v; ++it) {
@@ -76,28 +84,3 @@ public:
         del(v);
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

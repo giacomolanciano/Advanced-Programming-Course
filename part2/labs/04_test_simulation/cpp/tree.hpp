@@ -2,6 +2,10 @@
 #include <vector>
 
 typedef int T;
+
+/*
+ * not necessary, actually
+ * */
 class tree; 
 
 class node {
@@ -10,6 +14,10 @@ class node {
     node* parent;
     friend class tree;
 public:
+	/*
+	 * instead of define a custom node iterator, simply "box" the one that
+	 * vector class provides
+	 * */
     typedef std::vector<node*>::iterator iterator;
     iterator begin() {
         return children.begin();
@@ -51,7 +59,9 @@ public:
     void remove(node* v) {
         if (r == v) r = NULL;
         else { 
-			/* remove v from the list of children of its parent */
+			/* 
+			 * remove v from the list of children of its parent 
+			 * */
 			int i = 0;
 			for(node::iterator it = v->parent->begin(); 
 				it != v->parent->end() && *it != v; ++it) {
@@ -63,28 +73,3 @@ public:
         del(v);
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
