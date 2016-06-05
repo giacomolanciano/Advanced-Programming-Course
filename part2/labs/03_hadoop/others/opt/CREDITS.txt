@@ -1,0 +1,3 @@
+This optimized solution is just an improvement of the implementation proposed by gianneevh for Clusterign Coefficient challange.
+
+See http://solo.diag.uniroma1.it/index.php?topic=20273.msg143520 for further details.
