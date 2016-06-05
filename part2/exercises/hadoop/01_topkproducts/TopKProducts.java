@@ -26,12 +26,12 @@ import org.apache.hadoop.util.ToolRunner;
 
 
 public class TopKProducts {
-    
-    private static final String JOB_NAME = "TopKProducts";
-    private static final String MAP_TAG = "[mapper] ";
-    private static final String RED_TAG = "[reducer] ";
-    private static final String TEMP_DIR = "/outTopKProductsTemp";
-    private static final int K_PRODUCTS = 5;
+	
+	private static final String JOB_NAME = "TopKProducts";
+	private static final String MAP_TAG = "[mapper] ";
+	private static final String RED_TAG = "[reducer] ";
+	private static final String TEMP_DIR = "/outTopKProductsTemp";
+	private static final int K_PRODUCTS = 5;
 
 	static int printUsage() {
 		System.out.println(JOB_NAME + " [-r <reduces>] <input> <output>");
@@ -48,7 +48,7 @@ public class TopKProducts {
 		for(int i=0; i < args.length; ++i) {
 			try {
 				if ("-r".equals(args[i])) { 
-                    //to customize the number of reducers
+					//to customize the number of reducers
 					conf.setInt("mapreduce.job.reduces", Integer.parseInt(args[++i]));
 				} else {
 					otherArgs.add(args[i]);
@@ -70,306 +70,306 @@ public class TopKProducts {
 			System.exit(printUsage());
 		}
 		
-        //take input and output folders from command line
+		//take input and output folders from command line
 		Path input = new Path(otherArgs.get(0));
 		Path output =new Path(otherArgs.get(1));
-        
-        //tmp folder for first pass output
-        Path tmpOut = new Path(TEMP_DIR);
+		
+		//tmp folder for first pass output
+		Path tmpOut = new Path(TEMP_DIR);
 		
 		Job job = Job.getInstance(conf);
-        job.setJarByClass(TopKProducts.class);
-        job.setJobName(JOB_NAME);
-        
-	    FileInputFormat.addInputPath(job, input);
-	    FileOutputFormat.setOutputPath(job, tmpOut);
+		job.setJarByClass(TopKProducts.class);
+		job.setJobName(JOB_NAME);
+		
+		FileInputFormat.addInputPath(job, input);
+		FileOutputFormat.setOutputPath(job, tmpOut);
 
-	    job.setMapperClass(MyMapper.class);
-	    //job.setCombinerClass(MyReducer.class);
-	    job.setReducerClass(MyReducer.class);
+		job.setMapperClass(MyMapper.class);
+		//job.setCombinerClass(MyReducer.class);
+		job.setReducerClass(MyReducer.class);
 
-        // An InputFormat for plain text files. 
-        // Files are broken into lines. Either linefeed or carriage-return are used 
-        // to signal end of line. Keys are the position in the file, and values 
-        // are the line of text.
-	    job.setInputFormatClass(TextInputFormat.class);
-        
-        //to specify the types of intermediate result key and value
-        job.setMapOutputKeyClass(ProductPairWritable.class);
-        job.setMapOutputValueClass(IntWritable.class);
+		// An InputFormat for plain text files. 
+		// Files are broken into lines. Either linefeed or carriage-return are used 
+		// to signal end of line. Keys are the position in the file, and values 
+		// are the line of text.
+		job.setInputFormatClass(TextInputFormat.class);
+		
+		//to specify the types of intermediate result key and value
+		job.setMapOutputKeyClass(ProductPairWritable.class);
+		job.setMapOutputValueClass(IntWritable.class);
 
-        //to specify the types of output key and value
-	    job.setOutputKeyClass(Text.class);
-	    job.setOutputValueClass(Text.class);
+		//to specify the types of output key and value
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(Text.class);
 
-	    job.waitForCompletion(true);
-        
-        
-        /*
-         * BEGIN OF SECOND PASS
-         * */
-         
-        job = Job.getInstance(conf);
-        job.setJarByClass(TopKProducts.class);
-        job.setJobName(JOB_NAME);
-        
-	    FileInputFormat.addInputPath(job, tmpOut);
-	    FileOutputFormat.setOutputPath(job, output);
-
-	    job.setMapperClass(MyMapperKProducts.class);
-	    //job.setCombinerClass(MyReducer.class);
-	    job.setReducerClass(MyReducerKProducts.class);
-
-        /* 
-         * An InputFormat for plain text files.
-         * Lines are borken in tokens, using space as delimiters */
-	    job.setInputFormatClass(TextInputFormat.class);
-        
-        //to specify the types of intermediate result key and value
-        job.setMapOutputKeyClass(IntWritable.class);
-        job.setMapOutputValueClass(Text.class);
-
-        //to specify the types of output key and value
-	    job.setOutputKeyClass(Text.class);
-	    job.setOutputValueClass(Text.class);
-
-	    job.waitForCompletion(true);
+		job.waitForCompletion(true);
 		
 		
-    }
+		/*
+		 * BEGIN OF SECOND PASS
+		 * */
+		 
+		job = Job.getInstance(conf);
+		job.setJarByClass(TopKProducts.class);
+		job.setJobName(JOB_NAME);
+		
+		FileInputFormat.addInputPath(job, tmpOut);
+		FileOutputFormat.setOutputPath(job, output);
+
+		job.setMapperClass(MyMapperKProducts.class);
+		//job.setCombinerClass(MyReducer.class);
+		job.setReducerClass(MyReducerKProducts.class);
+
+		/* 
+		 * An InputFormat for plain text files.
+		 * Lines are borken in tokens, using space as delimiters */
+		job.setInputFormatClass(TextInputFormat.class);
+		
+		//to specify the types of intermediate result key and value
+		job.setMapOutputKeyClass(IntWritable.class);
+		job.setMapOutputValueClass(Text.class);
+
+		//to specify the types of output key and value
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(Text.class);
+
+		job.waitForCompletion(true);
+		
+		
+	}
 	
-    
+	
 	public static class MyMapper extends Mapper<LongWritable, Text, ProductPairWritable, IntWritable>{
 		
-        private ProductPairWritable pair = new ProductPairWritable();
-        private IntWritable one = new IntWritable(1);
-        private List<String> products = new ArrayList<String>();
-        private String line, userId;
-        private String[] tok;
-        
+		private ProductPairWritable pair = new ProductPairWritable();
+		private IntWritable one = new IntWritable(1);
+		private List<String> products = new ArrayList<String>();
+		private String line, userId;
+		private String[] tok;
+		
 		@Override
 		protected void map(LongWritable key, Text value, Context context)
 				throws IOException, InterruptedException {
-            
-            /*
-             * clean common data structures
-             * */
-            products.clear();
-                    
-            line = value.toString();   
-            tok = line.split(" ");
-            userId = tok[0];
-            
-            /*
-             * compute cross product on products list
-             * */
-            for(int j = 1; j < tok.length; j++) {
-                for(int i = 1; i < tok.length; i++) {
-                    if(!tok[j].equals(tok[i])) {
-                        pair.setP1(Integer.parseInt(tok[j]));
-                        pair.setP2(Integer.parseInt(tok[i]));
-                        
-                        context.write(pair, one);
-                    }
-                }
-            }			
-       	}
+			
+			/*
+			 * clean common data structures
+			 * */
+			products.clear();
+					
+			line = value.toString();   
+			tok = line.split(" ");
+			userId = tok[0];
+			
+			/*
+			 * compute cross product on products list
+			 * */
+			for(int j = 1; j < tok.length; j++) {
+				for(int i = 1; i < tok.length; i++) {
+					if(!tok[j].equals(tok[i])) {
+						pair.setP1(Integer.parseInt(tok[j]));
+						pair.setP2(Integer.parseInt(tok[i]));
+						
+						context.write(pair, one);
+					}
+				}
+			}			
+	   	}
 	}
 	
 	public static class MyReducer extends Reducer<ProductPairWritable, IntWritable, Text, Text>{
 
-        private int sum;
-        private Text outKey = new Text(), outValue = new Text();
-        
+		private int sum;
+		private Text outKey = new Text(), outValue = new Text();
+		
 		@Override
 		protected void reduce(ProductPairWritable key, Iterable<IntWritable> values, Context context)
 				throws IOException, InterruptedException {
-            
-            sum = 0;
-            for(IntWritable i : values)
-                sum += 1;
-            
-            outKey.set(key.getP1()+"");
-            outValue.set(key.getP2() + "\t" + sum);
-            
-            context.write(outKey, outValue);
+			
+			sum = 0;
+			for(IntWritable i : values)
+				sum += 1;
+			
+			outKey.set(key.getP1()+"");
+			outValue.set(key.getP2() + "\t" + sum);
+			
+			context.write(outKey, outValue);
 		}
 	}
-    
-    public static class MyMapperKProducts extends Mapper<LongWritable,Text,IntWritable,Text>{
-        
-        private IntWritable outKey = new IntWritable();
-        private Text outValue = new Text();
-        private String line, p1, p2Sum;
-        private String[] tok;
+	
+	public static class MyMapperKProducts extends Mapper<LongWritable,Text,IntWritable,Text>{
+		
+		private IntWritable outKey = new IntWritable();
+		private Text outValue = new Text();
+		private String line, p1, p2Sum;
+		private String[] tok;
 		
 		@Override
 		protected void map(LongWritable key, Text value, Context context)
 				throws IOException, InterruptedException {
-                    
-            line = value.toString();   
-            tok = line.split("\t");
-            p1 = tok[0];
-            p2Sum = tok[1] + "\t" + tok[2];
-            
-            outKey.set(Integer.parseInt(p1));
-            outValue.set(p2Sum);
-            
-            context.write(outKey, outValue);
-            
-            //DEBUG
-            System.out.println(MAP_TAG + "outkey: " + outKey + ", outValue: " + outValue);
+					
+			line = value.toString();   
+			tok = line.split("\t");
+			p1 = tok[0];
+			p2Sum = tok[1] + "\t" + tok[2];
 			
-       	}
+			outKey.set(Integer.parseInt(p1));
+			outValue.set(p2Sum);
+			
+			context.write(outKey, outValue);
+			
+			//DEBUG
+			System.out.println(MAP_TAG + "outkey: " + outKey + ", outValue: " + outValue);
+			
+	   	}
 	}
 	
 	public static class MyReducerKProducts extends Reducer<IntWritable,Text,IntWritable,Text>{
-        
-        private static final int DEFAULT_INIT_CAPACITY = 11;
-        
-        private Text outValue = new Text();
-        private String line, topKProducts;
-        private String[] tok;
-        
-        /*
-         * build a priority queue with a custom comparator 
-         * to sort Text objects according to the field "sum" (descending)
-         * */
-        private PriorityQueue<Text> queue = new PriorityQueue<Text>(
-                                                    DEFAULT_INIT_CAPACITY,
-                                                    new Comparator<Text>() {
-                                                        public int compare(Text o1, Text o2) {
-                                                            String line;
-                                                            String[] tok;
-                                                            Long sum1, sum2;
-                                                            
-                                                            line = o1.toString();   
-                                                            tok = line.split("\t");
-                                                            sum1 = Long.parseLong(tok[1]);
-                                                            
-                                                            line = o2.toString();   
-                                                            tok = line.split("\t");
-                                                            sum2 = Long.parseLong(tok[1]);
-                                                            
-                                                            return sum2.compareTo(sum1);
-                                                        }
-                                                    });
+		
+		private static final int DEFAULT_INIT_CAPACITY = 11;
+		
+		private Text outValue = new Text();
+		private String line, topKProducts;
+		private String[] tok;
+		
+		/*
+		 * build a priority queue with a custom comparator 
+		 * to sort Text objects according to the field "sum" (descending)
+		 * */
+		private PriorityQueue<Text> queue = new PriorityQueue<Text>(
+													DEFAULT_INIT_CAPACITY,
+													new Comparator<Text>() {
+														public int compare(Text o1, Text o2) {
+															String line;
+															String[] tok;
+															Long sum1, sum2;
+															
+															line = o1.toString();   
+															tok = line.split("\t");
+															sum1 = Long.parseLong(tok[1]);
+															
+															line = o2.toString();   
+															tok = line.split("\t");
+															sum2 = Long.parseLong(tok[1]);
+															
+															return sum2.compareTo(sum1);
+														}
+													});
 
 		@Override
 		protected void reduce(IntWritable key, Iterable<Text> values, Context context)
 				throws IOException, InterruptedException {
-            /*
-             * clean common data structures
-             * */
-            queue.clear();
-            
-            /*
-             * copy list of values into a priority queue to sort it
-             * more efficient than an ArrayList approach, 
-             * avoid to copy the whole list before sorting
-             * */
-            Iterator<Text> it = values.iterator();
-            Text aux;
-            while(it.hasNext()) {
-                aux = it.next();
-                
-                /*
-                 * it is NECESSARY to create a new Text obj to add to list,
-                 * because the Iterable obj is one-shot
-                 * */
-                queue.add(new Text(aux.toString()));
-            }
-            
-            
-            /*
-             * returns only the top K products
-             * */
-            topKProducts = "";
-            for(int i = 0; i < K_PRODUCTS && !queue.isEmpty(); i++) {
-                line = queue.poll().toString();   
-                tok = line.split("\t");
-                topKProducts += tok[0] + "\t";
-            }
-            
-            outValue.set(topKProducts.trim());
-            context.write(key, outValue);
+			/*
+			 * clean common data structures
+			 * */
+			queue.clear();
+			
+			/*
+			 * copy list of values into a priority queue to sort it
+			 * more efficient than an ArrayList approach, 
+			 * avoid to copy the whole list before sorting
+			 * */
+			Iterator<Text> it = values.iterator();
+			Text aux;
+			while(it.hasNext()) {
+				aux = it.next();
+				
+				/*
+				 * it is NECESSARY to create a new Text obj to add to list,
+				 * because the Iterable obj is one-shot
+				 * */
+				queue.add(new Text(aux.toString()));
+			}
+			
+			
+			/*
+			 * returns only the top K products
+			 * */
+			topKProducts = "";
+			for(int i = 0; i < K_PRODUCTS && !queue.isEmpty(); i++) {
+				line = queue.poll().toString();   
+				tok = line.split("\t");
+				topKProducts += tok[0] + "\t";
+			}
+			
+			outValue.set(topKProducts.trim());
+			context.write(key, outValue);
 		}
 	}
-    
-    public static class ProductPairWritable implements WritableComparable<ProductPairWritable> {
-        
-        private int p1, p2;
-        
-        public ProductPairWritable(){
-             /*
-              * NECESSARY, defining a non-empty constructor we "lose" the default one.
-              * when it is called by the reducer a NoSuchMethodException arise,
-              * if not defined 
-              * */
-             
-             p1 = 0;
-             p2 = 0;
-        }
-        
-        public ProductPairWritable(int a, int b) {
-            p1 = a;
-            p2 = b;
-        }
-        
-        @Override
-        public void readFields(DataInput in) throws IOException {
-            p1 = in.readInt();
-            p2 = in.readInt();
-        }
-        
-        @Override
-        public void write(DataOutput out) throws IOException {
-            out.writeInt(p1);
-            out.writeInt(p2);
-        }
-        
-        @Override
-        public int compareTo(ProductPairWritable o) {
-            if(this.p1 < o.getP1()) return -1;
-            if(this.p1 > o.getP1()) return 1;
-            return new Integer(this.p2).compareTo(o.getP2());
-        }
-        
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (o == null || getClass() != o.getClass()) return false;
+	
+	public static class ProductPairWritable implements WritableComparable<ProductPairWritable> {
+		
+		private int p1, p2;
+		
+		public ProductPairWritable(){
+			 /*
+			  * NECESSARY, defining a non-empty constructor we "lose" the default one.
+			  * when it is called by the reducer a NoSuchMethodException arise,
+			  * if not defined 
+			  * */
+			 
+			 p1 = 0;
+			 p2 = 0;
+		}
+		
+		public ProductPairWritable(int a, int b) {
+			p1 = a;
+			p2 = b;
+		}
+		
+		@Override
+		public void readFields(DataInput in) throws IOException {
+			p1 = in.readInt();
+			p2 = in.readInt();
+		}
+		
+		@Override
+		public void write(DataOutput out) throws IOException {
+			out.writeInt(p1);
+			out.writeInt(p2);
+		}
+		
+		@Override
+		public int compareTo(ProductPairWritable o) {
+			if(this.p1 < o.getP1()) return -1;
+			if(this.p1 > o.getP1()) return 1;
+			return new Integer(this.p2).compareTo(o.getP2());
+		}
+		
+		@Override
+		public boolean equals(Object o) {
+			if (this == o) return true;
+			if (o == null || getClass() != o.getClass()) return false;
 
-            ProductPairWritable pair = (ProductPairWritable) o;
+			ProductPairWritable pair = (ProductPairWritable) o;
 
-            boolean direct = true, inverse = true;
-            
-            if (getP1() != pair.getP1()) direct = false;
-            if (getP2() != pair.getP2()) direct = false;
-            
-            if (getP1() != pair.getP2()) inverse = false;
-            if (getP2() != pair.getP1()) inverse = false;
-            
-            return direct || inverse;
+			boolean direct = true, inverse = true;
+			
+			if (getP1() != pair.getP1()) direct = false;
+			if (getP2() != pair.getP2()) direct = false;
+			
+			if (getP1() != pair.getP2()) inverse = false;
+			if (getP2() != pair.getP1()) inverse = false;
+			
+			return direct || inverse;
 
-        }
-        
-        public int getP1() {
-            return p1;
-        }
-        
-        public int getP2() {
-            return p2;
-        }
-        
-        public void setP1(int p1) {
-            this.p1 = p1;
-        }
-        
-        public void setP2(int p2) {
-            this.p2 = p2;
-        }
-        
-    }
-    
+		}
+		
+		public int getP1() {
+			return p1;
+		}
+		
+		public int getP2() {
+			return p2;
+		}
+		
+		public void setP1(int p1) {
+			this.p1 = p1;
+		}
+		
+		public void setP2(int p2) {
+			this.p2 = p2;
+		}
+		
+	}
+	
 }

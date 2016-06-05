@@ -21,26 +21,26 @@ public class LocalCC {
 			else otherArgs.add(args[i]);
 
 		boolean res = runJob(numReducers, 
-                             new Path(otherArgs.get(0)),
-                             new Path(TEMP_DIR),
-                             null,
-                             Reducer1.class);
+							 new Path(otherArgs.get(0)),
+							 new Path(TEMP_DIR),
+							 null,
+							 Reducer1.class);
 		if (!res) System.exit(1);
 
 		res = runJob(numReducers, 
-                     new Path(TEMP_DIR),
-                     new Path(otherArgs.get(1)),
-                     null,
-                     Reducer2.class);
+					 new Path(TEMP_DIR),
+					 new Path(otherArgs.get(1)),
+					 null,
+					 Reducer2.class);
 		if (!res) System.exit(1);
 
 		System.exit(0);
 	}
 
 	protected static boolean runJob(int numReducers, 
-            Path in, Path out, 
-            Class<? extends Mapper> mapper, 
-            Class<? extends Reducer> reducer) throws Exception {
+			Path in, Path out, 
+			Class<? extends Mapper> mapper, 
+			Class<? extends Reducer> reducer) throws Exception {
 
 		Job job = Job.getInstance();
 		
@@ -66,8 +66,8 @@ public class LocalCC {
 	public static class Reducer1 extends Reducer<Text, Text, Text, Text> {
 
 		private List<String> g = new ArrayList<String>();
-		private Text         a = new Text();
-		private Text         b = new Text();
+		private Text		 a = new Text();
+		private Text		 b = new Text();
 
 		@Override
 		protected void reduce(Text y, Iterable<Text> vals, Context context)
@@ -80,40 +80,40 @@ public class LocalCC {
 			// cartesian product of neighbors
 			for (String x: g)
 				for (String z: g) {
-                    if (x.equals(z)) continue;
-                    a.set(x);
-                    b.set(y+";"+z);
-                    context.write(a,b); // write ("x","y;z") pair
+					if (x.equals(z)) continue;
+					a.set(x);
+					b.set(y+";"+z);
+					context.write(a,b); // write ("x","y;z") pair
 				}
 
-            // write ("y", "#neighbors of y")
-            a.set(g.size()+"");
-            context.write(y, a);
+			// write ("y", "#neighbors of y")
+			a.set(g.size()+"");
+			context.write(y, a);
 		}
 	}
 
 	public static class Reducer2 extends Reducer<Text,Text,Text,Text> {
 		private Text cc = new Text();
-        private Set<String> m = new HashSet<String>();
+		private Set<String> m = new HashSet<String>();
 
 		@Override
 		protected void reduce(Text x, Iterable<Text> vals, Context context)
 				throws IOException, InterruptedException {
 
-            int n = 0, d = 0;
+			int n = 0, d = 0;
 
 			// compute numerator and denominator of clustering coeff.
 			m.clear();
 			for (Text v: vals) {
-                String[] t = v.toString().split(";");
-                if (t.length == 2) 
-                    if (m.contains(t[1]+";"+t[0])) n++;
-                    else m.add(v.toString());
-                else d = Integer.parseInt(t[0]);
-            }
+				String[] t = v.toString().split(";");
+				if (t.length == 2) 
+					if (m.contains(t[1]+";"+t[0])) n++;
+					else m.add(v.toString());
+				else d = Integer.parseInt(t[0]);
+			}
 
-            cc.set(String.format("%.2f",(d<2 ? 0.0 : 2.0*n/(d*(d-1)))));
-            context.write(x,cc);
+			cc.set(String.format("%.2f",(d<2 ? 0.0 : 2.0*n/(d*(d-1)))));
+			context.write(x,cc);
 		}
 	}
 }

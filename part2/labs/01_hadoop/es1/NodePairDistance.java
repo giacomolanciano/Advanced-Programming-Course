@@ -35,7 +35,7 @@ public class NodePairDistance {
 		for(int i=0; i < args.length; ++i) {
 			try {
 				if ("-r".equals(args[i])) { 
-                    //to customize the number of reducers
+					//to customize the number of reducers
 					conf.setInt("mapreduce.job.reduces", Integer.parseInt(args[++i]));
 				} else {
 					otherArgs.add(args[i]);
@@ -57,53 +57,53 @@ public class NodePairDistance {
 			System.exit(printUsage());
 		}
 		
-        //take input and output folders from command line
+		//take input and output folders from command line
 		Path input = new Path(otherArgs.get(0));
 		Path output =new Path(otherArgs.get(1));
 		
 		Job job = Job.getInstance(conf);
-        job.setJarByClass(NodePairDistance.class);
-        job.setJobName("NodePairDistance");
-        
-	    FileInputFormat.addInputPath(job, input);
-	    FileOutputFormat.setOutputPath(job, output);
+		job.setJarByClass(NodePairDistance.class);
+		job.setJobName("NodePairDistance");
+		
+		FileInputFormat.addInputPath(job, input);
+		FileOutputFormat.setOutputPath(job, output);
 
-	    job.setMapperClass(MyMapper.class);
-	    //job.setCombinerClass(MyReducer.class);
-	    job.setReducerClass(MyReducer.class);
+		job.setMapperClass(MyMapper.class);
+		//job.setCombinerClass(MyReducer.class);
+		job.setReducerClass(MyReducer.class);
 
-        // An InputFormat for plain text files. 
-        // Files are broken into lines. Either linefeed or carriage-return are used 
-        // to signal end of line. Keys are the position in the file, and values 
-        // are the line of text.
-	    job.setInputFormatClass(TextInputFormat.class);
+		// An InputFormat for plain text files. 
+		// Files are broken into lines. Either linefeed or carriage-return are used 
+		// to signal end of line. Keys are the position in the file, and values 
+		// are the line of text.
+		job.setInputFormatClass(TextInputFormat.class);
 
-        //to specify the types of output key and value
-	    job.setOutputKeyClass(Text.class);
-	    job.setOutputValueClass(Text.class);
+		//to specify the types of output key and value
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(Text.class);
 
-	    job.waitForCompletion(true);
+		job.waitForCompletion(true);
 	}
 	
-    
+	
 	public static class MyMapper extends Mapper<LongWritable, Text, Text, Text>{
 		
 		@Override
 		protected void map(LongWritable key, Text value, Context context)
 				throws IOException, InterruptedException {
-                    
-            String edge = value.toString();   
-            String[] tok = edge.split(" ");
-            String start = tok[0];
-            String end = tok[1];
-            
-			context.write(new Text(start),     //a
-                            new Text(edge));   //(a b)
-                            
-            context.write(new Text(end),       //b
-                            new Text(edge));   //(a b)
+					
+			String edge = value.toString();   
+			String[] tok = edge.split(" ");
+			String start = tok[0];
+			String end = tok[1];
 			
-       	}
+			context.write(new Text(start),	 //a
+							new Text(edge));   //(a b)
+							
+			context.write(new Text(end),	   //b
+							new Text(edge));   //(a b)
+			
+	   	}
 	}
 	
 	public static class MyReducer extends Reducer<Text, Text, Text, Text>{
@@ -111,31 +111,31 @@ public class NodePairDistance {
 		@Override
 		protected void reduce(Text key, Iterable<Text> values, Context context)
 				throws IOException, InterruptedException {
-            
-            List<String> S = new ArrayList<String>();
-            List<String> E = new ArrayList<String>();
-            
-            Iterator<Text> it = values.iterator();
-            
-            /* 
-             * necessary to verify equality between node and key.
-             * without declaring it outside the loop, output seems empty */
-            String keyString = key.toString();
-            
-            while (it.hasNext()) {
-                String v = it.next().toString();
-                String[] tok = v.split(" ");
-                
-                if (tok[0].equals(keyString))
-                    E.add(tok[1]);
-                else 
-                    S.add(tok[0]);
-            }
-            
-            for (String a : S)
-                for(String b : E)
-                    context.write(new Text(a), new Text(b));
-            
+			
+			List<String> S = new ArrayList<String>();
+			List<String> E = new ArrayList<String>();
+			
+			Iterator<Text> it = values.iterator();
+			
+			/* 
+			 * necessary to verify equality between node and key.
+			 * without declaring it outside the loop, output seems empty */
+			String keyString = key.toString();
+			
+			while (it.hasNext()) {
+				String v = it.next().toString();
+				String[] tok = v.split(" ");
+				
+				if (tok[0].equals(keyString))
+					E.add(tok[1]);
+				else 
+					S.add(tok[0]);
+			}
+			
+			for (String a : S)
+				for(String b : E)
+					context.write(new Text(a), new Text(b));
+			
 			
 		}
 	}

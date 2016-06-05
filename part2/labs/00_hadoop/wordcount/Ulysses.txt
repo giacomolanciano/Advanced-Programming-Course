@@ -129,16 +129,16 @@ He turned towards Stephen and said:
 His head halted again for a moment at the top of the staircase, level with the roof:
 —Don't mope over it all day, he said. I'm inconsequent. Give up the moody brooding.
 His head vanished but the drone of his descending voice boomed out of the stairhead:
-     And no more turn aside and brood
-     Upon love's bitter mystery
-     For Fergus rules the brazen cars.
+	 And no more turn aside and brood
+	 Upon love's bitter mystery
+	 For Fergus rules the brazen cars.
 Woodshadows floated silently by through the morning peace from the stairhead seaward where he gazed. Inshore and farther out the mirror of water whitened, spurned by lightshod hurrying feet. White breast of the dim sea. The twining stresses, two by two. A hand plucking the harpstrings, merging their twining chords. Wavewhite wedded words shimmering on the dim tide.
 A cloud began to cover the sun slowly, wholly, shadowing the bay in deeper green. It lay beneath him, a bowl of bitter waters. Fergus' song: I sang it alone in the house, holding down the long dark chords. Her door was open: she wanted to hear my music. Silent with awe and pity I went to her bedside. She was crying in her wretched bed. For those words, Stephen: love's bitter mystery.
 Where now?
 Her secrets: old featherfans, tasselled dancecards, powdered with musk, a gaud of amber beads in her locked drawer. A birdcage hung in the sunny window of her house when she was a girl. She heard old Royce sing in the pantomime of Turko the Terrible and laughed with others when he sang:
-     I am the boy
-     That can enjoy
-     Invisibility.
+	 I am the boy
+	 That can enjoy
+	 Invisibility.
 Phantasmal mirth, folded away: muskperfumed.
 And no more turn aside and brood.
 Folded away in the memory of nature with her toys. Memories beset his brooding brain. Her glass of water from the kitchen tap when she had approached the sacrament. A cored apple, filled with brown sugar, roasting for her at the hob on a dark autumn evening. Her shapely fingernails reddened by the blood of squashed lice from the children's shirts.
@@ -158,12 +158,12 @@ His head disappeared and reappeared.
 —If you want it, Stephen said.
 —Four shining sovereigns, Buck Mulligan cried with delight. We'll have a glorious drunk to astonish the druidy druids. Four omnipotent sovereigns.
 He flung up his hands and tramped down the stone stairs, singing out of tune with a Cockney accent:
-     O, won't we have a merry time,
-     Drinking whisky, beer and wine!
-     On coronation,
-     Coronation day!
-     O, won't we have a merry time
-     On coronation day!
+	 O, won't we have a merry time,
+	 Drinking whisky, beer and wine!
+	 On coronation,
+	 Coronation day!
+	 O, won't we have a merry time
+	 On coronation day!
 Warm sunshine merrying over the sea. The nickel shavingbowl shone, forgotten, on the parapet. Why should I bring it down? Or leave it there all day, forgotten friendship?
 He went over to it, held it in his hands awhile, feeling its coolness, smelling the clammy slaver of the lather in which the brush was stuck. So I carried the boat of incense then at Clongowes. I am another now and yet the same. A servant too. A server of a servant.
 In the gloomy domed livingroom of the tower Buck Mulligan's gowned form moved briskly to and fro about the hearth, hiding and revealing its yellow glow. Two shafts of soft daylight fell across the flagged floor from the high barbacans: and at the meeting of their rays a cloud of coalsmoke and fumes of fried grease floated, turning.
@@ -202,9 +202,9 @@ He turned to Stephen and asked in a fine puzzled voice, lifting his brows:
 Buck Mulligan's face smiled with delight.
 —Charming! he said in a finical sweet voice, showing his white teeth and blinking his eyes pleasantly. Do you think she was? Quite charming!
 Then, suddenly overclouding all his features, he growled in a hoarsened rasping voice as he hewed again vigorously at the loaf:
-     —For old Mary Ann
-     She doesn't care a damn.
-     But, hising up her petticoats...
+	 —For old Mary Ann
+	 She doesn't care a damn.
+	 But, hising up her petticoats...
 He crammed his mouth with fry and munched and droned.
 The doorway was darkened by an entering form.
 —The milk, sir!
@@ -249,8 +249,8 @@ Stephen laid the coin in her uneager hand.
 —We'll owe twopence, he said.
 —Time enough, sir, she said, taking the coin. Time enough. Good morning, sir.
 She curtseyed and went out, followed by Buck Mulligan's tender chant:
-     —Heart of my heart, were it more,
-     More would be laid at your feet.
+	 —Heart of my heart, were it more,
+	 More would be laid at your feet.
 He turned to Stephen and said:
 —Seriously, Dedalus. I'm stony. Hurry out to your school kip and bring us back some money. Today the bards must drink and junket. Ireland expects that every man this day will do his duty.
 —That reminds me, Haines said, rising, that I have to visit your national library today.
@@ -321,20 +321,20 @@ Buck Mulligan turned suddenly for an instant towards Stephen but did not speak. 
 Eyes, pale as the sea the wind had freshened, paler, firm and prudent. The seas' ruler, he gazed southward over the bay, empty save for the smokeplume of the mailboat vague on the bright skyline and a sail tacking by the Muglins.
 —I read a theological interpretation of it somewhere, he said bemused. The Father and the Son idea. The Son striving to be atoned with the Father.
 Buck Mulligan at once put on a blithe broadly smiling face. He looked at them, his wellshaped mouth open happily, his eyes, from which he had suddenly withdrawn all shrewd sense, blinking with mad gaiety. He moved a doll's head to and fro, the brims of his Panama hat quivering, and began to chant in a quiet happy foolish voice:
-     —I'm the queerest young fellow that ever you heard.
-     My mother's a jew, my father's a bird.
-     With Joseph the joiner I cannot agree.
-     So here's to disciples and Calvary.
+	 —I'm the queerest young fellow that ever you heard.
+	 My mother's a jew, my father's a bird.
+	 With Joseph the joiner I cannot agree.
+	 So here's to disciples and Calvary.
 He held up a forefinger of warning.
-     —If anyone thinks that I amn't divine
-     He'll get no free drinks when I'm making the wine
-     But have to drink water and wish it were plain
-     That i make when the wine becomes water again.
+	 —If anyone thinks that I amn't divine
+	 He'll get no free drinks when I'm making the wine
+	 But have to drink water and wish it were plain
+	 That i make when the wine becomes water again.
 He tugged swiftly at Stephen's ashplant in farewell and, running forward to a brow of the cliff, fluttered his hands at his sides like fins or wings of one about to rise in the air, and chanted:
-     —Goodbye, now, goodbye! Write down all I said
-     And tell Tom, Dick and Harry I rose from the dead.
-     What's bred in the bone cannot fail me to fly
-     And Olivet's breezy... Goodbye, now, goodbye!
+	 —Goodbye, now, goodbye! Write down all I said
+	 And tell Tom, Dick and Harry I rose from the dead.
+	 What's bred in the bone cannot fail me to fly
+	 And Olivet's breezy... Goodbye, now, goodbye!
 He capered before them down towards the fortyfoot hole, fluttering his winglike hands, leaping nimbly, Mercury's hat quivering in the fresh wind that bore back to them his brief birdsweet cries.
 Haines, who had been laughing guardedly, walked on beside Stephen and said:
 —We oughtn't to laugh, I suppose. He's rather blasphemous. I'm not a believer myself, that is to say. Still his gaiety takes the harm out of it somehow, doesn't it? What did he call it? Joseph the Joiner?
@@ -406,9 +406,9 @@ Horn of a bull, hoof of a horse, smile of a Saxon.
 —The Ship, Buck Mulligan cried. Half twelve.
 —Good, Stephen said.
 He walked along the upwardcurving path.
-     Liliata rutilantium.
-     Turma circumdet.
-     Iubilantium te virginum.
+	 Liliata rutilantium.
+	 Turma circumdet.
+	 Iubilantium te virginum.
 The priest's grey nimbus in a niche where he dressed discreetly. I will not sleep here tonight. Home also I cannot go.
 A voice, sweettoned and sustained, called to him from the sea. Turning the curve he waved his hand. It called again. A sleek brown head, a seal's, far out on the water, round.
 Usurper.
@@ -446,18 +446,18 @@ Had Pyrrhus not fallen by a beldam's hand in Argos or Julius Caesar not been kni
 —And the story, sir?
 —After, Stephen said. Go on, Talbot.
 A swarthy boy opened a book and propped it nimbly under the breastwork of his satchel. He recited jerks of verse with odd glances at the text:
-     —Weep no more, woful shepherds, weep no more
-     For Lycidas, your sorrow, is not dead,
-     Sunk though he be beneath the watery floor...
+	 —Weep no more, woful shepherds, weep no more
+	 For Lycidas, your sorrow, is not dead,
+	 Sunk though he be beneath the watery floor...
 It must be a movement then, an actuality of the possible as possible. Aristotle's phrase formed itself within the gabbled verses and floated out into the studious silence of the library of Saint Genevieve where he had read, sheltered from the sin of Paris, night by night. By his elbow a delicate Siamese conned a handbook of strategy. Fed and feeding brains about me: under glowlamps, impaled, with faintly beating feelers: and in my mind's darkness a sloth of the underworld, reluctant, shy of brightness, shifting her dragon scaly folds. Thought is the thought of thought. Tranquil brightness. The soul is in a manner all that is: the soul is the form of forms. Tranquility sudden, vast, candescent: form of forms.
 Talbot repeated:
-     —Through the dear might of Him that walked the waves,
-     Through the dear might...
+	 —Through the dear might of Him that walked the waves,
+	 Through the dear might...
 —Turn over, Stephen said quietly. I don't see anything.
 —What, sir? Talbot asked simply, bending forward.
 His hand turned the page over. He leaned back and went on again, having just remembered. Of him that walked the waves. Here also over these craven hearts his shadow lies and on the scoffer's heart and lips and on mine. It lies upon their eager faces who offered him a coin of the tribute. To Caesar what is Caesar's, to God what is God's. A long look from dark eyes, a riddling sentence to be woven and woven on the church's looms. Ay.
-     Riddle me, riddle me, randy ro.
-     My father gave me seeds to sow.
+	 Riddle me, riddle me, randy ro.
+	 My father gave me seeds to sow.
 Talbot slid his closed book into his satchel.
 —Have I heard all? Stephen asked.
 —Yes, sir. Hockey at ten, sir.
@@ -468,12 +468,12 @@ They bundled their books away, pencils clacking, pages rustling. Crowding togeth
 —O, ask me, sir.
 —A hard one, sir.
 —This is the riddle, Stephen said:
-     The cock crew,
-     The sky was blue:
-     The bells in heaven
-     Were striking eleven.
-     'Tis time for this poor soul
-     To go to heaven.
+	 The cock crew,
+	 The sky was blue:
+	 The bells in heaven
+	 Were striking eleven.
+	 'Tis time for this poor soul
+	 To go to heaven.
 What is that?
 —What, sir?
 —Again, sir. We didn't hear.
@@ -555,8 +555,8 @@ Stephen sketched a brief gesture.
 —I have rebel blood in me too, Mr Deasy said. On the spindle side. But I am descended from sir John Blackwood who voted for the union. We are all Irish, all kings' sons.
 —Alas, Stephen said.
 —Per vias rectas, Mr Deasy said firmly, was his motto. He voted for it and put on his topboots to ride to Dublin from the Ards of Down to do so.
-     Lal the ral the ra
-     The rocky road to Dublin.
+	 Lal the ral the ra
+	 The rocky road to Dublin.
 A gruff squire on horseback with shiny topboots. Soft day, sir John! Soft day, your honour!... Day!... Day!... Two topboots jog dangling on to Dublin. Lal the ral the ra. Lal the ral the raddy.
 —That reminds me, Mr Deasy said. You can do me a favour, Mr Dedalus, with some of your literary friends. I have a letter here for the press. Sit down a moment. I have just to copy the end.
 He went to the desk near the window, pulled in his chair twice and read off some words from the sheet on the drum of his typewriter.
@@ -578,8 +578,8 @@ He raised his forefinger and beat the air oldly before his voice spoke.
 —Mark my words, Mr Dedalus, he said. England is in the hands of the jews. In all the highest places: her finance, her press. And they are the signs of a nation's decay. Wherever they gather they eat up the nation's vital strength. I have seen it coming these years. As sure as we are standing here the jew merchants are already at their work of destruction. Old England is dying.
 He stepped swiftly off, his eyes coming to blue life as they passed a broad sunbeam. He faced about and back again.
 —Dying, he said again, if not dead by now.
-     The harlot's cry from street to street
-     Shall weave old England's windingsheet.
+	 The harlot's cry from street to street
+	 Shall weave old England's windingsheet.
 His eyes open wide in vision stared sternly across the sunbeam in which he halted.
 —A merchant, Stephen said, is one who buys cheap and sells dear, jew or gentile, is he not?
 —They sinned against the light, Mr Deasy said gravely. And you can see the darkness in their eyes. And that is why they are wanderers on the earth to this day.
@@ -597,8 +597,8 @@ Hooray! Ay! Whrrwhee!
 —A shout in the street, Stephen answered, shrugging his shoulders.
 Mr Deasy looked down and held for awhile the wings of his nose tweaked between his fingers. Looking up again he set them free.
 —I am happier than you are, he said. We have committed many errors and many sins. A woman brought sin into the world. For a woman who was no better than she should be, Helen, the runaway wife of Menelaus, ten years the Greeks made war on Troy. A faithless wife first brought the strangers to our shore here, MacMurrough's wife and her leman, O'Rourke, prince of Breffni. A woman too brought Parnell low. Many errors, many failures but not the one sin. I am a struggler now at the end of my days. But I will fight for the right till the end.
-     For Ulster will fight
-     And Ulster will be right.
+	 For Ulster will fight
+	 And Ulster will be right.
 Stephen raised the sheets in his hand.
 —Well, sir, he began...
 —I foresee, Mr Deasy said, that you will not remain here very long at this work. You were not born to be a teacher, I think. Perhaps I am wrong.
@@ -684,17 +684,17 @@ Proudly walking. Whom were you trying to walk like? Forget: a dispossessed. With
 You were going to do wonders, what? Missionary to Europe after fiery Columbanus. Fiacre and Scotus on their creepystools in heaven spilt from their pintpots, loudlatinlaughing: Euge! Euge! Pretending to speak broken English as you dragged your valise, porter threepence, across the slimy pier at Newhaven. Comment? Rich booty you brought back; Le Tutu, five tattered numbers of Pantalon Blanc et Culotte Rouge; a blue French telegram, curiosity to show:
 —Mother dying come home father.
 The aunt thinks you killed your mother. That's why she won't.
-     Then here's a health to Mulligan's aunt
-     And I'll tell you the reason why.
-     She always kept things decent in
-     The Hannigan famileye.
+	 Then here's a health to Mulligan's aunt
+	 And I'll tell you the reason why.
+	 She always kept things decent in
+	 The Hannigan famileye.
 His feet marched in sudden proud rhythm over the sand furrows, along by the boulders of the south wall. He stared at them proudly, piled stone mammoth skulls. Gold light on sea, on sand, on boulders. The sun is there, the slender trees, the lemon houses.
 Paris rawly waking, crude sunlight on her lemon streets. Moist pith of farls of bread, the froggreen wormwood, her matin incense, court the air. Belluomo rises from the bed of his wife's lover's wife, the kerchiefed housewife is astir, a saucer of acetic acid in her hand. In Rodot's Yvonne and Madeleine newmake their tumbled beauties, shattering with gold teeth chaussons of pastry, their mouths yellowed with the pus of flan breton. Faces of Paris men go by, their wellpleased pleasers, curled conquistadores.
 Noon slumbers. Kevin Egan rolls gunpowder cigarettes through fingers smeared with printer's ink, sipping his green fairy as Patrice his white. About us gobblers fork spiced beans down their gullets. Un demi setier! A jet of coffee steam from the burnished caldron. She serves me at his beck. Il est irlandais. Hollandais? Non fromage. Deux irlandais, nous, Irlande, vous savez ah, oui! She thought you wanted a cheese hollandais. Your postprandial, do you know that word? Postprandial. There was a fellow I knew once in Barcelona, queer fellow, used to call it his postprandial. Well: slainte! Around the slabbed tables the tangle of wined breaths and grumbling gorges. His breath hangs over our saucestained plates, the green fairy's fang thrusting between his lips. Of Ireland, the Dalcassians, of hopes, conspiracies, of Arthur Griffith now, A E, pimander, good shepherd of men. To yoke me as his yokefellow, our crimes our common cause. You're your father's son. I know the voice. His fustian shirt, sanguineflowered, trembles its Spanish tassels at his secrets. M. Drumont, famous journalist, Drumont, know what he called queen Victoria? Old hag with the yellow teeth. Vieille ogresse with the dents jaunes. Maud Gonne, beautiful woman, La Patrie, M. Millevoye, Felix Faure, know how he died? Licentious men. The froeken, bonne a tout faire, who rubs male nakedness in the bath at Upsala. Moi faire, she said, Tous les messieurs. Not this Monsieur, I said. Most licentious custom. Bath a most private thing. I wouldn't let my brother, not even my own brother, most lascivious thing. Green eyes, I see you. Fang, I feel. Lascivious people.
 The blue fuse burns deadly between hands and burns clear. Loose tobaccoshreds catch fire: a flame and acrid smoke light our corner. Raw facebones under his peep of day boy's hat. How the head centre got away, authentic version. Got up as a young bride, man, veil, orangeblossoms, drove out the road to Malahide. Did, faith. Of lost leaders, the betrayed, wild escapes. Disguises, clutched at, gone, not here.
 Spurned lover. I was a strapping young gossoon at that time, I tell you. I'll show you my likeness one day. I was, faith. Lover, for her love he prowled with colonel Richard Burke, tanist of his sept, under the walls of Clerkenwell and, crouching, saw a flame of vengeance hurl them upward in the fog. Shattered glass and toppling masonry. In gay Paree he hides, Egan of Paris, unsought by any save by me. Making his day's stations, the dingy printingcase, his three taverns, the Montmartre lair he sleeps short night in, rue de la Goutte-d'Or, damascened with flyblown faces of the gone. Loveless, landless, wifeless. She is quite nicey comfy without her outcast man, madame in rue Git-le-Coeur, canary and two buck lodgers. Peachy cheeks, a zebra skirt, frisky as a young thing's. Spurned and undespairing. Tell Pat you saw me, won't you? I wanted to get poor Pat a job one time. Mon fils, soldier of France. I taught him to sing The boys of Kilkenny are stout roaring blades. Know that old lay? I taught Patrice that. Old Kilkenny: saint Canice, Strongbow's castle on the Nore. Goes like this. O, O. He takes me, Napper Tandy, by the hand.
-     O, O THE BOYS OF
-     KILKENNY...
+	 O, O THE BOYS OF
+	 KILKENNY...
 Weak wasting hand on mine. They have forgotten Kevin Egan, not he them. Remembering thee, O Sion.
 He had come nearer the edge of the sea and wet sand slapped his boots. The new air greeted him, harping in wild nerves, wind of wild air of seeds of brightness. Here, I am not walking out to the Kish lightship, am I? He stood suddenly, his feet beginning to sink slowly in the quaking soil. Turn back.
 Turning, he scanned the shore south, his feet sinking again slowly in new sockets. The cold domed room of the tower waits. Through the barbacans the shafts of light are moving ever, slowly ever as my feet are sinking, creeping duskward over the dial floor. Blue dusk, nightfall, deep blue night. In the darkness of the dome they wait, their pushedback chairs, my obelisk valise, around a board of abandoned platters. Who to clear it? He has the key. I will not sleep there when this night comes. A shut door of a silent tower, entombing their—blind bodies, the panthersahib and his pointer. Call: no answer. He lifted his feet up from the suck and turned back by the mole of boulders. Take all, keep all. My soul walks with me, form of forms. So in the moon's midwatches I pace the path above the rocks, in sable silvered, hearing Elsinore's tempting flood.
@@ -710,10 +710,10 @@ Cocklepickers. They waded a little way in the water and, stooping, soused their 
 The cry brought him skulking back to his master and a blunt bootless kick sent him unscathed across a spit of sand, crouched in flight. He slunk back in a curve. Doesn't see me. Along by the edge of the mole he lolloped, dawdled, smelt a rock and from under a cocked hindleg pissed against it. He trotted forward and, lifting again his hindleg, pissed quick short at an unsmelt rock. The simple pleasures of the poor. His hindpaws then scattered the sand: then his forepaws dabbled and delved. Something he buried there, his grandmother. He rooted in the sand, dabbling, delving and stopped to listen to the air, scraped up the sand again with a fury of his claws, soon ceasing, a pard, a panther, got in spousebreach, vulturing the dead.
 After he woke me last night same dream or was it? Wait. Open hallway. Street of harlots. Remember. Haroun al Raschid. I am almosting it. That man led me, spoke. I was not afraid. The melon he had he held against my face. Smiled: creamfruit smell. That was the rule, said. In. Come. Red carpet spread. You will see who.
 Shouldering their bags they trudged, the red Egyptians. His blued feet out of turnedup trousers slapped the clammy sand, a dull brick muffler strangling his unshaven neck. With woman steps she followed: the ruffian and his strolling mort. Spoils slung at her back. Loose sand and shellgrit crusted her bare feet. About her windraw face hair trailed. Behind her lord, his helpmate, bing awast to Romeville. When night hides her body's flaws calling under her brown shawl from an archway where dogs have mired. Her fancyman is treating two Royal Dublins in O'Loughlin's of Blackpitts. Buss her, wap in rogues' rum lingo, for, O, my dimber wapping dell! A shefiend's whiteness under her rancid rags. Fumbally's lane that night: the tanyard smells.
-     White thy fambles, red thy gan
-     And thy quarrons dainty is.
-     Couch a hogshead with me then.
-     In the darkmans clip and kiss.
+	 White thy fambles, red thy gan
+	 And thy quarrons dainty is.
+	 Couch a hogshead with me then.
+	 In the darkmans clip and kiss.
 Morose delectation Aquinas tunbelly calls this, frate porcospino. Unfallen Adam rode and not rutted. Call away let him: thy quarrons dainty is. Language no whit worse than his. Monkwords, marybeads jabber on their girdles: roguewords, tough nuggets patter in their pockets.
 Passing now.
 A side eye at my Hamlet hat. If I were suddenly naked here as I sit? I am not. Across the sands of all the world, followed by the sun's flaming sword, to the west, trekking to evening lands. She trudges, schlepps, trains, drags, trascines her load. A tide westering, moondrawn, in her wake. Tides, myriadislanded, within her, blood not mine, oinopa ponton, a winedark sea. Behold the handmaid of the moon. In sleep the wet sign calls her hour, bids her rise. Bridebed, childbed, bed of death, ghostcandled. Omnis caro ad te veniet. He comes, pale vampire, through storm his eyes, his bat sails bloodying the sea, mouth to her mouth's kiss.
@@ -724,7 +724,7 @@ His shadow lay over the rocks as he bent, ending. Why not endless till the farth
 She trusts me, her hand gentle, the longlashed eyes. Now where the blue hell am I bringing her beyond the veil? Into the ineluctable modality of the ineluctable visuality. She, she, she. What she? The virgin at Hodges Figgis' window on Monday looking in for one of the alphabet books you were going to write. Keen glance you gave her. Wrist through the braided jesse of her sunshade. She lives in Leeson park with a grief and kickshaws, a lady of letters. Talk that to someone else, Stevie: a pickmeup. Bet she wears those curse of God stays suspenders and yellow stockings, darned with lumpy wool. Talk about apple dumplings, piuttosto. Where are your wits?
 Touch me. Soft eyes. Soft soft soft hand. I am lonely here. O, touch me soon, now. What is that word known to all men? I am quiet here alone. Sad too. Touch, touch me.
 He lay back at full stretch over the sharp rocks, cramming the scribbled note and pencil into a pock his hat. His hat down on his eyes. That is Kevin Egan's movement I made, nodding for his nap, sabbath sleep. Et vidit Deus. Et erant valde bona. Alo! Bonjour. Welcome as the flowers in May. Under its leaf he watched through peacocktwittering lashes the southing sun. I am caught in this burning scene. Pan's hour, the faunal noon. Among gumheavy serpentplants, milkoozing fruits, where on the tawny waters leaves lie wide. Pain is far.
-     And no more turn aside and brood.
+	 And no more turn aside and brood.
 His gaze brooded on his broadtoed boots, a buck's castoffs, nebeneinander. He counted the creases of rucked leather wherein another's foot had nested warm. The foot that beat the ground in tripudium, foot I dislove. But you were delighted when Esther Osvalt's shoe went on you: girl I knew in Paris. Tiens, quel petit pied! Staunch friend, a brother soul: Wilde's love that dare not speak its name. His arm: Cranly's arm. He now will leave me. And the blame? As I am. As I am. All or not at all.
 In long lassoes from the Cock lake the water flowed full, covering greengoldenly lagoons of sand, rising, flowing. My ashplant will float away. I shall wait. No, they will pass on, passing, chafing against the low rocks, swirling, passing. Better get this job over quick. Listen: a fourworded wavespeech: seesoo, hrss, rsseeiss, ooos. Vehement breath of waters amid seasnakes, rearing horses, rocks. In cups of rocks it slops: flop, slop, slap: bounded in barrels. And, spent, its speech ceases. It flows purling, widely flowing, floating foampool, flower unfurling.
 Under the upswelling tide he saw the writhing weeds lift languidly and sway reluctant arms, hising up their petticoats, in whispering water swaying and upturning coy silver fronds. Day by day: night by night: lifted, flooded and let fall. Lord, they are weary; and, whispered to, they sigh. Saint Ambrose heard it, sigh of leaves and waves, waiting, awaiting the fullness of their times, diebus ac noctibus iniurias patiens ingemiscit. To no end gathered; vainly then released, forthflowing, wending back: loom of the moon. Weary too in sight of lovers, lascivious men, a naked woman shining in her courts, she draws a toil of waters.
@@ -832,10 +832,10 @@ On the boil sure enough: a plume of steam from the spout. He scalded and rinsed 
 Then he slit open his letter, glancing down the page and over. Thanks: new tam: Mr Coghlan: lough Owel picnic: young student: Blazes Boylan's seaside girls.
 The tea was drawn. He filled his own moustachecup, sham crown
 Derby, smiling. Silly Milly's birthday gift. Only five she was then. No, wait: four. I gave her the amberoid necklace she broke. Putting pieces of folded brown paper in the letterbox for her. He smiled, pouring.
-     O, Milly Bloom, you are my darling.
-     You are my lookingglass from night to morning.
-     I'd rather have you without a farthing
-     Than Katey Keogh with her ass and garden.
+	 O, Milly Bloom, you are my darling.
+	 You are my lookingglass from night to morning.
+	 I'd rather have you without a farthing
+	 Than Katey Keogh with her ass and garden.
 Poor old professor Goodwin. Dreadful old case. Still he was a courteous old chap. Oldfashioned way he used to bow Molly off the platform. And the little mirror in his silk hat. The night Milly brought it into the parlour. O, look what I found in professor Goodwin's hat! All we laughed. Sex breaking out even then. Pert little piece she was.
 He prodded a fork into the kidney and slapped it over: then fitted the teapot on the tray. Its hump bumped as he took it up. Everything on it? Bread and butter, four, sugar, spoon, her cream. Yes. He carried it upstairs, his thumb hooked in the teapot handle.
 Nudging the door open with his knee he carried the tray in and set it on the chair by the bedhead.
@@ -893,8 +893,8 @@ O, well: she knows how to mind herself. But if not? No, nothing has happened. Of
 Vain: very.
 He smiled with troubled affection at the kitchen window. Day I caught her in the street pinching her cheeks to make them red. Anemic a little. Was given milk too long. On the ERIN'S KING that day round the Kish. Damned old tub pitching about. Not a bit funky. Her pale blue scarf loose in the wind with her hair. All dimpled cheeks and curls, Your head it simply swirls.
 Seaside girls. Torn envelope. Hands stuck in his trousers' pockets, jarvey off for the day, singing. Friend of the family. Swurls, he says. Pier with lamps, summer evening, band,
-     Those girls, those girls,
-     Those lovely seaside girls.
+	 Those girls, those girls,
+	 Those lovely seaside girls.
 Milly too. Young kisses: the first. Far away now past. Mrs Marion. Reading, lying back now, counting the strands of her hair, smiling, braiding.
 A soft qualm, regret, flowed down his backbone, increasing. Will happen, yes. Prevent. Useless: can't move. Girl's sweet light lips. Will happen too. He felt the flowing qualm spread over him. Useless to move now. Lips kissed, kissing, kissed. Full gluey woman's lips.
 Better where she is down there: away. Occupy her. Wanted a dog to pass the time. Might take a trip down there. August bank holiday, only two and six return. Six weeks off, however. Might work a press pass. Or through M'Coy.
@@ -919,9 +919,9 @@ Evening hours, girls in grey gauze. Night hours then: black with daggers and eye
 He tore away half the prize story sharply and wiped himself with it. Then he girded up his trousers, braced and buttoned himself. He pulled back the jerky shaky door of the jakes and came forth from the gloom into the air.
 In the bright light, lightened and cooled in limb, he eyed carefully his black trousers: the ends, the knees, the houghs of the knees. What time is the funeral? Better find out in the paper.
 A creak and a dark whirr in the air high up. The bells of George's church. They tolled the hour: loud dark iron.
-     Heigho! Heigho!
-     Heigho! Heigho!
-     Heigho! Heigho!
+	 Heigho! Heigho!
+	 Heigho! Heigho!
+	 Heigho! Heigho!
 Quarter to. There again: the overtone following through the air, third.
 Poor Dignam!
 By lorries along sir John Rogerson's quay Mr Bloom walked soberly, past Windmill lane, Leask's the linseed crusher, the postal telegraph office. Could have given that address too. And past the sailors' home. He turned from the morning noises of the quayside and walked through Lime street. By Brady's cottages a boy for the skins lolled, his bucket of offal linked, smoking a chewed fagbutt. A smaller girl with scars of eczema on her forehead eyed him, listlessly holding her battered caskhoop. Tell him if he smokes he won't grow. O let him! His life isn't such a bed of roses. Waiting outside pubs to bring da home. Come home to ma, da. Slack hour: won't be many there. He crossed Townsend street, passed the frowning face of Bethel. El, yes: house of: Aleph, Beth. And past Nichols' the undertaker. At eleven it is. Time enough. Daresay Corny Kelleher bagged the job for O'Neill's. Singing with his eyes shut. Corny. Met her once in the park. In the dark. What a lark. Police tout. Her name and address she then told with my tooraloom tooraloom tay. O, surely he bagged it. Bury him cheap in a whatyoumaycall. With my tooraloom, tooraloom, tooraloom, tooraloom.
@@ -974,11 +974,11 @@ Mr Bloom turned his largelidded eyes with unhasty friendliness.
 —My wife too, he said. She's going to sing at a swagger affair in the Ulster Hall, Belfast, on the twenty-fifth.
 —That so? M'Coy said. Glad to hear that, old man. Who's getting it up?
 Mrs Marion Bloom. Not up yet. Queen was in her bedroom eating bread and. No book. Blackened court cards laid along her thigh by sevens. Dark lady and fair man. Letter. Cat furry black ball. Torn strip of envelope.
-     Love's
-     Old
-     Sweet
-     Song
-     Comes lo-ove's old...
+	 Love's
+	 Old
+	 Sweet
+	 Song
+	 Comes lo-ove's old...
 —It's a kind of a tour, don't you see, Mr Bloom said thoughtfully. Sweeeet song. There's a committee formed. Part shares and part profits.
 M'Coy nodded, picking at his moustache stubble.
 —O, well, he said. That's good news.
@@ -1000,8 +1000,8 @@ Mr Bloom went round the corner and passed the drooping nags of the hazard. No us
 He came nearer and heard a crunching of gilded oats, the gently champing teeth. Their full buck eyes regarded him as he went by, amid the sweet oaten reek of horsepiss. Their Eldorado. Poor jugginses! Damn all they know or care about anything with their long noses stuck in nosebags. Too full for words. Still they get their feed all right and their doss. Gelded too: a stump of black guttapercha wagging limp between their haunches. Might be happy all the same that way. Good poor brutes they look. Still their neigh can be very irritating.
 He drew the letter from his pocket and folded it into the newspaper he carried. Might just walk into her here. The lane is safer.
 He passed the cabman's shelter. Curious the life of drifting cabbies. All weathers, all places, time or setdown, no will of their own. Voglio e non. Like to give them an odd cigarette. Sociable. Shout a few flying syllables as they pass. He hummed:
-     La ci darem la mano
-     La la lala la la.
+	 La ci darem la mano
+	 La la lala la la.
 He turned into Cumberland street and, going on some paces, halted in the lee of the station wall. No-one. Meade's timberyard. Piled balks. Ruins and tenements. With careful tread he passed over a hopscotch court with its forgotten pickeystone. Not a sinner. Near the timberyard a squatted child at marbles, alone, shooting the taw with a cunnythumb. A wise tabby, a blinking sphinx, watched from her warm sill. Pity to disturb them. Mohammed cut a piece out of his mantle not to wake her. Open it. And once I played marbles when I went to that old dame's school. She liked mignonette. Mrs Ellis's. And Mr? He opened the letter within the newspaper.
 A flower. I think it's a. A yellow flower with flattened petals. Not annoyed then? What does she say?
 Dear Henry
@@ -1012,14 +1012,14 @@ He tore the flower gravely from its pinhold smelt its almost no smell and placed
 Weak joy opened his lips. Changed since the first letter. Wonder did she wrote it herself. Doing the indignant: a girl of good family like me, respectable character. Could meet one Sunday after the rosary. Thank you: not having any. Usual love scrimmage. Then running round corners. Bad as a row with Molly. Cigar has a cooling effect. Narcotic. Go further next time. Naughty boy: punish: afraid of words, of course. Brutal, why not? Try it anyhow. A bit at a time.
 Fingering still the letter in his pocket he drew the pin out of it. Common pin, eh? He threw it on the road. Out of her clothes somewhere: pinned together. Queer the number of pins they always have. No roses without thorns.
 Flat Dublin voices bawled in his head. Those two sluts that night in the Coombe, linked together in the rain.
-     O, Mary lost the pin of her drawers.
-     She didn't know what to do
-     To keep it up
-     To keep it up.
+	 O, Mary lost the pin of her drawers.
+	 She didn't know what to do
+	 To keep it up
+	 To keep it up.
 It? Them. Such a bad headache. Has her roses probably. Or sitting all day typing. Eyefocus bad for stomach nerves. What perfume does your wife use. Now could you make out a thing like that?
-     To keep it up.
+	 To keep it up.
 Martha, Mary. I saw that picture somewhere I forget now old master or faked for money. He is sitting in their house, talking. Mysterious. Also the two sluts in the Coombe would listen.
-     To keep it up.
+	 To keep it up.
 Nice kind of evening feeling. No more wandering about. Just loll there: quiet dusk: let everything rip. Forget. Tell about places you have been, strange customs. The other one, jar on her head, was getting the supper: fruit, olives, lovely cool water out of a well, stonecold like the hole in the wall at Ashtown. Must carry a paper goblet next time I go to the trottingmatches. She listens with big dark soft eyes. Tell her: more and more: all. Then a sigh: silence. Long long long rest.
 Going under the railway arch he took out the envelope, tore it swiftly in shreds and scattered them towards the road. The shreds fluttered away, sank in the dank air: a white flutter, then all sank.
 Henry Flower. You could tear up a cheque for a hundred pounds in the same way. Simple bit of paper. Lord Iveagh once cashed a sevenfigure cheque for a million in the bank of Ireland. Shows you the money to be made out of porter. Still the other brother lord Ardilaun has to change his shirt four times a day, they say. Skin breeds lice or vermin. A million pounds, wait a moment. Twopence a pint, fourpence a quart, eightpence a gallon of porter, no, one and fourpence a gallon of porter. One and four into twenty: fifteen about. Yes, exactly. Fifteen millions of barrels of porter.
@@ -1251,9 +1251,9 @@ Martin Cunningham drew out his watch briskly, coughed and put it back.
 —They say a man who does it is a coward, Mr Dedalus said.
 —It is not for us to judge, Martin Cunningham said.
 Mr Bloom, about to speak, closed his lips again. Martin Cunningham's large eyes. Looking away now. Sympathetic human man he is. Intelligent. Like Shakespeare's face. Always a good word to say. They have no mercy on that here or infanticide. Refuse christian burial. They used to drive a stake of wood through his heart in the grave. As if it wasn't broken already. Yet sometimes they repent too late. Found in the riverbed clutching rushes. He looked at me. And that awful drunkard of a wife of his. Setting up house for her time after time and then pawning the furniture on him every Saturday almost. Leading him the life of the damned. Wear the heart out of a stone, that. Monday morning. Start afresh. Shoulder to the wheel. Lord, she must have looked a sight that night Dedalus told me he was in there. Drunk about the place and capering with Martin's umbrella.
-     And they call me the jewel of Asia,
-     Of Asia,
-     The Geisha.
+	 And they call me the jewel of Asia,
+	 Of Asia,
+	 The Geisha.
 He looked away from me. He knows. Rattle his bones.
 That afternoon of the inquest. The redlabelled bottle on the table. The room in the hotel with hunting pictures. Stuffy it was. Sunlight through the slats of the Venetian blind. The coroner's sunlit ears, big and hairy. Boots giving evidence. Thought he was asleep first. Then saw like yellow streaks on his face. Had slipped down to the foot of the bed. Verdict: overdose. Death by misadventure. The letter. For my son Leopold.
 No more pain. Wake no more. Nobody owns.
@@ -1422,8 +1422,8 @@ But they must breed a devil of a lot of maggots. Soil must be simply swirling wi
 —Two, Corny Kelleher said. Half ten and eleven.
 The caretaker put the papers in his pocket. The barrow had ceased to trundle. The mourners split and moved to each side of the hole, stepping with care round the graves. The gravediggers bore the coffin and set its nose on the brink, looping the bands round it.
 Burying him. We come to bury Caesar. His ides of March or June. He doesn't know who is here nor care. Now who is that lankylooking galoot over there in the macintosh? Now who is he I'd like to know? Now I'd give a trifle to know who he is. Always someone turns up you never dreamt of. A fellow could live on his lonesome all his life. Yes, he could. Still he'd have to get someone to sod him after he died though he could dig his own grave. We all do. Only man buries. No, ants too. First thing strikes anybody. Bury the dead. Say Robinson Crusoe was true to life. Well then Friday buried him. Every Friday buries a Thursday if you come to look at it.
-     O, poor Robinson Crusoe!
-     How could you possibly do so?
+	 O, poor Robinson Crusoe!
+	 How could you possibly do so?
 Poor Dignam! His last lie on the earth in his box. When you think of them all it does seem a waste of wood. All gnawed through. They could invent a handsome bier with a kind of panel sliding, let it down that way. Ay but they might object to be buried out of another fellow's. They're so particular. Lay me in my native earth. Bit of clay from the holy land. Only a mother and deadborn child ever buried in the one coffin. I see what it means. I see. To protect him as long as possible even in the earth. The Irishman's house is his coffin. Embalming in catacombs, mummies the same idea.
 Mr Bloom stood far back, his hat in his hand, counting the bared heads. Twelve. I'm thirteen. No. The chap in the macintosh is thirteen. Death's number. Where the deuce did he pop out of? He wasn't in the chapel, that I'll swear. Silly superstition that about thirteen.
 Nice soft tweed Ned Lambert has in that suit. Tinge of purple. I had one like that when we lived in Lombard street west. Dressy fellow he was once. Used to change three suits in the day. Must get that grey suit of mine turned by Mesias. Hello. It's dyed. His wife I forgot he's not married or his landlady ought to have picked out those threads for him.
@@ -1514,8 +1514,8 @@ Our Saviour: beardframed oval face: talking in the dusk. Mary, Martha. Steered b
 —Or like Mario, Mr Bloom said.
 —Yes, Red Murray agreed. But Mario was said to be the picture of Our Saviour.
 Jesusmario with rougy cheeks, doublet and spindle legs. Hand on his heart. In Martha.
-     Co-ome thou lost one,
-     Co-ome thou dear one!
+	 Co-ome thou lost one,
+	 Co-ome thou dear one!
 THE CROZIER AND THE PEN
 —His grace phoned down twice this morning, Red Murray said gravely.
 They watched the knees, legs, boots vanish. Neck.
@@ -1703,8 +1703,8 @@ He made a comic face and whined, rubbing his knee:
 —The accumulation of the anno Domini.
 —Sorry, Mr Bloom said.
 He went to the door and, holding it ajar, paused. J. J. O'Molloy slapped the heavy pages over. The noise of two shrill voices, a mouthorgan, echoed in the bare hallway from the newsboys squatted on the doorsteps:
-     —We are the boys of Wexford
-     Who fought with heart and hand.
+	 —We are the boys of Wexford
+	 Who fought with heart and hand.
 EXIT BLOOM
 —I'm just running round to Bachelor's walk, Mr Bloom said, about this ad of Keyes's. Want to fix it up. They tell me he's round there in Dillon's.
 He looked indecisively for a moment at their faces. The editor who, leaning against the mantelshelf, had propped his head on his hand, suddenly stretched forth an arm amply.
@@ -1755,10 +1755,10 @@ Stephen handed over the typed sheets, pointing to the title and signature.
 Bit torn off.
 —Mr Garrett Deasy, Stephen said.
 —That old pelters, the editor said. Who tore it? Was he short taken?
-     On swift sail flaming
-     From storm and south
-     He comes, pale vampire,
-     Mouth to my mouth.
+	 On swift sail flaming
+	 From storm and south
+	 He comes, pale vampire,
+	 Mouth to my mouth.
 —Good day, Stephen, the professor said, coming to peer over their shoulders. Foot and mouth? Are you turned...?
 Bullockbefriending bard.
 SHINDY IN WELLKNOWN RESTAURANT
@@ -1781,11 +1781,11 @@ He strode away from them towards the window.
 —Boohoo! Lenehan wept with a little noise. Owing to a brick received in the latter half of the matinée. Poor, poor, poor Pyrrhus!
 He whispered then near Stephen's ear:
 LENEHAN'S LIMERICK
-     There's a ponderous pundit MacHugh
-     Who wears goggles of ebony hue.
-     As he mostly sees double
-     To wear them why trouble?
-     I can't see the Joe Miller. Can you?
+	 There's a ponderous pundit MacHugh
+	 Who wears goggles of ebony hue.
+	 As he mostly sees double
+	 To wear them why trouble?
+	 I can't see the Joe Miller. Can you?
 In mourning for Sallust, Mulligan says. Whose mother is beastly dead.
 Myles Crawford crammed the sheets into a sidepocket.
 —That'll be all right, he said. I'll read the rest after. That'll be all right.
@@ -1863,9 +1863,9 @@ His mouth continued to twitch unspeaking in nervous curls of disdain.
 Would anyone wish that mouth for her kiss? How do you know? Why did you write it then?
 RHYMES AND REASONS
 Mouth, south. Is the mouth south someway? Or the south a mouth? Must be some. South, pout, out, shout, drouth. Rhymes: two men dressed the same, looking the same, two by two.
-     ........................ la tua pace
-    .................. che parlar ti piace
-    .... mentreché il vento, come fa, si tace.
+	 ........................ la tua pace
+	.................. che parlar ti piace
+	.... mentreché il vento, come fa, si tace.
 He saw them three by three, approaching girls, in green, in rose, in russet, entwining, per l'aer perso, in mauve, in purple, quella pacifica oriafiamma, gold of oriflamme, di rimirar fe piu ardenti. But I old men, penitent, leadenfooted, underdarkneath the night: mouth south: tomb womb.
 —Speak up for yourself, Mr O'Madden Burke said.
 SUFFICIENT FOR THE DAY...
@@ -2037,12 +2037,12 @@ As he set foot on O'Connell bridge a puffball of smoke plumed up from the parape
 Looking down he saw flapping strongly, wheeling between the gaunt quaywalls, gulls. Rough weather outside. If I threw myself down? Reuben J's son must have swallowed a good bellyful of that sewage. One and eightpence too much. Hhhhm. It's the droll way he comes out with the things. Knows how to tell a story too.
 They wheeled lower. Looking for grub. Wait.
 He threw down among them a crumpled paper ball. Elijah thirtytwo feet per sec is com. Not a bit. The ball bobbed unheeded on the wake of swells, floated under by the bridgepiers. Not such damn fools. Also the day I threw that stale cake out of the Erin's King picked it up in the wake fifty yards astern. Live by their wits. They wheeled, flapping.
-     The hungry famished gull
-     Flaps o'er the waters dull.
+	 The hungry famished gull
+	 Flaps o'er the waters dull.
 That is how poets write, the similar sounds. But then Shakespeare has no rhymes: blank verse. The flow of the language it is. The thoughts. Solemn.
-     Hamlet, I am thy father's spirit
-     Doomed for a certain time to walk the earth.
-     —Two apples a penny! Two for a penny!
+	 Hamlet, I am thy father's spirit
+	 Doomed for a certain time to walk the earth.
+	 —Two apples a penny! Two for a penny!
 His gaze passed over the glazed apples serried on her stand. Australians they must be this time of year. Shiny peels: polishes them up with a rag or a handkerchief.
 Wait. Those poor birds.
 He halted again and bought from the old applewoman two Banbury cakes for a penny and broke the brittle paste and threw its fragments down into the Liffey. See that? The gulls swooped silently, two, then all from their heights, pouncing on prey. Gone. Every morsel.
@@ -2171,8 +2171,8 @@ They passed from behind Mr Bloom along the curbstone. Beard and bicycle. Young w
 And there he is too. Now that's really a coincidence: second time. Coming events cast their shadows before. With the approval of the eminent poet, Mr Geo. Russell. That might be Lizzie Twigg with him. A. E.: what does that mean? Initials perhaps. Albert Edward, Arthur Edmund, Alphonsus Eb Ed El Esquire. What was he saying? The ends of the world with a Scotch accent. Tentacles: octopus. Something occult: symbolism. Holding forth. She's taking it all in. Not saying a word. To aid gentleman in literary work.
 His eyes followed the high figure in homespun, beard and bicycle, a listening woman at his side. Coming from the vegetarian. Only weggebobbles and fruit. Don't eat a beefsteak. If you do the eyes of that cow will pursue you through all eternity. They say it's healthier. Windandwatery though. Tried it. Keep you on the run all day. Bad as a bloater. Dreams all night. Why do they call that thing they gave me nutsteak? Nutarians. Fruitarians. To give you the idea you are eating rumpsteak. Absurd. Salty too. They cook in soda. Keep you sitting by the tap all night.
 Her stockings are loose over her ankles. I detest that: so tasteless. Those literary etherial people they are all. Dreamy, cloudy, symbolistic. Esthetes they are. I wouldn't be surprised if it was that kind of food you see produces the like waves of the brain the poetical. For example one of those policemen sweating Irish stew into their shirts you couldn't squeeze a line of poetry out of him. Don't know what poetry is even. Must be in a certain mood.
-     The dreamy cloudy gull
-     Waves o'er the waters dull.
+	 The dreamy cloudy gull
+	 Waves o'er the waters dull.
 He crossed at Nassau street corner and stood before the window of Yeates and Son, pricing the fieldglasses. Or will I drop into old Harris's and have a chat with young Sinclair? Wellmannered fellow. Probably at his lunch. Must get those old glasses of mine set right. Goerz lenses six guineas. Germans making their way everywhere. Sell on easy terms to capture trade. Undercutting. Might chance on a pair in the railway lost property office. Astonishing the things people leave behind them in trains and cloakrooms. What do they be thinking about? Women too. Incredible. Last year travelling to Ennis had to pick up that farmer's daughter's ba and hand it to her at Limerick junction. Unclaimed money too. There's a little watch up there on the roof of the bank to test those glasses by.
 His lids came down on the lower rims of his irides. Can't see it. If you imagine it's there you can almost see it. Can't see it.
 He faced about and, standing between the awnings, held out his right hand at arm's length towards the sun. Wanted to try that often. Yes: completely. The tip of his little finger blotted out the sun's disk. Must be the focus where the rays cross. If I had black glasses. Interesting. There was a lot of talk about those sunspots when we were in Lombard street west. Looking up from the back garden. Terrific explosions they are. There will be a total eclipse this year: autumn some time.
@@ -2354,9 +2354,9 @@ Feel better. Burgundy. Good pick me up. Who distilled first? Some chap in the bl
 Bare clean closestools waiting in the window of William Miller, plumber, turned back his thoughts. They could: and watch it all the way down, swallow a pin sometimes come out of the ribs years after, tour round the body changing biliary duct spleen squirting liver gastric juice coils of intestines like pipes. But the poor buffer would have to stand all the time with his insides entrails on show. Science.
 —A cenar teco.
 What does that teco mean? Tonight perhaps.
-     Don Giovanni, thou hast me invited
-     To come to supper tonight,
-     The rum the rumdum.
+	 Don Giovanni, thou hast me invited
+	 To come to supper tonight,
+	 The rum the rumdum.
 Doesn't go properly.
 Keyes: two months if I get Nannetti to. That'll be two pounds ten about two pounds eight. Three Hynes owes me. Two eleven. Prescott's dyeworks van over there. If I get Billy Prescott's ad: two fifteen. Five guineas about. On the pig's back.
 Could buy one of those silk petticoats for Molly, colour of her new garters.
@@ -2421,16 +2421,16 @@ Two left.
 —Monsieur de la Palice, Stephen sneered, was alive fifteen minutes before his death.
 —Have you found those six brave medicals, John Eglinton asked with elder's gall, to write Paradise Lost at your dictation? The Sorrows of Satan he calls it.
 Smile. Smile Cranly's smile.
-     First he tickled her
-     Then he patted her
-     Then he passed the female catheter.
-     For he was a medical
-     Jolly old medi...
+	 First he tickled her
+	 Then he patted her
+	 Then he passed the female catheter.
+	 For he was a medical
+	 Jolly old medi...
 —I feel you would need one more for Hamlet. Seven is dear to the mystic mind. The shining seven W.B. calls them.
 Glittereyed his rufous skull close to his greencapped desklamp sought the face bearded amid darkgreener shadow, an ollav, holyeyed. He laughed low: a sizar's laugh of Trinity: unanswered.
-     Orchestral Satan, weeping many a rood
-     Tears such as angels weep.
-     Ed egli avea del cul fatto trombetta.
+	 Orchestral Satan, weeping many a rood
+	 Tears such as angels weep.
+	 Ed egli avea del cul fatto trombetta.
 He holds my follies hostage.
 Cranly's eleven true Wicklowmen to free their sireland. Gaptoothed Kathleen, her four beautiful green fields, the stranger in her house. And one more to hail him: ave, rabbi: the Tinahely twelve. In the shadow of the glen he cooees for them. My soul's youth I gave him, night by night. God speed. Good hunting.
 Mulligan has my telegram.
@@ -2454,20 +2454,20 @@ Mr Best came forward, amiable, towards his colleague.
 —Haines is gone, he said.
 —Is he?
 —I was showing him Jubainville's book. He's quite enthusiastic, don't you know, about Hyde's Lovesongs of Connacht. I couldn't bring him in to hear the discussion. He's gone to Gill's to buy it.
-     Bound thee forth, my booklet, quick
-     To greet the callous public.
-     Writ, I ween, 'twas not my wish
-     In lean unlovely English.
+	 Bound thee forth, my booklet, quick
+	 To greet the callous public.
+	 Writ, I ween, 'twas not my wish
+	 In lean unlovely English.
 —The peatsmoke is going to his head, John Eglinton opined.
 We feel in England. Penitent thief. Gone. I smoked his baccy. Green twinkling stone. An emerald set in the ring of the sea.
 —People do not know how dangerous lovesongs can be, the auric egg of Russell warned occultly. The movements which work revolutions in the world are born out of the dreams and visions in a peasant's heart on the hillside. For them the earth is not an exploitable ground but the living mother. The rarefied air of the academy and the arena produce the sixshilling novel, the musichall song. France produces the finest flower of corruption in Mallarme but the desirable life is revealed only to the poor of heart, the life of Homer's Phaeacians.
 From these words Mr Best turned an unoffending face to Stephen.
 —Mallarme, don't you know, he said, has written those wonderful prose poems Stephen MacKenna used to read to me in Paris. The one about Hamlet. He says: il se promène, lisant au livre de lui-même, don't you know, reading the book of himself. He describes Hamlet given in a French town, don't you know, a provincial town. They advertised it.
 His free hand graciously wrote tiny signs in air.
-     HAMLET
-     ou
-     LE DISTRAIT
-     Pièce de Shakespeare
+	 HAMLET
+	 ou
+	 LE DISTRAIT
+	 Pièce de Shakespeare
 He repeated to John Eglinton's newgathered frown:
 —Pièce de Shakespeare, don't you know. It's so French. The French point of view. Hamlet ou...
 —The absentminded beggar, Stephen ended.
@@ -2543,8 +2543,8 @@ Whither away? Exploitable ground.
 Peter Piper pecked a peck of pick of peck of pickled pepper.
 —I don't know if I can. Thursday. We have our meeting. If I can get away in time.
 Yogibogeybox in Dawson chambers. Isis Unveiled. Their Pali book we tried to pawn. Crosslegged under an umbrel umbershoot he thrones an Aztec logos, functioning on astral levels, their oversoul, mahamahatma. The faithful hermetists await the light, ripe for chelaship, ringroundabout him. Louis H. Victory. T. Caulfield Irwin. Lotus ladies tend them i'the eyes, their pineal glands aglow. Filled with his god, he thrones, Buddh under plantain. Gulfer of souls, engulfer. Hesouls, shesouls, shoals of souls. Engulfed with wailing creecries, whirled, whirling, they bewail.
-     In quintessential triviality
-     For years in this fleshcase a shesoul dwelt.
+	 In quintessential triviality
+	 For years in this fleshcase a shesoul dwelt.
 —They say we are to have a literary surprise, the quaker librarian said, friendly and earnest. Mr Russell, rumour has it, is gathering together a sheaf of our younger poets' verses. We are all looking forward anxiously.
 Anxiously he glanced in the cone of lamplight where three faces, lighted, shone.
 See this. Remember.
@@ -2698,30 +2698,30 @@ Stephen turned boldly in his chair.
 —The burden of proof is with you not with me, he said frowning. If you deny that in the fifth scene of Hamlet he has branded her with infamy tell me why there is no mention of her during the thirtyfour years between the day she married him and the day she buried him. All those women saw their men down and under: Mary, her goodman John, Ann, her poor dear Willun, when he went and died on her, raging that he was the first to go, Joan, her four brothers, Judith, her husband and all her sons, Susan, her husband too, while Susan's daughter, Elizabeth, to use granddaddy's words, wed her second, having killed her first.
 O, yes, mention there is. In the years when he was living richly in royal London to pay a debt she had to borrow forty shillings from her father's shepherd. Explain you then. Explain the swansong too wherein he has commended her to posterity.
 He faced their silence.
-     To whom thus Eglinton:
-     You mean the will.
-     But that has been explained, I believe, by jurists.
-     She was entitled to her widow's dower
-     At common law. His legal knowledge was great
-     Our judges tell us.
-     Him Satan fleers,
-     Mocker:
-     And therefore he left out her name
-     From the first draft but he did not leave out
-     The presents for his granddaughter, for his daughters,
-     For his sister, for his old cronies in Stratford
-     And in London. And therefore when he was urged,
-     As I believe, to name her
-     He left her his
-     Secondbest
-     Bed.
-     Punkt.
-     Leftherhis
-     Secondbest
-     Leftherhis
-     Bestabed
-     Secabest
-     Leftabed.
+	 To whom thus Eglinton:
+	 You mean the will.
+	 But that has been explained, I believe, by jurists.
+	 She was entitled to her widow's dower
+	 At common law. His legal knowledge was great
+	 Our judges tell us.
+	 Him Satan fleers,
+	 Mocker:
+	 And therefore he left out her name
+	 From the first draft but he did not leave out
+	 The presents for his granddaughter, for his daughters,
+	 For his sister, for his old cronies in Stratford
+	 And in London. And therefore when he was urged,
+	 As I believe, to name her
+	 He left her his
+	 Secondbest
+	 Bed.
+	 Punkt.
+	 Leftherhis
+	 Secondbest
+	 Leftherhis
+	 Bestabed
+	 Secabest
+	 Leftabed.
 Woa!
 —Pretty countryfolk had few chattels then, John Eglinton observed, as they have still if our peasant plays are true to type.
 —He was a rich country gentleman, Stephen said, with a coat of arms and landed estate at Stratford and a house in Ireland yard, a capitalist shareholder, a bill promoter, a tithefarmer. Why did he not leave her his best bed if he wished her to snore away the rest of her nights in peace?
@@ -2757,8 +2757,8 @@ All smiled their smiles.
 —Which will? gagged sweetly Buck Mulligan. We are getting mixed.
 —The will to live, John Eglinton philosophised, for poor Ann, Will's widow, is the will to die.
 —Requiescat! Stephen prayed.
-     What of all the will to do?
-     It has vanished long ago...
+	 What of all the will to do?
+	 It has vanished long ago...
 —She lies laid out in stark stiffness in that secondbest bed, the mobled queen, even though you prove that a bed in those days was as rare as a motorcar is now and that its carvings were the wonder of seven parishes. In old age she takes up with gospellers (one stayed with her at New Place and drank a quart of sack the town council paid for but in which bed he slept it skills not to ask) and heard she had a soul. She read or had read to her his chapbooks preferring them to the Merry Wives and, loosing her nightly waters on the jordan, she thought over Hooks and Eyes for Believers' Breeches and The most Spiritual Snuffbox to Make the Most Devout Souls Sneeze. Venus has twisted her lips in prayer. Agenbite of inwit: remorse of conscience. It is an age of exhausted whoredom groping for its god.
 —History shows that to be true, inquit Eglintonus Chronolologos. The ages succeed one another. But we have it on high authority that a man's worst enemies shall be those of his own house and family. I feel that Russell is right. What do we care for his wife or father? I should say that only family poets have family lives. Falstaff was not a family man. I feel that the fat knight is his supreme creation.
 Lean, he lay back. Shy, deny thy kindred, the unco guid. Shy, supping with the godless, he sneaks the cup. A sire in Ultonian Antrim bade it him. Visits him here on quarter days. Mr Magee, sir, there's a gentleman to see you. Me? Says he's your father, sir. Give me my Wordsworth. Enter Magee Mor Matthew, a rugged rough rugheaded kern, in strossers with a buttoned codpiece, his nether stocks bemired with clauber of ten forests, a wand of wilding in his hand.
@@ -2790,8 +2790,8 @@ STEPHEN: He had three brothers, Gilbert, Edmund, Richard. Gilbert in his old age
 MAGEEGLINJOHN: Names! What's in a name?
 BEST: That is my name, Richard, don't you know. I hope you are going to say a good word for Richard, don't you know, for my sake. (Laughter)
 BUCKMULLIGAN: (Piano, diminuendo)
-     Then outspoke medical Dick
-     To his comrade medical Davy...
+	 Then outspoke medical Dick
+	 To his comrade medical Davy...
 STEPHEN: In his trinity of black Wills, the villain shakebags, Iago, Richard Crookback, Edmund in King Lear, two bear the wicked uncles' names. Nay, that last play was written or being written while his brother Edmund lay dying in Southwark.
 BEST: I hope Edmund is going to catch it. I don't want Richard, my name ...
 (Laughter)
@@ -2892,16 +2892,16 @@ The dour recluse still there (he has his cake) and the douce youngling, minion o
 Eh... I just eh... wanted... I forgot... he...
 —Longworth and M'Curdy Atkinson were there...
 Puck Mulligan footed featly, trilling:
-     I hardly hear the purlieu cry
-     Or a tommy talk as I pass one by
-     Before my thoughts begin to run
-     On F. M'Curdy Atkinson,
-     The same that had the wooden leg
-     And that filibustering filibeg
-     That never dared to slake his drouth,
-     Magee that had the chinless mouth.
-     Being afraid to marry on earth
-     They masturbated for all they were worth.
+	 I hardly hear the purlieu cry
+	 Or a tommy talk as I pass one by
+	 Before my thoughts begin to run
+	 On F. M'Curdy Atkinson,
+	 The same that had the wooden leg
+	 And that filibustering filibeg
+	 That never dared to slake his drouth,
+	 Magee that had the chinless mouth.
+	 Being afraid to marry on earth
+	 They masturbated for all they were worth.
 Jest on. Know thyself.
 Halted, below me, a quizzer looks at me. I halt.
 —Mournful mummer, Buck Mulligan moaned. Synge has left off wearing black to be like nature. Only crows, priests and English coal are black.
@@ -2917,15 +2917,15 @@ He turned a happy patch's smirk to Stephen, saying:
 —The disguise, I fear, is thin. But listen.
 He read, marcato:
 —Characters:
-     TODY TOSTOFF (a ruined Pole)
-     CRAB (a bushranger)
-     MEDICAL DICK )
-     and          ) (two birds with one stone)
-     MEDICAL DAVY )
-     MOTHER GROGAN (a watercarrier)
-     FRESH NELLY
-     and
-     ROSALIE (the coalquay whore).
+	 TODY TOSTOFF (a ruined Pole)
+	 CRAB (a bushranger)
+	 MEDICAL DICK )
+	 and		  ) (two birds with one stone)
+	 MEDICAL DAVY )
+	 MOTHER GROGAN (a watercarrier)
+	 FRESH NELLY
+	 and
+	 ROSALIE (the coalquay whore).
 He laughed, lolling a to and fro head, walking on, followed by Stephen: and mirthfully he told the shadows, souls of men:
 —O, the night in the Camden hall when the daughters of Erin had to lift their skirts to step over you as you lay in your mulberrycoloured, multicoloured, multitudinous vomit!
 —The most innocent son of Erin, Stephen said, for whom they ever lifted them.
@@ -2944,9 +2944,9 @@ They followed.
 Offend me still. Speak on.
 Kind air defined the coigns of houses in Kildare street. No birds. Frail from the housetops two plumes of smoke ascended, pluming, and in a flaw of softness softly were blown.
 Cease to strive. Peace of the druid priests of Cymbeline: hierophantic: from wide earth an altar.
-     Laud we the gods
-     And let our crooked smokes climb to their nostrils
-     From our bless'd altars.
+	 Laud we the gods
+	 And let our crooked smokes climb to their nostrils
+	 From our bless'd altars.
 The superior, the very reverend John Conmee S.J. reset his smooth watch in his interior pocket as he came down the presbytery steps. Five to three. Just nice time to walk to Artane. What was that boy's name again? Dignam. Yes. Vere dignum et iustum est. Brother Swan was the person to see. Mr Cunningham's letter. Yes. Oblige him, if possible. Good practical catholic: useful at mission time.
 A onelegged sailor, swinging himself onward by lazy jerks of his crutches, growled some notes. He jerked short before the convent of the sisters of charity and held out a peaked cap for alms towards the very reverend John Conmee S. J. Father Conmee blessed him in the sun for his purse held, he knew, one silver crown.
 Father Conmee crossed to Mountjoy square. He thought, but not for long, of soldiers and sailors, whose legs had been shot off by cannonballs, ending their days in some pauper ward, and of cardinal Wolsey's words: If I had served my God as I have served my king He would not have abandoned me in my old days. He walked by the treeshade of sunnywinking leaves: and towards him came the wife of Mr David Sheehy M.P.
@@ -3472,13 +3472,13 @@ Pa was inside it and ma crying in the parlour and uncle Barney telling the men h
 William Humble, earl of Dudley, and lady Dudley, accompanied by lieutenantcolonel Heseltine, drove out after luncheon from the viceregal lodge. In the following carriage were the honourable Mrs Paget, Miss de Courcy and the honourable Gerald Ward A.D.C. in attendance.
 The cavalcade passed out by the lower gate of Phoenix park saluted by obsequious policemen and proceeded past Kingsbridge along the northern quays. The viceroy was most cordially greeted on his way through the metropolis. At Bloody bridge Mr Thomas Kernan beyond the river greeted him vainly from afar Between Queen's and Whitworth bridges lord Dudley's viceregal carriages passed and were unsaluted by Mr Dudley White, B. L., M. A., who stood on Arran quay outside Mrs M. E. White's, the pawnbroker's, at the corner of Arran street west stroking his nose with his forefinger, undecided whether he should arrive at Phibsborough more quickly by a triple change of tram or by hailing a car or on foot through Smithfield, Constitution hill and Broadstone terminus. In the porch of Four Courts Richie Goulding with the costbag of Goulding, Collis and Ward saw him with surprise. Past Richmond bridge at the doorstep of the office of Reuben J Dodd, solicitor, agent for the Patriotic Insurance Company, an elderly female about to enter changed her plan and retracing her steps by King's windows smiled credulously on the representative of His Majesty. From its sluice in Wood quay wall under Tom Devan's office Poddle river hung out in fealty a tongue of liquid sewage. Above the crossblind of the Ormond hotel, gold by bronze, Miss Kennedy's head by Miss Douce's head watched and admired. On Ormond quay Mr Simon Dedalus, steering his way from the greenhouse for the subsheriff's office, stood still in midstreet and brought his hat low. His Excellency graciously returned Mr Dedalus' greeting. From Cahill's corner the reverend Hugh C. Love, M.A., made obeisance unperceived, mindful of lords deputies whose hands benignant had held of yore rich advowsons. On Grattan bridge Lenehan and M'Coy, taking leave of each other, watched the carriages go by. Passing by Roger Greene's office and Dollard's big red printinghouse Gerty MacDowell, carrying the Catesby's cork lino letters for her father who was laid up, knew by the style it was the lord and lady lieutenant but she couldn't see what Her Excellency had on because the tram and Spring's big yellow furniture van had to stop in front of her on account of its being the lord lieutenant. Beyond Lundy Foot's from the shaded door of Kavanagh's winerooms John Wyse Nolan smiled with unseen coldness towards the lord lieutenantgeneral and general governor of Ireland. The Right Honourable William Humble, earl of Dudley, G. C. V. O., passed Micky Anderson's all times ticking watches and Henry and James's wax smartsuited freshcheeked models, the gentleman Henry, dernier cri James. Over against Dame gate Tom Rochford and Nosey Flynn watched the approach of the cavalcade. Tom Rochford, seeing the eyes of lady Dudley fixed on him, took his thumbs quickly out of the pockets of his claret waistcoat and doffed his cap to her. A charming soubrette, great Marie Kendall, with dauby cheeks and lifted skirt smiled daubily from her poster upon William Humble, earl of Dudley, and upon lieutenantcolonel H. G. Heseltine, and also upon the honourable Gerald Ward A. D. C. From the window of the D. B. C. Buck Mulligan gaily, and Haines gravely, gazed down on the viceregal equipage over the shoulders of eager guests, whose mass of forms darkened the chessboard whereon John Howard Parnell looked intently. In Fownes's street Dilly Dedalus, straining her sight upward from Chardenal's first French primer, saw sunshades spanned and wheelspokes spinning in the glare. John Henry Menton, filling the doorway of Commercial Buildings, stared from winebig oyster eyes, holding a fat gold hunter watch not looked at in his fat left hand not feeling it. Where the foreleg of King Billy's horse pawed the air Mrs Breen plucked her hastening husband back from under the hoofs of the outriders. She shouted in his ear the tidings. Understanding, he shifted his tomes to his left breast and saluted the second carriage. The honourable Gerald Ward A.D.C., agreeably surprised, made haste to reply. At Ponsonby's corner a jaded white flagon H. halted and four tallhatted white flagons halted behind him, E.L.Y'S, while outriders pranced past and carriages. Opposite Pigott's music warerooms Mr Denis J Maginni, professor of dancing &c, gaily apparelled, gravely walked, outpassed by a viceroy and unobserved. By the provost's wall came jauntily Blazes Boylan, stepping in tan shoes and socks with skyblue clocks to the refrain of My girl's a Yorkshire girl.
 Blazes Boylan presented to the leaders' skyblue frontlets and high action a skyblue tie, a widebrimmed straw hat at a rakish angle and a suit of indigo serge. His hands in his jacket pockets forgot to salute but he offered to the three ladies the bold admiration of his eyes and the red flower between his lips. As they drove along Nassau street His Excellency drew the attention of his bowing consort to the programme of music which was being discoursed in College park. Unseen brazen highland laddies blared and drumthumped after the cortège:
-     But though she's a factory lass
-     And wears no fancy clothes.
-     Baraabum.
-     Yet I've a sort of a
-     Yorkshire relish for
-     My little Yorkshire rose.
-     Baraabum.
+	 But though she's a factory lass
+	 And wears no fancy clothes.
+	 Baraabum.
+	 Yet I've a sort of a
+	 Yorkshire relish for
+	 My little Yorkshire rose.
+	 Baraabum.
 Thither of the wall the quartermile flat handicappers, M. C. Green, H. Shrift, T. M. Patey, C. Scaife, J. B. Jeffs, G. N. Morphy, F. Stevenson, C. Adderly and W. C. Huggard, started in pursuit. Striding past Finn's hotel Cashel Boyle O'Connor Fitzmaurice Tisdall Farrell stared through a fierce eyeglass across the carriages at the head of Mr M. E. Solomons in the window of the Austro-Hungarian viceconsulate. Deep in Leinster street by Trinity's postern a loyal king's man, Hornblower, touched his tallyho cap. As the glossy horses pranced by Merrion square Master Patrick Aloysius Dignam, waiting, saw salutes being given to the gent with the topper and raised also his new black cap with fingers greased by porksteak paper. His collar too sprang up. The viceroy, on his way to inaugurate the Mirus bazaar in aid of funds for Mercer's hospital, drove with his following towards Lower Mount street. He passed a blind stripling opposite Broadbent's. In Lower Mount street a pedestrian in a brown macintosh, eating dry bread, passed swiftly and unscathed across the viceroy's path. At the Royal Canal bridge, from his hoarding, Mr Eugene Stratton, his blub lips agrin, bade all comers welcome to Pembroke township. At Haddington road corner two sanded women halted themselves, an umbrella and a bag in which eleven cockles rolled to view with wonder the lord mayor and lady mayoress without his golden chain. On Northumberland and Lansdowne roads His Excellency acknowledged punctually salutes from rare male walkers, the salute of two small schoolboys at the garden gate of the house said to have been admired by the late queen when visiting the Irish capital with her husband, the prince consort, in 1849 and the salute of Almidano Artifoni's sturdy trousers swallowed by a closing door.
 Bronze by gold heard the hoofirons, steelyringing Imperthnthn thnthnthn.
 Chips, picking chips off rocky thumbnail, chips.
@@ -3833,8 +3833,8 @@ He stopped. He wagged huge beard, huge face over his blunder huge.
 In bearded abundant laughter Dollard shook upon the keyboard. He would.
 —Not to mention another membrane, Father Cowley added. Half time, Ben. Amoroso ma non troppo. Let me there.
 Miss Kennedy served two gentlemen with tankards of cool stout. She passed a remark. It was indeed, first gentleman said, beautiful weather. They drank cool stout. Did she know where the lord lieutenant was going? And heard steelhoofs ringhoof ring. No, she couldn't say. But it would be in the paper. O, she need not trouble. No trouble. She waved about her outspread Independent, searching, the lord lieutenant, her pinnacles of hair slowmoving, lord lieuten. Too much trouble, first gentleman said. O, not in the least. Way he looked that. Lord lieutenant. Gold by bronze heard iron steel.
-     —............ my ardent soul
-     I care not foror the morrow.
+	 —............ my ardent soul
+	 I care not foror the morrow.
 In liver gravy Bloom mashed mashed potatoes. Love and War someone is. Ben Dollard's famous. Night he ran round to us to borrow a dress suit for that concert. Trousers tight as a drum on him. Musical porkers. Molly did laugh when he went out. Threw herself back across the bed, screaming, kicking. With all his belongings on show. O saints above, I'm drenched! O, the women in the front row! O, I never laughed so many! Well, of course that's what gives him the base barreltone. For instance eunuchs. Wonder who's playing. Nice touch. Must be Cowley. Musical. Knows whatever note you play. Bad breath he has, poor chap. Stopped.
 Miss Douce, engaging, Lydia Douce, bowed to suave solicitor, George Lidwell, gentleman, entering. Good afternoon. She gave her moist (a lady's) hand to his firm clasp. Afternoon. Yes, she was back. To the old dingdong again.
 —Your friends are inside, Mr Lidwell.
@@ -3849,8 +3849,8 @@ Strongly.
 —M'appari, Simon, Father Cowley said.
 Down stage he strode some paces, grave, tall in affliction, his long arms outheld. Hoarsely the apple of his throat hoarsed softly. Softly he sang to a dusty seascape there: A Last Farewell. A headland, a ship, a sail upon the billows. Farewell. A lovely girl, her veil awave upon the wind upon the headland, wind around her.
 Cowley sang:
-     —M'appari tutt'amor:
-     Il mio sguardo l'incontr...
+	 —M'appari tutt'amor:
+	 Il mio sguardo l'incontr...
 She waved, unhearing Cowley, her veil, to one departing, dear one, to wind, love, speeding sail, return.
 —Go on, Simon.
 —Ah, sure, my dancing days are done, Ben... Well...
@@ -3911,8 +3911,8 @@ Round and round slow. Quick round. We two. All looked. Halt. Down she sat. All o
 Singing. Waiting she sang. I turned her music. Full voice of perfume of what perfume does your lilactrees. Bosom I saw, both full, throat warbling. First I saw. She thanked me. Why did she me? Fate. Spanishy eyes. Under a peartree alone patio this hour in old Madrid one side in shadow Dolores shedolores. At me. Luring. Ah, alluring.
 —Martha! Ah, Martha!
 Quitting all languor Lionel cried in grief, in cry of passion dominant to love to return with deepening yet with rising chords of harmony. In cry of lionel loneliness that she should know, must martha feel. For only her he waited. Where? Here there try there here all try where. Somewhere.
-     —Co-ome, thou lost one!
-     Co-ome, thou dear one!
+	 —Co-ome, thou lost one!
+	 Co-ome, thou dear one!
 Alone. One love. One hope. One comfort me. Martha, chestnote, return!
 —Come!
 It soared, a bird, it held its flight, a swift pure cry, soar silver orb it leaped serene, speeding, sustained, to come, don't spin it out too long long breath he breath long life, soaring high, high resplendent, aflame, crowned, high in the effulgence symbolistic, high, of the etherial bosom, high, of the high vast irradiation everywhere all soaring all around about the all, the endlessnessnessness...
@@ -4311,14 +4311,14 @@ So he calls the old dog over.
 —What's on you, Garry? says he.
 Then he starts hauling and mauling and talking to him in Irish and the old towser growling, letting on to answer, like a duet in the opera. Such growling you never heard as they let off between them. Someone that has nothing better to do ought to write a letter pro bono publico to the papers about the muzzling order for a dog the like of that. Growling and grousing and his eye all bloodshot from the drouth is in it and the hydrophobia dropping out of his jaws.
 All those who are interested in the spread of human culture among the lower animals (and their name is legion) should make a point of not missing the really marvellous exhibition of cynanthropy given by the famous old Irish red setter wolfdog formerly known by the sobriquet of Garryowen and recently rechristened by his large circle of friends and acquaintances Owen Garry. The exhibition, which is the result of years of training by kindness and a carefully thoughtout dietary system, comprises, among other achievements, the recitation of verse. Our greatest living phonetic expert (wild horses shall not drag it from us!) has left no stone unturned in his efforts to delucidate and compare the verse recited and has found it bears a striking resemblance (the italics are ours) to the ranns of ancient Celtic bards. We are not speaking so much of those delightful lovesongs with which the writer who conceals his identity under the graceful pseudonym of the Little Sweet Branch has familiarised the bookloving world but rather (as a contributor D. O. C. points out in an interesting communication published by an evening contemporary) of the harsher and more personal note which is found in the satirical effusions of the famous Raftery and of Donal MacConsidine to say nothing of a more modern lyrist at present very much in the public eye. We subjoin a specimen which has been rendered into English by an eminent scholar whose name for the moment we are not at liberty to disclose though we believe that our readers will find the topical allusion rather more than an indication. The metrical system of the canine original, which recalls the intricate alliterative and isosyllabic rules of the Welsh englyn, is infinitely more complicated but we believe our readers will agree that the spirit has been well caught. Perhaps it should be added that the effect is greatly increased if Owen's verse be spoken somewhat slowly and indistinctly in a tone suggestive of suppressed rancour.
-     The curse of my curses
-     Seven days every day
-     And seven dry Thursdays
-     On you, Barney Kiernan,
-     Has no sup of water
-     To cool my courage,
-     And my guts red roaring
-     After Lowry's lights.
+	 The curse of my curses
+	 Seven days every day
+	 And seven dry Thursdays
+	 On you, Barney Kiernan,
+	 Has no sup of water
+	 To cool my courage,
+	 And my guts red roaring
+	 After Lowry's lights.
 So he told Terry to bring some water for the dog and, gob, you could hear him lapping it up a mile off. And Joe asked him would he have another.
 —I will, says he, a chara, to show there's no ill feeling.
 Gob, he's not as green as he's cabbagelooking. Arsing around from one pub to another, leaving it to your own honour, with old Giltrap's dog and getting fed up by the ratepayers and corporators. Entertainment for man and beast. And says Joe:
@@ -4829,17 +4829,17 @@ He flung his wooden pen away. The stick fell in silted sand, stuck. Now if you w
 Short snooze now if I had. Must be near nine. Liverpool boat long gone.. Not even the smoke. And she can do the other. Did too. And Belfast. I won't go. Race there, race back to Ennis. Let him. Just close my eyes a moment. Won't sleep, though. Half dream. It never comes the same. Bat again. No harm in him. Just a few.
 O sweety all your little girlwhite up I saw dirty bracegirdle made me do love sticky we two naughty Grace darling she him half past the bed met him pike hoses frillies for Raoul de perfume your wife black hair heave under embon señorita young eyes Mulvey plump bubs me breadvan Winkle red slippers she rusty sleep wander years of dreams return tail end Agendath swoony lovey showed me her next year in drawers return next in her next her next.
 A bat flew. Here. There. Here. Far in the grey a bell chimed. Mr Bloom with open mouth, his left boot sanded sideways, leaned, breathed. Just for a few
-     Cuckoo
-     Cuckoo
-     Cuckoo.
+	 Cuckoo
+	 Cuckoo
+	 Cuckoo.
 The clock on the mantelpiece in the priest's house cooed where Canon O'Hanlon and Father Conroy and the reverend John Hughes S. J. were taking tea and sodabread and butter and fried mutton chops with catsup and talking about
-     Cuckoo
-     Cuckoo
-     Cuckoo.
+	 Cuckoo
+	 Cuckoo
+	 Cuckoo.
 Because it was a little canarybird that came out of its little house to tell the time that Gerty MacDowell noticed the time she was there because she was as quick as anything about a thing like that, was Gerty MacDowell, and she noticed at once that that foreign gentleman that was sitting on the rocks looking was
-     Cuckoo
-     Cuckoo
-     Cuckoo.
+	 Cuckoo
+	 Cuckoo
+	 Cuckoo.
 Deshil Holles Eamus. Deshil Holles Eamus. Deshil Holles Eamus.
 Send us bright one, light one, Horhorn, quickening and wombfruit. Send us bright one, light one, Horhorn, quickening and wombfruit. Send us bright one, light one, Horhorn, quickening and wombfruit.
 Hoopsa boyaboy hoopsa! Hoopsa boyaboy hoopsa! Hoopsa boyaboy hoopsa!
@@ -4865,16 +4865,16 @@ About that present time young Stephen filled all cups that stood empty so as the
 Hereupon Punch Costello dinged with his fist upon the board and would sing a bawdy catch Staboo Stabella about a wench that was put in pod of a jolly swashbuckler in Almany which he did straightways now attack: The first three months she was not well, Staboo, when here nurse Quigley from the door angerly bid them hist ye should shame you nor was it not meet as she remembered them being her mind was to have all orderly against lord Andrew came for because she was jealous that no gasteful turmoil might shorten the honour of her guard. It was an ancient and a sad matron of a sedate look and christian walking, in habit dun beseeming her megrims and wrinkled visage, nor did her hortative want of it effect for incontinently Punch Costello was of them all embraided and they reclaimed the churl with civil rudeness some and shaked him with menace of blandishments others whiles they all chode with him, a murrain seize the dolt, what a devil he would be at, thou chuff, thou puny, thou got in peasestraw, thou losel, thou chitterling, thou spawn of a rebel, thou dykedropt, thou abortion thou, to shut up his drunken drool out of that like a curse of God ape, the good sir Leopold that had for his cognisance the flower of quiet, margerain gentle, advising also the time's occasion as most sacred and most worthy to be most sacred. In Horne's house rest should reign.
 To be short this passage was scarce by when Master Dixon of Mary in Eccles, goodly grinning, asked young Stephen what was the reason why he had not cided to take friar's vows and he answered him obedience in the womb, chastity in the tomb but involuntary poverty all his days. Master Lenehan at this made return that he had heard of those nefarious deeds and how, as he heard hereof counted, he had besmirched the lily virtue of a confiding female which was corruption of minors and they all intershowed it too, waxing merry and toasting to his fathership. But he said very entirely it was clean contrary to their suppose for he was the eternal son and ever virgin. Thereat mirth grew in them the more and they rehearsed to him his curious rite of wedlock for the disrobing and deflowering of spouses, as the priests use in Madagascar island, she to be in guise of white and saffron, her groom in white and grain, with burning of nard and tapers, on a bridebed while clerks sung kyries and the anthem Ut novetur sexus omnis corporis mysterium till she was there unmaided. He gave them then a much admirable hymen minim by those delicate poets Master John Fletcher and Master Francis Beaumont that is in their Maid's Tragedy that was writ for a like twining of lovers: To bed, to bed was the burden of it to be played with accompanable concent upon the virginals. An exquisite dulcet epithalame of most mollificative suadency for juveniles amatory whom the odoriferous flambeaus of the paranymphs have escorted to the quadrupedal proscenium of connubial communion. Well met they were, said Master Dixon, joyed, but, harkee, young sir, better were they named Beau Mount and Lecher for, by my troth, of such a mingling much might come. Young Stephen said indeed to his best remembrance they had but the one doxy between them and she of the stews to make shift with in delights amorous for life ran very high in those days and the custom of the country approved with it. Greater love than this, he said, no man hath that a man lay down his wife for his friend. Go thou and do likewise. Thus, or words to that effect, saith Zarathustra, sometime regius professor of French letters to the university of Oxtail nor breathed there ever that man to whom mankind was more beholden. Bring a stranger within thy tower it will go hard but thou wilt have the secondbest bed. Orate, fratres, pro memetipso. And all the people shall say, Amen. Remember, Erin, thy generations and thy days of old, how thou settedst little by me and by my word and broughtedst in a stranger to my gates to commit fornication in my sight and to wax fat and kick like Jeshurum. Therefore hast thou sinned against my light and hast made me, thy lord, to be the slave of servants. Return, return, Clan Milly: forget me not, O Milesian. Why hast thou done this abomination before me that thou didst spurn me for a merchant of jalaps and didst deny me to the Roman and to the Indian of dark speech with whom thy daughters did lie luxuriously? Look forth now, my people, upon the land of behest, even from Horeb and from Nebo and from Pisgah and from the Horns of Hatten unto a land flowing with milk and money. But thou hast suckled me with a bitter milk: my moon and my sun thou hast quenched for ever. And thou hast left me alone for ever in the dark ways of my bitterness: and with a kiss of ashes hast thou kissed my mouth. This tenebrosity of the interior, he proceeded to say, hath not been illumined by the wit of the septuagint nor so much as mentioned for the Orient from on high Which brake hell's gates visited a darkness that was foraneous. Assuefaction minorates atrocities (as Tully saith of his darling Stoics) and Hamlet his father showeth the prince no blister of combustion. The adiaphane in the noon of life is an Egypt's plague which in the nights of prenativity and postmortemity is their most proper ubi and quomodo. And as the ends and ultimates of all things accord in some mean and measure with their inceptions and originals, that same multiplicit concordance which leads forth growth from birth accomplishing by a retrogressive metamorphosis that minishing and ablation towards the final which is agreeable unto nature so is it with our subsolar being. The aged sisters draw us into life: we wail, batten, sport, clip, clasp, sunder, dwindle, die: over us dead they bend. First, saved from waters of old Nile, among bulrushes, a bed of fasciated wattles: at last the cavity of a mountain, an occulted sepulchre amid the conclamation of the hillcat and the ossifrage. And as no man knows the ubicity of his tumulus nor to what processes we shall thereby be ushered nor whether to Tophet or to Edenville in the like way is all hidden when we would backward see from what region of remoteness the whatness of our whoness hath fetched his whenceness.
 Thereto Punch Costello roared out mainly Etienne chanson but he loudly bid them, lo, wisdom hath built herself a house, this vast majestic longstablished vault, the crystal palace of the Creator, all in applepie order, a penny for him who finds the pea.
-     Behold the mansion reared by dedal Jack
-     See the malt stored in many a refluent sack,
-     In the proud cirque of Jackjohn's bivouac.
+	 Behold the mansion reared by dedal Jack
+	 See the malt stored in many a refluent sack,
+	 In the proud cirque of Jackjohn's bivouac.
 A black crack of noise in the street here, alack, bawled back. Loud on left Thor thundered: in anger awful the hammerhurler. Came now the storm that hist his heart. And Master Lynch bade him have a care to flout and witwanton as the god self was angered for his hellprate and paganry. And he that had erst challenged to be so doughty waxed wan as they might all mark and shrank together and his pitch that was before so haught uplift was now of a sudden quite plucked down and his heart shook within the cage of his breast as he tasted the rumour of that storm. Then did some mock and some jeer and Punch Costello fell hard again to his yale which Master Lenehan vowed he would do after and he was indeed but a word and a blow on any the least colour. But the braggart boaster cried that an old Nobodaddy was in his cups it was muchwhat indifferent and he would not lag behind his lead. But this was only to dye his desperation as cowed he crouched in Horne's hall. He drank indeed at one draught to pluck up a heart of any grace for it thundered long rumblingly over all the heavens so that Master Madden, being godly certain whiles, knocked him on his ribs upon that crack of doom and Master Bloom, at the braggart's side, spoke to him calming words to slumber his great fear, advertising how it was no other thing but a hubbub noise that he heard, the discharge of fluid from the thunderhead, look you, having taken place, and all of the order of a natural phenomenon.
 But was young Boasthard's fear vanquished by Calmer's words? No, for he had in his bosom a spike named Bitterness which could not by words be done away. And was he then neither calm like the one nor godly like the other? He was neither as much as he would have liked to be either. But could he not have endeavoured to have found again as in his youth the bottle Holiness that then he lived withal? Indeed no for Grace was not there to find that bottle. Heard he then in that clap the voice of the god Bringforth or, what Calmer said, a hubbub of Phenomenon? Heard? Why, he could not but hear unless he had plugged him up the tube Understanding (which he had not done). For through that tube he saw that he was in the land of Phenomenon where he must for a certain one day die as he was like the rest too a passing show. And would he not accept to die like the rest and pass away? By no means would he though he must nor would he make more shows according as men do with wives which Phenomenon has commanded them to do by the book Law. Then wotted he nought of that other land which is called Believe-on-Me, that is the land of promise which behoves to the king Delightful and shall be for ever where there is no death and no birth neither wiving nor mothering at which all shall come as many as believe on it? Yes, Pious had told him of that land and Chaste had pointed him to the way but the reason was that in the way he fell in with a certain whore of an eyepleasing exterior whose name, she said, is Bird-in-the-Hand and she beguiled him wrongways from the true path by her flatteries that she said to him as, Ho, you pretty man, turn aside hither and I will show you a brave place, and she lay at him so flatteringly that she had him in her grot which is named Two-in-the-Bush or, by some learned, Carnal Concupiscence.
 This was it what all that company that sat there at commons in Manse of Mothers the most lusted after and if they met with this whore Bird-in-the-Hand (which was within all foul plagues, monsters and a wicked devil) they would strain the last but they would make at her and know her. For regarding Believe-on-Me they said it was nought else but notion and they could conceive no thought of it for, first, Two-in-the-Bush whither she ticed them was the very goodliest grot and in it were four pillows on which were four tickets with these words printed on them, Pickaback and Topsyturvy and Shameface and Cheek by Jowl and, second, for that foul plague Allpox and the monsters they cared not for them for Preservative had given them a stout shield of oxengut and, third, that they might take no hurt neither from Offspring that was that wicked devil by virtue of this same shield which was named Killchild. So were they all in their blind fancy, Mr Cavil and Mr Sometimes Godly, Mr Ape Swillale, Mr False Franklin, Mr Dainty Dixon, Young Boasthard and Mr Cautious Calmer. Wherein, O wretched company, were ye all deceived for that was the voice of the god that was in a very grievous rage that he would presently lift his arm up and spill their souls for their abuses and their spillings done by them contrariwise to his word which forth to bring brenningly biddeth.
 So Thursday sixteenth June Patk. Dignam laid in clay of an apoplexy and after hard drought, please God, rained, a bargeman coming in by water a fifty mile or thereabout with turf saying the seed won't sprout, fields athirst, very sadcoloured and stunk mightily, the quags and tofts too. Hard to breathe and all the young quicks clean consumed without sprinkle this long while back as no man remembered to be without. The rosy buds all gone brown and spread out blobs and on the hills nought but dry flag and faggots that would catch at first fire. All the world saying, for aught they knew, the big wind of last February a year that did havoc the land so pitifully a small thing beside this barrenness. But by and by, as said, this evening after sundown, the wind sitting in the west, biggish swollen clouds to be seen as the night increased and the weatherwise poring up at them and some sheet lightnings at first and after, past ten of the clock, one great stroke with a long thunder and in a brace of shakes all scamper pellmell within door for the smoking shower, the men making shelter for their straws with a clout or kerchief, womenfolk skipping off with kirtles catched up soon as the pour came. In Ely place, Baggot street, Duke's lawn, thence through Merrion green up to Holles street a swash of water flowing that was before bonedry and not one chair or coach or fiacre seen about but no more crack after that first. Over against the Rt. Hon. Mr Justice Fitzgibbon's door (that is to sit with Mr Healy the lawyer upon the college lands) Mal. Mulligan a gentleman's gentleman that had but come from Mr Moore's the writer's (that was a papish but is now, folk say, a good Williamite) chanced against Alec. Bannon in a cut bob (which are now in with dance cloaks of Kendal green) that was new got to town from Mullingar with the stage where his coz and Mal M's brother will stay a month yet till Saint Swithin and asks what in the earth he does there, he bound home and he to Andrew Horne's being stayed for to crush a cup of wine, so he said, but would tell him of a skittish heifer, big of her age and beef to the heel, and all this while poured with rain and so both together on to Horne's. There Leop. Bloom of Crawford's journal sitting snug with a covey of wags, likely brangling fellows, Dixon jun., scholar of my lady of Mercy's, Vin. Lynch, a Scots fellow, Will. Madden, T. Lenehan, very sad about a racer he fancied and Stephen D. Leop. Bloom there for a languor he had but was now better, be having dreamed tonight a strange fancy of his dame Mrs Moll with red slippers on in a pair of Turkey trunks which is thought by those in ken to be for a change and Mistress Purefoy there, that got in through pleading her belly, and now on the stools, poor body, two days past her term, the midwives sore put to it and can't deliver, she queasy for a bowl of riceslop that is a shrewd drier up of the insides and her breath very heavy more than good and should be a bullyboy from the knocks, they say, but God give her soon issue. 'Tis her ninth chick to live, I hear, and Lady day bit off her last chick's nails that was then a twelvemonth and with other three all breastfed that died written out in a fair hand in the king's bible. Her hub fifty odd and a methodist but takes the sacrament and is to be seen any fair sabbath with a pair of his boys off Bullock harbour dapping on the sound with a heavybraked reel or in a punt he has trailing for flounder and pollock and catches a fine bag, I hear. In sum an infinite great fall of rain and all refreshed and will much increase the harvest yet those in ken say after wind and water fire shall come for a prognostication of Malachi's almanac (and I hear that Mr Russell has done a prophetical charm of the same gist out of the Hindustanish for his farmer's gazette) to have three things in all but this a mere fetch without bottom of reason for old crones and bairns yet sometimes they are found in the right guess with their queerities no telling how.
 With this came up Lenehan to the feet of the table to say how the letter was in that night's gazette and he made a show to find it about him (for he swore with an oath that he had been at pains about it) but on Stephen's persuasion he gave over the search and was bidden to sit near by which he did mighty brisk. He was a kind of sport gentleman that went for a merryandrew or honest pickle and what belonged of women, horseflesh or hot scandal he had it pat. To tell the truth he was mean in fortunes and for the most part hankered about the coffeehouses and low taverns with crimps, ostlers, bookies, Paul's men, runners, flatcaps, waistcoateers, ladies of the bagnio and other rogues of the game or with a chanceable catchpole or a tipstaff often at nights till broad day of whom he picked up between his sackpossets much loose gossip. He took his ordinary at a boilingcook's and if he had but gotten into him a mess of broken victuals or a platter of tripes with a bare tester in his purse he could always bring himself off with his tongue, some randy quip he had from a punk or whatnot that every mother's son of them would burst their sides. The other, Costello that is, hearing this talk asked was it poetry or a tale. Faith, no, he says, Frank (that was his name), 'tis all about Kerry cows that are to be butchered along of the plague. But they can go hang, says he with a wink, for me with their bully beef, a pox on it. There's as good fish in this tin as ever came out of it and very friendly he offered to take of some salty sprats that stood by which he had eyed wishly in the meantime and found the place which was indeed the chief design of his embassy as he was sharpset. Mort aux vaches, says Frank then in the French language that had been indentured to a brandyshipper that has a winelodge in Bordeaux and he spoke French like a gentleman too. From a child this Frank had been a donought that his father, a headborough, who could ill keep him to school to learn his letters and the use of the globes, matriculated at the university to study the mechanics but he took the bit between his teeth like a raw colt and was more familiar with the justiciary and the parish beadle than with his volumes. One time he would be a playactor, then a sutler or a welsher, then nought would keep him from the bearpit and the cocking main, then he was for the ocean sea or to hoof it on the roads with the romany folk, kidnapping a squire's heir by favour of moonlight or fecking maids' linen or choking chicken behind a hedge. He had been off as many times as a cat has lives and back again with naked pockets as many more to his father the headborough who shed a pint of tears as often as he saw him. What, says Mr Leopold with his hands across, that was earnest to know the drift of it, will they slaughter all? I protest I saw them but this day morning going to the Liverpool boats, says he. I can scarce believe 'tis so bad, says he. And he had experience of the like brood beasts and of springers, greasy hoggets and wether wool, having been some years before actuary for Mr Joseph Cuffe, a worthy salesmaster that drove his trade for live stock and meadow auctions hard by Mr Gavin Low's yard in Prussia street. I question with you there, says he. More like 'tis the hoose or the timber tongue. Mr Stephen, a little moved but very handsomely told him no such matter and that he had dispatches from the emperor's chief tailtickler thanking him for the hospitality, that was sending over Doctor Rinderpest, the bestquoted cowcatcher in all Muscovy, with a bolus or two of physic to take the bull by the horns. Come, come, says Mr Vincent, plain dealing. He'll find himself on the horns of a dilemma if he meddles with a bull that's Irish, says he. Irish by name and irish by nature, says Mr Stephen, and he sent the ale purling about, an Irish bull in an English chinashop. I conceive you, says Mr Dixon. It is that same bull that was sent to our island by farmer Nicholas, the bravest cattlebreeder of them all, with an emerald ring in his nose. True for you, says Mr Vincent cross the table, and a bullseye into the bargain, says he, and a plumper and a portlier bull, says he, never shit on shamrock. He had horns galore, a coat of cloth of gold and a sweet smoky breath coming out of his nostrils so that the women of our island, leaving doughballs and rollingpins, followed after him hanging his bulliness in daisychains. What for that, says Mr Dixon, but before he came over farmer Nicholas that was a eunuch had him properly gelded by a college of doctors who were no better off than himself. So be off now, says he, and do all my cousin german the lord Harry tells you and take a farmer's blessing, and with that he slapped his posteriors very soundly. But the slap and the blessing stood him friend, says Mr Vincent, for to make up he taught him a trick worth two of the other so that maid, wife, abbess and widow to this day affirm that they would rather any time of the month whisper in his ear in the dark of a cowhouse or get a lick on the nape from his long holy tongue than lie with the finest strapping young ravisher in the four fields of all Ireland. Another then put in his word: And they dressed him, says he, in a point shift and petticoat with a tippet and girdle and ruffles on his wrists and clipped his forelock and rubbed him all over with spermacetic oil and built stables for him at every turn of the road with a gold manger in each full of the best hay in the market so that he could doss and dung to his heart's content. By this time the father of the faithful (for so they called him) was grown so heavy that he could scarce walk to pasture. To remedy which our cozening dames and damsels brought him his fodder in their apronlaps and as soon as his belly was full he would rear up on his hind uarters to show their ladyships a mystery and roar and bellow out of him in bulls' language and they all after him. Ay, says another, and so pampered was he that he would suffer nought to grow in all the land but green grass for himself (for that was the only colour to his mind) and there was a board put up on a hillock in the middle of the island with a printed notice, saying: By the Lord Harry, Green is the grass that grows on the ground. And, says Mr Dixon, if ever he got scent of a cattleraider in Roscommon or the wilds of Connemara or a husbandman in Sligo that was sowing as much as a handful of mustard or a bag of rapeseed out he'd run amok over half the countryside rooting up with his horns whatever was planted and all by lord Harry's orders. There was bad blood between them at first, says Mr Vincent, and the lord Harry called farmer Nicholas all the old Nicks in the world and an old whoremaster that kept seven trulls in his house and I'll meddle in his matters, says he. I'll make that animal smell hell, says he, with the help of that good pizzle my father left me. But one evening, says Mr Dixon, when the lord Harry was cleaning his royal pelt to go to dinner after winning a boatrace (he had spade oars for himself but the first rule of the course was that the others were to row with pitchforks) he discovered in himself a wonderful likeness to a bull and on picking up a blackthumbed chapbook that he kept in the pantry he found sure enough that he was a lefthanded descendant of the famous champion bull of the Romans, Bos Bovum, which is good bog Latin for boss of the show. After that, says Mr Vincent, the lord Harry put his head into a cow's drinkingtrough in the presence of all his courtiers and pulling it out again told them all his new name. Then, with the water running off him, he got into an old smock and skirt that had belonged to his grandmother and bought a grammar of the bulls' language to study but he could never learn a word of it except the first personal pronoun which he copied out big and got off by heart and if ever he went out for a walk he filled his pockets with chalk to write it upon what took his fancy, the side of a rock or a teahouse table or a bale of cotton or a corkfloat. In short, he and the bull of Ireland were soon as fast friends as an arse and a shirt. They were, says Mr Stephen, and the end was that the men of the island seeing no help was toward, as the ungrate women were all of one mind, made a wherry raft, loaded themselves and their bundles of chattels on shipboard, set all masts erect, manned the yards, sprang their luff, heaved to, spread three sheets in the wind, put her head between wind and water, weighed anchor, ported her helm, ran up the jolly Roger, gave three times three, let the bullgine run, pushed off in their bumboat and put to sea to recover the main of America. Which was the occasion, says Mr Vincent, of the composing by a boatswain of that rollicking chanty:
-     —Pope Peter's but a pissabed.
-     A man's a man for a' that.
+	 —Pope Peter's but a pissabed.
+	 A man's a man for a' that.
 Our worthy acquaintance Mr Malachi Mulligan now appeared in the doorway as the students were finishing their apologue accompanied with a friend whom he had just rencountered, a young gentleman, his name Alec Bannon, who had late come to town, it being his intention to buy a colour or a cornetcy in the fencibles and list for the wars. Mr Mulligan was civil enough to express some relish of it all the more as it jumped with a project of his own for the cure of the very evil that had been touched on. Whereat he handed round to the company a set of pasteboard cards which he had had printed that day at Mr Quinnell's bearing a legend printed in fair italics: Mr Malachi Mulligan. Fertiliser and Incubator. Lambay Island. His project, as he went on to expound, was to withdraw from the round of idle pleasures such as form the chief business of sir Fopling Popinjay and sir Milksop Quidnunc in town and to devote himself to the noblest task for which our bodily organism has been framed. Well, let us hear of it, good my friend, said Mr Dixon. I make no doubt it smacks of wenching. Come, be seated, both. 'Tis as cheap sitting as standing. Mr Mulligan accepted of the invitation and, expatiating upon his design, told his hearers that he had been led into this thought by a consideration of the causes of sterility, both the inhibitory and the prohibitory, whether the inhibition in its turn were due to conjugal vexations or to a parsimony of the balance as well as whether the prohibition proceeded from defects congenital or from proclivities acquired. It grieved him plaguily, he said, to see the nuptial couch defrauded of its dearest pledges: and to reflect upon so many agreeable females with rich jointures, a prey to the vilest bonzes, who hide their flambeau under a bushel in an uncongenial cloister or lose their womanly bloom in the embraces of some unaccountable muskin when they might multiply the inlets of happiness, sacrificing the inestimable jewel of their sex when a hundred pretty fellows were at hand to caress, this, he assured them, made his heart weep. To curb this inconvenient (which he concluded due to a suppression of latent heat), having advised with certain counsellors of worth and inspected into this matter, he had resolved to purchase in fee simple for ever the freehold of Lambay island from its holder, lord Talbot de Malahide, a Tory gentleman of note much in favour with our ascendancy party. He proposed to set up there a national fertilising farm to be named Omphalos with an obelisk hewn and erected after the fashion of Egypt and to offer his dutiful yeoman services for the fecundation of any female of what grade of life soever who should there direct to him with the desire of fulfilling the functions of her natural. Money was no object, he said, nor would he take a penny for his pains. The poorest kitchenwench no less than the opulent lady of fashion, if so be their constructions and their tempers were warm persuaders for their petitions, would find in him their man. For his nutriment he shewed how he would feed himself exclusively upon a diet of savoury tubercles and fish and coneys there, the flesh of these latter prolific rodents being highly recommended for his purpose, both broiled and stewed with a blade of mace and a pod or two of capsicum chillies. After this homily which he delivered with much warmth of asseveration Mr Mulligan in a trice put off from his hat a kerchief with which he had shielded it. They both, it seems, had been overtaken by the rain and for all their mending their pace had taken water, as might be observed by Mr Mulligan's smallclothes of a hodden grey which was now somewhat piebald. His project meanwhile was very favourably entertained by his auditors and won hearty eulogies from all though Mr Dixon of Mary's excepted to it, asking with a finicking air did he purpose also to carry coals to Newcastle. Mr Mulligan however made court to the scholarly by an apt quotation from the classics which, as it dwelt upon his memory, seemed to him a sound and tasteful support of his contention: Talis ac tanta depravatio hujus seculi, O quirites, ut matresfamiliarum nostrae lascivas cujuslibet semiviri libici titillationes testibus ponderosis atque excelsis erectionibus centurionum Romanorum magnopere anteponunt, while for those of ruder wit he drove home his point by analogies of the animal kingdom more suitable to their stomach, the buck and doe of the forest glade, the farmyard drake and duck.
 Valuing himself not a little upon his elegance, being indeed a proper man of person, this talkative now applied himself to his dress with animadversions of some heat upon the sudden whimsy of the atmospherics while the company lavished their encomiums upon the project he had advanced. The young gentleman, his friend, overjoyed as he was at a passage that had late befallen him, could not forbear to tell it his nearest neighbour. Mr Mulligan, now perceiving the table, asked for whom were those loaves and fishes and, seeing the stranger, he made him a civil bow and said, Pray, sir, was you in need of any professional assistance we could give? Who, upon his offer, thanked him very heartily, though preserving his proper distance, and replied that he was come there about a lady, now an inmate of Horne's house, that was in an interesting condition, poor body, from woman's woe (and here he fetched a deep sigh) to know if her happiness had yet taken place. Mr Dixon, to turn the table, took on to ask of Mr Mulligan himself whether his incipient ventripotence, upon which he rallied him, betokened an ovoblastic gestation in the prostatic utricle or male womb or was due, as with the noted physician, Mr Austin Meldon, to a wolf in the stomach. For answer Mr Mulligan, in a gale of laughter at his smalls, smote himself bravely below the diaphragm, exclaiming with an admirable droll mimic of Mother Grogan (the most excellent creature of her sex though 'tis pity she's a trollop): There's a belly that never bore a bastard. This was so happy a conceit that it renewed the storm of mirth and threw the whole room into the most violent agitations of delight. The spry rattle had run on in the same vein of mimicry but for some larum in the antechamber.
 Here the listener who was none other than the Scotch student, a little fume of a fellow, blond as tow, congratulated in the liveliest fashion with the young gentleman and, interrupting the narrative at a salient point, having desired his visavis with a polite beck to have the obligingness to pass him a flagon of cordial waters at the same time by a questioning poise of the head (a whole century of polite breeding had not achieved so nice a gesture) to which was united an equivalent but contrary balance of the bottle asked the narrator as plainly as was ever done in words if he might treat him with a cup of it. Mais bien sûr, noble stranger, said he cheerily, et mille compliments. That you may and very opportunely. There wanted nothing but this cup to crown my felicity. But, gracious heaven, was I left with but a crust in my wallet and a cupful of water from the well, my God, I would accept of them and find it in my heart to kneel down upon the ground and give thanks to the powers above for the happiness vouchsafed me by the Giver of good things. With these words he approached the goblet to his lips, took a complacent draught of the cordial, slicked his hair and, opening his bosom, out popped a locket that hung from a silk riband, that very picture which he had cherished ever since her hand had wrote therein. Gazing upon those features with a world of tenderness, Ah, Monsieur, he said, had you but beheld her as I did with these eyes at that affecting instant with her dainty tucker and her new coquette cap (a gift for her feastday as she told me prettily) in such an artless disorder, of so melting a tenderness, 'pon my conscience, even you, Monsieur, had been impelled by generous nature to deliver yourself wholly into the hands of such an enemy or to quit the field for ever. I declare, I was never so touched in all my life. God, I thank thee, as the Author of my days! Thrice happy will he be whom so amiable a creature will bless with her favours. A sigh of affection gave eloquence to these words and, having replaced the locket in his bosom, he wiped his eye and sighed again. Beneficent Disseminator of blessings to all Thy creatures, how great and universal must be that sweetest of Thy tyrannies which can hold in thrall the free and the bond, the simple swain and the polished coxcomb, the lover in the heyday of reckless passion and the husband of maturer years. But indeed, sir, I wander from the point. How mingled and imperfect are all our sublunary joys. Maledicity! he exclaimed in anguish. Would to God that foresight had but remembered me to take my cloak along! I could weep to think of it. Then, though it had poured seven showers, we were neither of us a penny the worse. But beshrew me, he cried, clapping hand to his forehead, tomorrow will be a new day and, thousand thunders, I know of a marchand de capotes, Monsieur Poyntz, from whom I can have for a livre as snug a cloak of the French fashion as ever kept a lady from wetting. Tut, tut! cries Le Fecondateur, tripping in, my friend Monsieur Moore, that most accomplished traveller (I have just cracked a half bottle AVEC LUI in a circle of the best wits of the town), is my authority that in Cape Horn, ventre biche, they have a rain that will wet through any, even the stoutest cloak. A drenching of that violence, he tells me, sans blague, has sent more than one luckless fellow in good earnest posthaste to another world. Pooh! A livre! cries Monsieur Lynch. The clumsy things are dear at a sou. One umbrella, were it no bigger than a fairy mushroom, is worth ten such stopgaps. No woman of any wit would wear one. My dear Kitty told me today that she would dance in a deluge before ever she would starve in such an ark of salvation for, as she reminded me (blushing piquantly and whispering in my ear though there was none to snap her words but giddy butterflies), dame Nature, by the divine blessing, has implanted it in our hearts and it has become a household word that il y a deux choses for which the innocence of our original garb, in other circumstances a breach of the proprieties, is the fittest, nay, the only garment. The first, said she (and here my pretty philosopher, as I handed her to her tilbury, to fix my attention, gently tipped with her tongue the outer chamber of my ear), the first is a bath... But at this point a bell tinkling in the hall cut short a discourse which promised so bravely for the enrichment of our store of knowledge.
@@ -4917,24 +4917,24 @@ THE CHILDREN: Where's the great light?
 THE IDIOT: (Gobbing) Ghaghahest.
 (They release him. He jerks on. A pigmy woman swings on a rope slung between two railings, counting. A form sprawled against a dustbin and muffled by its arm and hat snores, groans, grinding growling teeth, and snores again. On a step a gnome totting among a rubbishtip crouches to shoulder a sack of rags and bones. A crone standing by with a smoky oillamp rams her last bottle in the maw of his sack. He heaves his booty, tugs askew his peaked cap and hobbles off mutely. The crone makes back for her lair, swaying her lamp. A bandy child, asquat on the doorstep with a paper shuttlecock, crawls sidling after her in spurts, clutches her skirt, scrambles up. A drunken navvy grips with both hands the railings of an area, lurching heavily. At a comer two night watch in shouldercapes, their hands upon their staffholsters, loom tall. A plate crashes: a woman screams: a child wails. Oaths of a man roar, mutter, cease. Figures wander, lurk, peer from warrens. In a room lit by a candle stuck in a bottleneck a slut combs out the tatts from the hair of a scrofulous child. Cissy Caffrey's voice, still young, sings shrill from a lane.)
 CISSY CAFFREY:
-     I gave it to Molly
-     Because she was jolly,
-     The leg of the duck,
-     The leg of the duck.
+	 I gave it to Molly
+	 Because she was jolly,
+	 The leg of the duck,
+	 The leg of the duck.
 (Private Carr and Private Compton, swaggersticks tight in their oxters, as they march unsteadily rightaboutface and burst together from their mouths a volleyed fart. Laughter of men from the lane. A hoarse virago retorts.)
 THE VIRAGO: Signs on you, hairy arse. More power the Cavan girl.
 CISSY CAFFREY: More luck to me. Cavan, Cootehill and Belturbet. (She sings)
-     I gave it to Nelly
-     To stick in her belly,
-     The leg of the duck,
-     The leg of the duck.
+	 I gave it to Nelly
+	 To stick in her belly,
+	 The leg of the duck,
+	 The leg of the duck.
 (Private Carr and Private Compton turn and counterretort, their tunics bloodbright in a lampglow, black sockets of caps on their blond cropped polls. Stephen Dedalus and Lynch pass through the crowd close to the redcoats.)
 PRIVATE COMPTON: (Jerks his finger) Way for the parson.
 PRIVATE CARR: (Turns and calls) What ho, parson!
 CISSY CAFFREY: (Her voice soaring higher)
-     She has it, she got it,
-     Wherever she put it,
-     The leg of the duck.
+	 She has it, she got it,
+	 Wherever she put it,
+	 The leg of the duck.
 (Stephen, flourishing the ashplant in his left hand, chants with joy the introit for paschal time. Lynch, his jockeycap low on his brow, attends him, a sneer of discontent wrinkling his face.)
 STEPHEN: Vidi aquam egredientem de templo a latere dextro. Alleluia.
 (The famished snaggletusks of an elderly bawd protrude from a doorway.)
@@ -5040,10 +5040,10 @@ MRS BREEN: (Holds up a finger) Now, don't tell a big fib! I know somebody won't 
 BLOOM: (Looks behind) She often said she'd like to visit. Slumming. The exotic, you see. Negro servants in livery too if she had money. Othello black brute. Eugene Stratton. Even the bones and cornerman at the Livermore christies. Bohee brothers. Sweep for that matter.
 (Tom and Sam Bohee, coloured coons in white duck suits, scarlet socks, upstarched Sambo chokers and large scarlet asters in their buttonholes, leap out. Each has his banjo slung. Their paler smaller negroid hands jingle the twingtwang wires. Flashing white Kaffir eyes and tusks they rattle through a breakdown in clumsy clogs, twinging, singing, back to back, toe heel, heel toe, with smackfatclacking nigger lips.)
 TOM AND SAM:
-     There's someone in the house with Dina
-     There's someone in the house, I know,
-     There's someone in the house with Dina
-     Playing on the old banjo.
+	 There's someone in the house with Dina
+	 There's someone in the house, I know,
+	 There's someone in the house with Dina
+	 Playing on the old banjo.
 (They whisk black masks from raw babby faces: then, chuckling, chortling, trumming, twanging, they diddle diddle cakewalk dance away.)
 BLOOM: (With a sour tenderish smile) A little frivol, shall we, if you are so inclined? Would you like me perhaps to embrace you just for a fraction of a second?
 MRS BREEN: (Screams gaily) O, you ruck! You ought to see yourself!
@@ -5097,10 +5097,10 @@ BLOOM: Coincidence too. They think it funny. Anything but that. Broad daylight. 
 THE LOITERERS: Jays, that's a good one. Glauber salts. O jays, into the men's porter.
 (Bloom passes. Cheap whores, singly, coupled, shawled, dishevelled, call from lanes, doors, corners.)
 THE WHORES:
-     Are you going far, queer fellow?
-     How's your middle leg?
-     Got a match on you?
-     Eh, come here till I stiffen it for you.
+	 Are you going far, queer fellow?
+	 How's your middle leg?
+	 Got a match on you?
+	 Eh, come here till I stiffen it for you.
 (He plodges through their sump towards the lighted street beyond. From a bulge of window curtains a gramophone rears a battered brazen trunk. In the shadow a shebeenkeeper haggles with the navvy and the two redcoats.)
 THE NAVVY: (Belching) Where's the bloody house?
 THE SHEBEENKEEPER: Purdon street. Shilling a bottle of stout. Respectable woman.
@@ -5113,8 +5113,8 @@ We are the boys. Of Wexford.
 PRIVATE COMPTON: Say! What price the sergeantmajor?
 PRIVATE CARR: Bennett? He's my pal. I love old Bennett.
 THE NAVVY: (Shouts)
-     The galling chain.
-     And free our native land.
+	 The galling chain.
+	 And free our native land.
 (He staggers forward, dragging them with him. Bloom stops, at fault. The dog approaches, his tongue outlolling, panting)
 BLOOM: Wildgoose chase this. Disorderly houses. Lord knows where they are gone. Drunks cover distance double quick. Nice mixup. Scene at Westland row. Then jump in first class with third ticket. Then too far. Train with engine behind. Might have taken me to Malahide or a siding for the night or collision. Second drink does it. Once is a dose. What am I following him for? Still, he's the best of that lot. If I hadn't heard about Mrs Beaufoy Purefoy I wouldn't have gone and wouldn't have met. Kismet. He'll lose that cash. Relieving office here. Good biz for cheapjacks, organs. What do ye lack? Soon got, soon gone. Might have lost my life too with that mangongwheeltracktrolleyglarejuggernaut only for presence of mind. Can't always save you, though. If I had passed Truelock's window that day two minutes later would have been shot. Absence of body. Still if bullet only went through my coat get damages for shock, five hundred pounds. What was he? Kildare street club toff. God help his gamekeeper.
 (He gazes ahead, reading on the wall a scrawled chalk legend Wet Dream and a phallic design.) Odd! Molly drawing on the frosted carriagepane at Kingstown. What's that like? (Gaudy dollwomen loll in the lighted doorways, in window embrasures, smoking birdseye cigarettes. The odour of the sicksweet weed floats towards him in slow round ovalling wreaths.)
@@ -5194,9 +5194,9 @@ PROFESSOR MACHUGH: (From the presstable, coughs and calls) Cough it up, man. Get
 (Uproar and catcalls. Bloom in a torn frockcoat stained with whitewash, dinged silk hat sideways on his head, a strip of stickingplaster across his nose, talks inaudibly.)
 J. J. O'MOLLOY: (In barrister's grey wig and stuffgown, speaking with a voice of pained protest) This is no place for indecent levity at the expense of an erring mortal disguised in liquor. We are not in a beargarden nor at an Oxford rag nor is this a travesty of justice. My client is an infant, a poor foreign immigrant who started scratch as a stowaway and is now trying to turn an honest penny. The trumped up misdemeanour was due to a momentary aberration of heredity, brought on by hallucination, such familiarities as the alleged guilty occurrence being quite permitted in my client's native place, the land of the Pharaoh. Prima facie, I put it to you that there was no attempt at carnally knowing. Intimacy did not occur and the offence complained of by Driscoll, that her virtue was solicited, was not repeated. I would deal in especial with atavism. There have been cases of shipwreck and somnambulism in my client's family. If the accused could speak he could a tale unfold—one of the strangest that have ever been narrated between the covers of a book. He himself, my lord, is a physical wreck from cobbler's weak chest. His submission is that he is of Mongolian extraction and irresponsible for his actions. Not all there, in fact.
 BLOOM: (Barefoot, pigeonbreasted, in lascar's vest and trousers, apologetic toes turned in, opens his tiny mole's eyes and looks about him dazedly, passing a slow hand across his forehead. Then he hitches his belt sailor fashion and with a shrug of oriental obeisance salutes the court, pointing one thumb heavenward.) Him makee velly muchee fine night. (He begins to lilt simply)
-     Li li poo lil chile
-     Blingee pigfoot evly night
-     Payee two shilly...
+	 Li li poo lil chile
+	 Blingee pigfoot evly night
+	 Payee two shilly...
 (He is howled down.)
 J. J. O'MOLLOY: (Hotly to the populace) This is a lonehand fight. By Hades, I will not have any client of mine gagged and badgered in this fashion by a pack of curs and laughing hyenas. The Mosaic code has superseded the law of the jungle. I say it and I say it emphatically, without wishing for one moment to defeat the ends of justice, accused was not accessory before the act and prosecutrix has not been tampered with. The young person was treated by defendant as if she were his very own daughter. (Bloom takes J. J. O'Molloy's hand and raises it to his lips.) I shall call rebutting evidence to prove up to the hilt that the hidden hand is again at its old game. When in doubt persecute Bloom. My client, an innately bashful man, would be the last man in the world to do anything ungentlemanly which injured modesty could object to or cast a stone at a girl who took the wrong turning when some dastard, responsible for her condition, had worked his own sweet will on her. He wants to go straight. I regard him as the whitest man I know. He is down on his luck at present owing to the mortgaging of his extensive property at Agendath Netaim in faraway Asia Minor, slides of which will now be shown. (To Bloom) I suggest that you will do the handsome thing.
 BLOOM: A penny in the pound.
@@ -5232,9 +5232,9 @@ BLOOM: (Trembling, beginning to obey) The weather has been so warm.
 DAVY STEPHENS: Messenger of the Sacred Heart and Evening Telegraph with Saint Patrick's Day supplement. Containing the new addresses of all the cuckolds in Dublin.
 (The very reverend Canon O'Hanlon in cloth of gold cope elevates and exposes a marble timepiece. Before him Father Conroy and the reverend John Hughes S.J. bend low.)
 THE TIMEPIECE: (Unportalling)
-     Cuckoo.
-     Cuckoo.
-     Cuckoo.
+	 Cuckoo.
+	 Cuckoo.
+	 Cuckoo.
 (The brass quoits of a bed are heard to jingle.)
 THE QUOITS: Jigjag. Jigajiga. Jigjag.
 (A panel of fog rolls back rapidly, revealing rapidly in the jurybox the faces of Martin Cunningham, foreman, silkhatted, Jack Power, Simon Dedalus, Tom Kernan, Ned Lambert, John Henry Menton Myles Crawford, Lenehan, Paddy Leonard, Nosey Flynn, M'Coy and the featureless face of a Nameless One.)
@@ -5323,10 +5323,10 @@ COUNCILLOR LORCAN SHERLOCK: Carried unanimously.
 BLOOM: (Impassionedly) These flying Dutchmen or lying Dutchmen as they recline in their upholstered poop, casting dice, what reck they? Machines is their cry, their chimera, their panacea. Laboursaving apparatuses, supplanters, bugbears, manufactured monsters for mutual murder, hideous hobgoblins produced by a horde of capitalistic lusts upon our prostituted labour. The poor man starves while they are grassing their royal mountain stags or shooting peasants and phartridges in their purblind pomp of pelf and power. But their reign is rover for rever and ever and ev...
 (Prolonged applause. Venetian masts, maypoles and festal arches spring up. A streamer bearing the legends Cead Mile Failte and Mah Ttob Melek Israel Spans the street. All the windows are thronged with sightseers, chiefly ladies. Along the route the regiments of the royal Dublin Fusiliers, the King's own Scottish Borderers, the Cameron Highlanders and the Welsh Fusiliers standing to attention, keep back the crowd. Boys from High school are perched on the lampposts, telegraph poles, windowsills, cornices, gutters, chimneypots, railings, rainspouts, whistling and cheering the pillar of the cloud appears. A fife and drum band is heard in the distance playing the Kol Nidre. The beaters approach with imperial eagles hoisted, trailing banners and waving oriental palms. The chryselephantine papal standard rises high, surrounded by pennons of the civic flag. The van of the procession appears headed by John Howard Parnell, city marshal, in a chessboard tabard, the Athlone Poursuivant and Ulster King of Arms. They are followed by the Right Honourable Joseph Hutchinson, lord mayor of Dublin, his lordship the lord mayor of Cork, their worships the mayors of Limerick, Galway, Sligo and Waterford, twentyeight Irish representative peers, sirdars, grandees and maharajahs bearing the cloth of estate, the Dublin Metropolitan Fire Brigade, the chapter of the saints of finance in their plutocratic order of precedence, the bishop of Down and Connor, His Eminence Michael cardinal Logue, archbishop of Armagh, primate of all Ireland, His Grace, the most reverend Dr William Alexander, archbishop of Armagh, primate of all Ireland, the chief rabbi, the presbyterian moderator, the heads of the baptist, anabaptist, methodist and Moravian chapels and the honorary secretary of the society of friends. After them march the guilds and trades and trainbands with flying colours: coopers, bird fanciers, millwrights, newspaper canvassers, law scriveners, masseurs, vintners, trussmakers, chimneysweeps, lard refiners, tabinet and poplin weavers, farriers, Italian warehousemen, church decorators, bootjack manufacturers, undertakers, silk mercers, lapidaries, salesmasters, corkcutters, assessors of fire losses, dyers and cleaners, export bottlers, fellmongers, ticketwriters, heraldic seal engravers, horse repository hands, bullion brokers, cricket and archery outfitters, riddlemakers, egg and potato factors, hosiers and glovers, plumbing contractors. After them march gentlemen of the bedchamber, Black Rod, Deputy Garter, Gold Stick, the master of horse, the lord great chamberlain, the earl marshal, the high constable carrying the sword of state, saint Stephen's iron crown, the chalice and bible. Four buglers on foot blow a sennet. Beefeaters reply, winding clarions of welcome. Under an arch of triumph Bloom appears, bareheaded, in a crimson velvet mantle trimmed with ermine, bearing Saint Edward's staff the orb and sceptre with the dove, the curtana. He is seated on a milkwhite horse with long flowing crimson tail, richly caparisoned, with golden headstall. Wild excitement. The ladies from their balconies throw down rosepetals. The air is perfumed with essences. The men cheer. Bloom's boys run amid the bystanders with branches of hawthorn and wrenbushes.)
 BLOOM'S BOYS:
-     The wren, the wren,
-     The king of all birds,
-     Saint Stephen's his day
-     Was caught in the furze.
+	 The wren, the wren,
+	 The king of all birds,
+	 Saint Stephen's his day
+	 Was caught in the furze.
 A BLACKSMITH: (Murmurs) For the honour of God! And is that Bloom? He scarcely looks thirtyone.
 A PAVIOR AND FLAGGER: That's the famous Bloom now, the world's greatest reformer. Hats off!
 (All uncover their heads. Women whisper eagerly.)
@@ -5365,8 +5365,8 @@ BLOOM: Shoot him! Dog of a christian! So much for M'Intosh!
 (A cannonshot. The man in the macintosh disappears. Bloom with his sceptre strikes down poppies. The instantaneous deaths of many powerful enemies, graziers, members of parliament, members of standing committees, are reported. Bloom's bodyguard distribute Maundy money, commemoration medals, loaves and fishes, temperance badges, expensive Henry Clay cigars, free cowbones for soup, rubber preservatives in sealed envelopes tied with gold thread, butter scotch, pineapple rock, billets doux in the form of cocked hats, readymade suits, porringers of toad in the hole, bottles of Jeyes' Fluid, purchase stamps, 40 days' indulgences, spurious coins, dairyfed pork sausages, theatre passes, season tickets available for all tramlines, coupons of the royal and privileged Hungarian lottery, penny dinner counters, cheap reprints of the World's Twelve Worst Books: Froggy And Fritz (politic), Care of the Baby (infantilic), 50 Meals for 7/6 (culinic), Was Jesus a Sun Myth? (historic), Expel that Pain (medic), Infant's Compendium of the Universe (cosmic), Let's All Chortle (hilaric), Canvasser's Vade Mecum (journalic), Loveletters of Mother Assistant (erotic), Who's Who in Space (astric), Songs that Reached Our Heart (melodic), Pennywise's Way to Wealth (parsimonic). A general rush and scramble. Women press forward to touch the hem of Bloom's robe. The Lady Gwendolen Dubedat bursts through the throng, leaps on his horse and kisses him on both cheeks amid great acclamation. A magnesium flashlight photograph is taken. Babes and sucklings are held up.)
 THE WOMEN: Little father! Little father!
 THE BABES AND SUCKLINGS:
-     Clap clap hands till Poldy comes home,
-     Cakes in his pocket for Leo alone.
+	 Clap clap hands till Poldy comes home,
+	 Cakes in his pocket for Leo alone.
 (Bloom, bending down, pokes Baby Boardman gently in the stomach.)
 BABY BOARDMAN: (Hiccups, curdled milk flowing from his mouth) Hajajaja.
 BLOOM: (Shaking hands with a blind stripling) My more than Brother! (Placing his arms round the shoulders of an old couple) Dear old friends! (He plays pussy fourcorners with ragged boys and girls) Peep! Bopeep! (He wheels twins in a perambulator) Ticktacktwo wouldyousetashoe? (He performs juggler's tricks, draws red, orange, yellow, green, blue, indigo and violet silk handkerchiefs from his mouth) Roygbiv. 32 feet per second. (He consoles a widow) Absence makes the heart grow younger. (He dances the Highland fling with grotesque antics) Leg it, ye devils! (He kisses the bedsores of a palsied veteran) Honourable wounds! (He trips up a fit policeman) U. p: up. U. p: up. (He whispers in the ear of a blushing waitress and laughs kindly) Ah, naughty, naughty! (He eats a raw turnip offered him by Maurice Butterly, farmer) Fine! Splendid! (He refuses to accept three shillings offered him by Joseph Hynes, journalist) My dear fellow, not at all! (He gives his coat to a beggar) Please accept. (He takes part in a stomach race with elderly male and female cripples) Come on, boys! Wriggle it, girls!
@@ -5384,10 +5384,10 @@ J. J. O'MOLLOY: A Daniel did I say? Nay! A Peter O'Brien!
 NOSEY FLYNN: Where do I draw the five pounds?
 PISSER BURKE: For bladder trouble?
 BLOOM:
-     Acid. nit. hydrochlor. dil., 20 minims
-     Tinct. nux vom., 5 minims
-     Extr. taraxel. iiq., 30 minims.
-     Aq. dis. ter in die.
+	 Acid. nit. hydrochlor. dil., 20 minims
+	 Tinct. nux vom., 5 minims
+	 Extr. taraxel. iiq., 30 minims.
+	 Aq. dis. ter in die.
 CHRIS CALLINAN: What is the parallax of the subsolar ecliptic of Aldebaran?
 BLOOM: Pleased to hear from you, Chris. K. II.
 JOE HYNES: Why aren't you in uniform?
@@ -5412,9 +5412,9 @@ MRS RIORDAN: (Tears up her will) I'm disappointed in you! You bad man!
 MOTHER GROGAN: (Removes her boot to throw it at Bloom) You beast! You abominable person!
 NOSEY FLYNN: Give us a tune, Bloom. One of the old sweet songs.
 BLOOM: (With rollicking humour)
-     I vowed that I never would leave her,
-     She turned out a cruel deceiver.
-     With my tooraloom tooraloom tooraloom tooraloom.
+	 I vowed that I never would leave her,
+	 She turned out a cruel deceiver.
+	 With my tooraloom tooraloom tooraloom tooraloom.
 HOPPY HOLOHAN: Good old Bloom! There's nobody like him after all.
 PADDY LEONARD: Stage Irishman!
 BLOOM: What railway opera is like a tramline in Gibraltar? The Rows of Casteele.(Laughter.)
@@ -5452,13 +5452,13 @@ BLOOM: (Blushes furiously all over from frons to nates, three tears filling from
 THE IRISH EVICTED TENANTS: (In bodycoats, kneebreeches, with Donnybrook fair shillelaghs) Sjambok him!
 (Bloom with asses' ears seats himself in the pillory with crossed arms, his feet protruding. He whistles Don Giovanni, a cenar teco. Artane orphans, joining hands, caper round him. Girls of the Prison Gate Mission, joining hands, caper round in the opposite direction.)
 THE ARTANE ORPHANS:
-     You hig, you hog, you dirty dog!
-     You think the ladies love you!
-     THE PRISON GATE GIRLS:
-     If you see Kay
-     Tell him he may
-     See you in tea
-     Tell him from me.
+	 You hig, you hog, you dirty dog!
+	 You think the ladies love you!
+	 THE PRISON GATE GIRLS:
+	 If you see Kay
+	 Tell him he may
+	 See you in tea
+	 Tell him from me.
 HORNBLOWER: (In ephod and huntingcap, announces) And he shall carry the sins of the people to Azazel, the spirit which is in the wilderness, and to Lilith, the nighthag. And they shall stone him and defile him, yea, all from Agendath Netaim and from Mizraim, the land of Ham.
 (All the people cast soft pantomime stones at Bloom. Many bonafide travellers and ownerless dogs come near him and defile him. Mastiansky and Citron approach in gaberdines, wearing long earlocks. They wag their beards at Bloom.)
 MASTIANSKY AND CITRON: Belial! Laemlein of Istria, the false Messiah! Abulafia! Recant!
@@ -5474,18 +5474,18 @@ THE CITIZEN: Thank heaven!
 BLOOM: (In a seamless garment marked I. H. S. stands upright amid phoenix flames) Weep not for me, O daughters of Erin.
 (He exhibits to Dublin reporters traces of burning. The daughters of Erin, in black garments, with large prayerbooks and long lighted candles in their hands, kneel down and pray.)
 THE DAUGHTERS OF ERIN:
-     Kidney of Bloom, pray for us
-     Flower of the Bath, pray for us
-     Mentor of Menton, pray for us
-     Canvasser for the Freeman, pray for us
-     Charitable Mason, pray for us
-     Wandering Soap, pray for us
-     Sweets of Sin, pray for us
-     Music without Words, pray for us
-     Reprover of the Citizen, pray for us
-     Friend of all Frillies, pray for us
-     Midwife Most Merciful, pray for us
-     Potato Preservative against Plague and Pestilence, pray for us.
+	 Kidney of Bloom, pray for us
+	 Flower of the Bath, pray for us
+	 Mentor of Menton, pray for us
+	 Canvasser for the Freeman, pray for us
+	 Charitable Mason, pray for us
+	 Wandering Soap, pray for us
+	 Sweets of Sin, pray for us
+	 Music without Words, pray for us
+	 Reprover of the Citizen, pray for us
+	 Friend of all Frillies, pray for us
+	 Midwife Most Merciful, pray for us
+	 Potato Preservative against Plague and Pestilence, pray for us.
 (A choir of six hundred voices, conducted by Vincent O'brien, sings the chorus from Handel's Messiah alleluia for the lord god omnipotent reigneth, accompanied on the organ by Joseph Glynn. Bloom becomes mute, shrunken, carbonised.)
 ZOE: Talk away till you're black in the face.
 BLOOM: (In caubeen with clay pipe stuck in the band, dusty brogues, an emigrant's red handkerchief bundle in his hand, leading a black bogoak pig by a sugaun, with a smile in his eye) Let me be going now, woman of the house, for by all the goats in Connemara I'm after having the father and mother of a bating. (With a tear in his eye) All insanity. Patriotism, sorrow for the dead, music, future of the race. To be or not to be. Life's dream is o'er. End it peacefully. They can live on. (He gazes far away mournfully) I am ruined. A few pastilles of aconite. The blinds drawn. A letter. Then lie back to rest. (He breathes softly) No more. I have lived. Fare. Farewell.
@@ -5603,13 +5603,13 @@ VIRAG: (His mouth projected in hard wrinkles, eyes stonily forlornly closed, psa
 BLOOM: I am going to scream. I beg your pardon. Ah? So. (He repeats) Spontaneously to seek out the saurian's lair in order to entrust their teats to his avid suction. Ant milks aphis. (Profoundly) Instinct rules the world. In life. In death.
 VIRAG: (Head askew, arches his back and hunched wingshoulders, peers at the moth out of blear bulged eyes, points a horning claw and cries) Who's moth moth? Who's dear Gerald? Dear Ger, that you? O dear, he is Gerald. O, I much fear he shall be most badly burned. Will some pleashe pershon not now impediment so catastrophics mit agitation of firstclass tablenumpkin? (He mews) Puss puss puss puss! (He sighs, draws back and stares sideways down with dropping underjaw) Well, well. He doth rest anon. (He snaps his jaws suddenly on the air)
 THE MOTH:
-     I'm a tiny tiny thing
-     Ever flying in the spring
-     Round and round a ringaring.
-     Long ago I was a king
-     Now I do this kind of thing
-     On the wing, on the wing!
-     Bing!
+	 I'm a tiny tiny thing
+	 Ever flying in the spring
+	 Round and round a ringaring.
+	 Long ago I was a king
+	 Now I do this kind of thing
+	 On the wing, on the wing!
+	 Bing!
 (He rushes against the mauve shade, flapping noisily) Pretty pretty pretty pretty pretty pretty petticoats.
 (From left upper entrance with two gliding steps Henry Flower comes forward to left front centre. He wears a dark mantle and drooping plumed sombrero. He carries a silverstringed inlaid dulcimer and a longstemmed bamboo Jacob's pipe, its clay bowl fashioned as a female head. He wears dark velvet hose and silverbuckled pumps. He has the romantic Saviour's face with flowing locks, thin beard and moustache. His spindlelegs and sparrow feet are those of the tenor Mario, prince of Candia. He settles down his goffered ruffs and moistens his lips with a passage of his amorous tongue.)
 HENRY: (In a low dulcet voice, touching the strings of his guitar) There is a flower that bloometh.
@@ -5667,25 +5667,25 @@ LYNCH: He is. A cardinal's son.
 STEPHEN: Cardinal sin. Monks of the screw.
 (His Eminence Simon Stephen Cardinal Dedalus, Primate of all Ireland, appears in the doorway, dressed in red soutane, sandals and socks. Seven dwarf simian acolytes, also in red, cardinal sins, uphold his train, peeping under it. He wears a battered silk hat sideways on his head. His thumbs are stuck in his armpits and his palms outspread. Round his neck hangs a rosary of corks ending on his breast in a corkscrew cross. Releasing his thumbs, he invokes grace from on high with large wave gestures and proclaims with bloated pomp:)
 THE CARDINAL:
-     Conservio lies captured
-     He lies in the lowest dungeon
-     With manacles and chains around his limbs
-     Weighing upwards of three tons.
+	 Conservio lies captured
+	 He lies in the lowest dungeon
+	 With manacles and chains around his limbs
+	 Weighing upwards of three tons.
 (He looks at all for a moment, his right eye closed tight, his left cheek puffed out. Then, unable to repress his merriment, he rocks to and fro, arms akimbo, and sings with broad rollicking humour:)
-     O, the poor little fellow
-     Hihihihihis legs they were yellow
-     He was plump, fat and heavy and brisk as a snake
-     But some bloody savage
-     To graize his white cabbage
-     He murdered Nell Flaherty's duckloving drake.
+	 O, the poor little fellow
+	 Hihihihihis legs they were yellow
+	 He was plump, fat and heavy and brisk as a snake
+	 But some bloody savage
+	 To graize his white cabbage
+	 He murdered Nell Flaherty's duckloving drake.
 (A multitude of midges swarms white over his robe. He scratches himself with crossed arms at his ribs, grimacing, and exclaims:)
 I'm suffering the agony of the damned. By the hoky fiddle, thanks be to Jesus those funny little chaps are not unanimous. If they were they'd walk me off the face of the bloody globe.
 (His head aslant he blesses curtly with fore and middle fingers, imparts the Easter kiss and doubleshuffles off comically, swaying his hat from side to side, shrinking quickly to the size of his trainbearers. The dwarf acolytes, giggling, peeping, nudging, ogling, Easterkissing, zigzag behind him. His voice is heard mellow from afar, merciful male, melodious:)
-     Shall carry my heart to thee,
-     Shall carry my heart to thee,
-     And the breath of the balmy night
-     Shall carry my heart to thee!
-     (The trick doorhandle turns.)
+	 Shall carry my heart to thee,
+	 Shall carry my heart to thee,
+	 And the breath of the balmy night
+	 Shall carry my heart to thee!
+	 (The trick doorhandle turns.)
 THE DOORHANDLE: Theeee!
 ZOE: The devil is in that door.
 (A male form passes down the creaking staircase and is heard taking the waterproof and hat from the rack. Bloom starts forward involuntarily and, half closing the door as he passes, takes the chocolate from his pocket and offers it nervously to Zoe.)
@@ -5850,8 +5850,8 @@ THE NYMPH: (Bends her head) Worse, worse!
 BLOOM: (Reflects precautiously) That antiquated commode. It wasn't her weight. She scaled just eleven stone nine. She put on nine pounds after weaning. It was a crack and want of glue. Eh? And that absurd orangekeyed utensil which has only one handle.
 (The sound of a waterfall is heard in bright cascade.)
 THE WATERFALL:
-     Poulaphouca Poulaphouca
-     Poulaphouca Poulaphouca.
+	 Poulaphouca Poulaphouca
+	 Poulaphouca Poulaphouca.
 THE YEWS: (Mingling their boughs) Listen. Whisper. She is right, our sister. We grew by Poulaphouca waterfall. We gave shade on languorous summer days.
 JOHN WYSE NOLAN: (In the background, in Irish National Forester's uniform, doffs his plumed hat) Prosper! Give shade on languorous days, trees of Ireland!
 THE YEWS: (Murmuring) Who came to Poulaphouca with the High School excursion? Who left his nutquesting classmates to seek our shade?
@@ -5866,8 +5866,8 @@ THE YEWS: (Rustling) She is right, our sister. Whisper. (Whispered kisses are he
 THE NYMPH: (Coyly, through parting fingers) There? In the open air?
 THE YEWS: (Sweeping downward) Sister, yes. And on our virgin sward.
 THE WATERFALL:
-     Poulaphouca Poulaphouca
-     Phoucaphouca Phoucaphouca.
+	 Poulaphouca Poulaphouca
+	 Phoucaphouca Phoucaphouca.
 THE NYMPH: (With wide fingers) O, infamy!
 BLOOM: I was precocious. Youth. The fauna. I sacrificed to the god of the forest. The flowers that bloom in the spring. It was pairing time. Capillary attraction is a natural phenomenon. Lotty Clarke, flaxenhaired, I saw at her night toilette through illclosed curtains with poor papa's operaglasses: The wanton ate grass wildly. She rolled downhill at Rialto bridge to tempt me with her flow of animal spirits. She climbed their crooked tree and I... A saint couldn't resist it. The demon possessed me. Besides, who saw?
 (Staggering Bob, a whitepolled calf, thrusts a ruminating head with humid nostrils through the foliage.)
@@ -5893,18 +5893,18 @@ THE VOICE OF ZOE: (From the thicket) Came from a hot place.
 THE VOICE OF VIRAG: (A birdchief, bluestreaked and feathered in war panoply with his assegai, striding through a crackling canebrake over beechmast and acorns) Hot! Hot! Ware Sitting Bull!
 BLOOM: It overpowers me. The warm impress of her warm form. Even to sit where a woman has sat, especially with divaricated thighs, as though to grant the last favours, most especially with previously well uplifted white sateen coatpans. So womanly, full. It fills me full.
 THE WATERFALL:
-     Phillaphulla Poulaphouca
-     Poulaphouca Poulaphouca.
+	 Phillaphulla Poulaphouca
+	 Poulaphouca Poulaphouca.
 THE YEWS: Ssh! Sister, speak!
 THE NYMPH: (Eyeless, in nun's white habit, coif and hugewinged wimple, softly, with remote eyes) Tranquilla convent. Sister Agatha. Mount Carmel. The apparitions of Knock and Lourdes. No more desire. (She reclines her head, sighing) Only the ethereal. Where dreamy creamy gull waves o'er the waters dull.
 (Bloom half rises. His back trouserbutton snaps.)
 THE BUTTON: Bip!
 (Two sluts of the coombe dance rainily by, shawled, yelling flatly.)
 THE SLUTS:
-     O, Leopold lost the pin of his drawers
-     He didn't know what to do,
-     To keep it up,
-     To keep it up.
+	 O, Leopold lost the pin of his drawers
+	 He didn't know what to do,
+	 To keep it up,
+	 To keep it up.
 BLOOM: (Coldly) You have broken the spell. The last straw. If there were only ethereal where would you all be, postulants and novices? Shy but willing like an ass pissing.
 THE YEWS: (Their silverfoil of leaves precipitating, their skinny arms aging and swaying) Deciduously!
 THE NYMPH: (Her features hardening, gropes in the folds of her habit) Sacrilege! To attempt my virtue! (A large moist stain appears on her robe) Sully my innocence! You are not fit to touch the garment of a pure woman. (She clutches again in her robe) Wait. Satan, you'll sing no more lovesongs. Amen. Amen. Amen. Amen. (She draws a poniard and, clad in the sheathmail of an elected knight of nine, strikes at his loins) Nekum!
@@ -5925,10 +5925,10 @@ BLOOM: (Gently) Give me back that potato, will you?
 ZOE: Forfeits, a fine thing and a superfine thing.
 BLOOM: (With feeling) It is nothing, but still, a relic of poor mamma.
 ZOE:
-     Give a thing and take it back
-     God'll ask you where is that
-     You'll say you don't know
-     God'll send you down below.
+	 Give a thing and take it back
+	 God'll ask you where is that
+	 You'll say you don't know
+	 God'll send you down below.
 BLOOM: There is a memory attached to it. I should like to have it.
 STEPHEN: To have or not to have that is the question.
 ZOE: Here. (She hauls up a reef of her slip, revealing her bare thigh, and unrolls the potato from the top of her stocking) Those that hides knows where to find.
@@ -5949,11 +5949,11 @@ KITTY: Wait. (She clutches the two crowns)
 FLORRY: And me?
 LYNCH: Hoopla! (He lifts her, carries her and bumps her down on the sofa.)
 STEPHEN:
-     The fox crew, the cocks flew,
-     The bells in heaven
-     Were striking eleven.
-     'Tis time for her poor soul
-     To get out of heaven.
+	 The fox crew, the cocks flew,
+	 The bells in heaven
+	 Were striking eleven.
+	 'Tis time for her poor soul
+	 To get out of heaven.
 BLOOM: (Quietly lays a half sovereign on the table between bella and florry) So. Allow me. (He takes up the poundnote) Three times ten. We're square.
 BELLA: (Admiringly) You're such a slyboots, old cocky. I could kiss you.
 ZOE: (Points) Him? Deep as a drawwell. (Lynch bends Kitty back over the sofa and kisses her. Bloom goes with the poundnote to Stephen.)
@@ -5979,9 +5979,9 @@ LYNCH: (Embracing Kitty on the sofa, chants deeply) Dona nobis pacem.
 BLOOM: Don't smoke. You ought to eat. Cursed dog I met. (To Zoe) You have nothing?
 ZOE: Is he hungry?
 STEPHEN: (Extends his hand to her smiling and chants to the air of the bloodoath in the Dusk of the Gods)
-     Hangende Hunger,
-     Fragende Frau,
-     Macht uns alle kaputt.
+	 Hangende Hunger,
+	 Fragende Frau,
+	 Macht uns alle kaputt.
 ZOE: (Tragically) Hamlet, I am thy father's gimlet! (She takes his hand) Blue eyes beauty I'll read your hand. (She points to his forehead) No wit, no wrinkles. (She counts) Two, three, Mars, that's courage. (Stephen shakes his head) No kid.
 LYNCH: Sheet lightning courage. The youth who could not shiver and shake. (To Zoe) Who taught you palmistry?
 ZOE: (Turns) Ask my ballocks that I haven't got. (To Stephen) I see it in your face. The eye, like that. (She frowns with lowered head)
@@ -6085,15 +6085,15 @@ STEPHEN: Break my spirit, will he? O merde alors! (He cries, his vulture talons 
 SIMON: That's all right. (He swoops uncertainly through the air, wheeling, uttering cries of heartening, on strong ponderous buzzard wings) Ho, boy! Are you going to win? Hoop! Pschatt! Stable with those halfcastes. Wouldn't let them within the bawl of an ass. Head up! Keep our flag flying! An eagle gules volant in a field argent displayed. Ulster king at arms! Haihoop! (He makes the beagle's call, giving tongue) Bulbul! Burblblburblbl! Hai, boy!
 (The fronds and spaces of the wallpaper file rapidly across country. A stout fox, drawn from covert, brush pointed, having buried his grandmother, runs swift for the open, brighteyed, seeking badger earth, under the leaves. The pack of staghounds follows, nose to the ground, sniffing their quarry, beaglebaying, burblbrbling to be blooded. Ward Union huntsmen and huntswomen live with them, hot for a kill. From Six Mile Point, Flathouse, Nine Mile Stone follow the footpeople with knotty sticks, hayforks, salmongaffs, lassos, flockmasters with stockwhips, bearbaiters with tomtoms, toreadors with bullswords, greynegroes waving torches. The crowd bawls of dicers, crown and anchor players, thimbleriggers, broadsmen. Crows and touts, hoarse bookies in high wizard hats clamour deafeningly.)
 THE CROWD:
-     Card of the races. Racing card!
-     Ten to one the field!
-     Tommy on the clay here! Tommy on the clay!
-     Ten to one bar one! Ten to one bar one!
-     Try your luck on Spinning Jenny!
-     Ten to one bar one!
-     Sell the monkey, boys! Sell the monkey!
-     I'll give ten to one!
-     Ten to one bar one!
+	 Card of the races. Racing card!
+	 Ten to one the field!
+	 Tommy on the clay here! Tommy on the clay!
+	 Ten to one bar one! Ten to one bar one!
+	 Try your luck on Spinning Jenny!
+	 Ten to one bar one!
+	 Sell the monkey, boys! Sell the monkey!
+	 I'll give ten to one!
+	 Ten to one bar one!
 (A dark horse, riderless, bolts like a phantom past the winningpost, his mane moonfoaming, his eyeballs stars. The field follows, a bunch of bucking mounts. Skeleton horses, Sceptre, Maximum the Second, Zinfandel, the Duke of Westminster's Shotover, Repulse, the Duke of Beaufort's Ceylon, prix de Paris. Dwarfs ride them, rustyarmoured, leaping, leaping in their, in their saddles. Last in a drizzle of rain on a brokenwinded isabelle nag, Cock of the North, the favourite, honey cap, green jacket, orange sleeves, Garrett Deasy up, gripping the reins, a hockeystick at the ready. His nag on spavined whitegaitered feet jogs along the rocky road.)
 THE ORANGE LODGES: (Jeering) Get down and push, mister. Last lap! You'll be home the night!
 GARRETT DEASY: (Bolt upright, his nailscraped face plastered with postagestamps, brandishes his hockeystick, his blue eyes flashing in the prism of the chandelier as his mount lopes by at schooling gallop)
@@ -6139,12 +6139,12 @@ MAGINNI: Boulangère! Les ronds! Les ponts! Chevaux de bois! Escargots!
 (Twining, receding, with interchanging hands the night hours link each each with arching arms in a mosaic of movements. Stephen and Florry turn cumbrously.)
 MAGINNI: Dansez avec vos dames! Changez de dames! Donnez le petit bouquet à votre dame! Remerciez!
 THE PIANOLA:
-     Best, best of all,
-     Baraabum!
+	 Best, best of all,
+	 Baraabum!
 KITTY: (JUMPS UP) O, they played that on the hobbyhorses at the Mirus bazaar!
 (She runs to Stephen. He leaves florry brusquely and seizes Kitty. A screaming bittern's harsh high whistle shrieks. Groangrousegurgling Toft's cumbersome whirligig turns slowly the room right roundabout the room.)
 THE PIANOLA:
-     My girl's a Yorkshire girl.
+	 My girl's a Yorkshire girl.
 ZOE:
 Yorkshire through and through.
 Come on all!
@@ -6152,8 +6152,8 @@ Come on all!
 STEPHEN: Pas seul!
 (He wheels Kitty into Lynch's arms, snatches up his ashplant from the table and takes the floor. All wheel whirl waltz twirl. Bloombella Kittylynch Florryzoe jujuby women. Stephen with hat ashplant frogsplits in middle highkicks with skykicking mouth shut hand clasp part under thigh. With clang tinkle boomhammer tallyho hornblower blue green yellow flashes Toft's cumbersome turns with hobbyhorse riders from gilded snakes dangled, bowels fandango leaping spurn soil foot and fall again.)
 THE PIANOLA:
-     Though she's a factory lass
-     And wears no fancy clothes.
+	 Though she's a factory lass
+	 And wears no fancy clothes.
 (Closeclutched swift swifter with glareblareflare scudding they scootlootshoot lumbering by. Baraabum!)
 TUTTI: Encore! Bis! Bravo! Encore!
 SIMON: Think of your mother's people!
@@ -6163,8 +6163,8 @@ STEPHEN: Dance of death.
 STEPHEN: Ho!
 (Stephen's mother, emaciated, rises stark through the floor, in leper grey with a wreath of faded orangeblossoms and a torn bridal veil, her face worn and noseless, green with gravemould. Her hair is scant and lank. She fixes her bluecircled hollow eyesockets on Stephen and opens her toothless mouth uttering a silent word. A choir of virgins and confessors sing voicelessly.)
 THE CHOIR:
-     Liliata rutilantium te confessorum...
-     Iubilantium te virginum...
+	 Liliata rutilantium te confessorum...
+	 Iubilantium te virginum...
 (from the top of a tower Buck Mulligan, in particoloured jester's dress of puce and yellow and clown's cap with curling bell, stands gaping at her, a smoking buttered split scone in his hand.)
 BUCK MULLIGAN: She's beastly dead. The pity of it! Mulligan meets the afflicted mother. (He upturns his eyes) Mercurial Malachi!
 THE MOTHER: (With the subtle smile of death's madness) I was once the beautiful May Goulding. I am dead.
@@ -6276,12 +6276,12 @@ THE VIRAGO: Green above the red, says he. Wolfe Tone.
 THE BAWD: The red's as good as the green. And better. Up the soldiers! Up King Edward!
 A ROUGH: (Laughs) Ay! Hands up to De Wet.
 THE CITIZEN: (With a huge emerald muffler and shillelagh, calls)
-     May the God above
-     Send down a dove
-     With teeth as sharp as razors
-     To slit the throats
-     Of the English dogs
-     That hanged our Irish leaders.
+	 May the God above
+	 Send down a dove
+	 With teeth as sharp as razors
+	 To slit the throats
+	 Of the English dogs
+	 That hanged our Irish leaders.
 THE CROPPY BOY: (The ropenoose round his neck, gripes in his issuing bowels with both hands)
 I bear no hate to a living thing, But I love my country beyond the king.
 RUMBOLD, DEMON BARBER: (Accompanied by two blackmasked assistants, advances with gladstone bag which he opens) Ladies and gents, cleaver purchased by Mrs Pearcy to slay Mogg. Knife with which Voisin dismembered the wife of a compatriot and hid remains in a sheet in the cellar, the unfortunate female's throat being cut from ear to ear. Phial containing arsenic retrieved from body of Miss Barron which sent Seddon to the gallows.
@@ -6325,8 +6325,8 @@ PRIVATE CARR: (Loosening his belt, shouts) I'll wring the neck of any fucking ba
 BLOOM: (Shakes Cissy Caffrey's shoulders) Speak, you! Are you struck dumb? You are the link between nations and generations. Speak, woman, sacred lifegiver!
 CISSY CAFFREY: (Alarmed, seizes Private Carr's sleeve) Amn't I with you? Amn't I your girl? Cissy's your girl. (She cries) Police!
 STEPHEN: (Ecstatically, to Cissy Caffrey)
-     White thy fambles, red thy gan
-     And thy quarrons dainty is.
+	 White thy fambles, red thy gan
+	 And thy quarrons dainty is.
 VOICES: Police!
 DISTANT VOICES: Dublin's burning! Dublin's burning! On fire, on fire!
 (Brimstone fires spring up. Dense clouds roll past. Heavy Gatling guns boom. Pandemonium. Troops deploy. Gallop of hoofs. Artillery. Hoarse commands. Bells clang. Backers shout. Drunkards bawl. Whores screech. Foghorns hoot. Cries of valour. Shrieks of dying. Pikes clash on cuirasses. Thieves rob the slain. Birds of prey, winging from the sea, rising from marshlands, swooping from eyries, hover screaming, gannets, cormorants, vultures, goshawks, climbing woodcocks, peregrines, merlins, blackgrouse, sea eagles, gulls, albatrosses, barnacle geese. The midnight sun is darkened. The earth trembles. The dead of Dublin from Prospect and Mount Jerome in white sheepskin overcoats and black goatfell cloaks arise and appear to many. A chasm opens with a noiseless yawn. Tom Rochford, winner, in athlete's singlet and breeches, arrives at the head of the national hurdle handicap and leaps into the void. He is followed by a race of runners and leapers. In wild attitudes they spring from the brink. Their bodies plunge. Factory lasses with fancy clothes toss redhot Yorkshire baraabombs. Society ladies lift their skirts above their heads to protect themselves. Laughing witches in red cutty sarks ride through the air on broomsticks. Quakerlyster plasters blisters. It rains dragons' teeth. Armed heroes spring up from furrows. They exchange in amity the pass of knights of the red cross and fight duels with cavalry sabres: Wolfe Tone against Henry Grattan, Smith O'Brien against Daniel O'Connell, Michael Davitt against Isaac Butt, Justin M'Carthy against Parnell, Arthur Griffith against John Redmond, John O'Leary against Lear O'Johnny, Lord Edward Fitzgerald against Lord Gerald Fitzedward, The O'Donoghue of the Glens against The Glens of The O'Donoghue. On an eminence, the centre of the earth, rises the feldaltar of Saint Barbara. Black candles rise from its gospel and epistle horns. From the high barbacans of the tower two shafts of light fall on the smokepalled altarstone. On the altarstone Mrs Mina Purefoy, goddess of unreason, lies, naked, fettered, a chalice resting on her swollen belly. Father Malachi O'Flynn in a lace petticoat and reversed chasuble, his two left feet back to the front, celebrates camp mass. The Reverend Mr Hugh C Haines Love M. A. in a plain cassock and mortarboard, his head and collar back to the front, holds over the celebrant's head an open umbrella.)
@@ -6419,13 +6419,13 @@ BLOOM: Night.
 (The jarvey chucks the reins and raises his whip encouragingly. The car and horse back slowly, awkwardly, and turn. Corny Kelleher on the sideseat sways his head to and fro in sign of mirth at Bloom's plight. The jarvey joins in the mute pantomimic merriment nodding from the farther seat. Bloom shakes his head in mute mirthful reply. With thumb and palm Corny Kelleher reassures that the two bobbies will allow the sleep to continue for what else is to be done. With a slow nod Bloom conveys his gratitude as that is exactly what Stephen needs. The car jingles tooraloom round the corner of the tooraloom lane. Corny Kelleher again reassuralooms with his hand. Bloom with his hand assuralooms Corny Kelleher that he is reassuraloomtay. The tinkling hoofs and jingling harness grow fainter with their tooralooloo looloo lay. Bloom, holding in his hand Stephen's hat, festooned with shavings, and ashplant, stands irresolute. Then he bends to him and shakes him by the shoulder.)
 BLOOM: Eh! Ho! (There is no answer; he bends again) Mr Dedalus! (There is no answer) The name if you call. Somnambulist. (He bends again and hesitating, brings his mouth near the face of the prostrate form) Stephen! (There is no answer. He calls again.) Stephen!
 STEPHEN: (Groans) Who? Black panther. Vampire. (He sighs and stretches himself, then murmurs thickly with prolonged vowels)
-     Who... drive... Fergus now
-     And pierce... wood's woven shade?...
+	 Who... drive... Fergus now
+	 And pierce... wood's woven shade?...
 (He turns on his left side, sighing, doubling himself together.)
 BLOOM: Poetry. Well educated. Pity. (He bends again and undoes the buttons of Stephen's waistcoat) To breathe. (He brushes the woodshavings from Stephen's clothes with light hand and fingers) One pound seven. Not hurt anyhow. (He listens) What?
 STEPHEN: (Murmurs)
-    ... shadows... the woods
-    ... white breast... dim sea.
+	... shadows... the woods
+	... white breast... dim sea.
 (He stretches out his arms, sighs again and curls his body. Bloom, holding the hat and ashplant, stands erect. A dog barks in the distance. Bloom tightens and loosens his grip on the ashplant. He looks down on Stephen's face and form.)
 BLOOM: (Communes with the night) Face reminds me of his poor mother. In the shady wood. The deep white breast. Ferguson, I think I caught. A girl. Some girl. Best thing could happen him. (He murmurs)... swear that I will always hail, ever conceal, never reveal, any part or parts, art or arts... (He murmurs)... in the rough sands of the sea... a cabletow's length from the shore... where the tide ebbs... and flows ...
 (Silent, thoughtful, alert he stands on guard, his fingers at his lips in the attitude of secret master. Against the dark wall a figure appears slowly, a fairy boy of eleven, a changeling, kidnapped, dressed in an eton suit with glass shoes and a little bronze helmet, holding a book in his hand. He reads from right to left inaudibly, smiling, kissing the page.)
@@ -6626,10 +6626,10 @@ There were wrecks and wreckers, the keeper said, who was evidently au fait.
 What he wanted to ascertain was why that ship ran bang against the only rock in Galway bay when the Galway harbour scheme was mooted by a Mr Worthington or some name like that, eh? Ask the then captain, he advised them, how much palmoil the British government gave him for that day's work, Captain John Lever of the Lever Line.
 —Am I right, skipper? he queried of the sailor, now returning after his private potation and the rest of his exertions.
 That worthy picking up the scent of the fagend of the song or words growled in wouldbe music but with great vim some kind of chanty or other in seconds or thirds. Mr Bloom's sharp ears heard him then expectorate the plug probably (which it was), so that he must have lodged it for the time being in his fist while he did the drinking and making water jobs and found it a bit sour after the liquid fire in question. Anyhow in he rolled after his successful libation-cum-potation, introducing an atmosphere of drink into the soirée, boisterously trolling, like a veritable son of a seacook:
-     —The biscuits was as hard as brass
-     And the beef as salt as Lot's wife's arse.
-     O, Johnny Lever!
-     Johnny Lever, O!
+	 —The biscuits was as hard as brass
+	 And the beef as salt as Lot's wife's arse.
+	 O, Johnny Lever!
+	 Johnny Lever, O!
 After which effusion the redoubtable specimen duly arrived on the scene and regaining his seat he sank rather than sat heavily on the form provided. Skin-the-Goat, assuming he was he, evidently with an axe to grind, was airing his grievances in a forcible-feeble philippic anent the natural resources of Ireland or something of that sort which he described in his lengthy dissertation as the richest country bar none on the face of God's earth, far and away superior to England, with coal in large quantities, six million pounds worth of pork exported every year, ten millions between butter and eggs and all the riches drained out of it by England levying taxes on the poor people that paid through the nose always and gobbling up the best meat in the market and a lot more surplus steam in the same vein. Their conversation accordingly became general and all agreed that that was a fact. You could grow any mortal thing in Irish soil, he stated, and there was that colonel Everard down there in Navan growing tobacco. Where would you find anywhere the like of Irish bacon? But a day of reckoning, he stated crescendo with no uncertain voice, thoroughly monopolising all the conversation, was in store for mighty England, despite her power of pelf on account of her crimes. There would be a fall and the greatest fall in history. The Germans and the Japs were going to have their little lookin, he affirmed. The Boers were the beginning of the end. Brummagem England was toppling already and her downfall would be Ireland, her Achilles heel, which he explained to them about the vulnerable point of Achilles, the Greek hero, a point his auditors at once seized as he completely gripped their attention by showing the tendon referred to on his boot. His advice to every Irishman was: stay in the land of your birth and work for Ireland and live for Ireland. Ireland, Parnell said, could not spare a single one of her sons.
 Silence all round marked the termination of his finale. The impervious navigator heard these lurid tidings, undismayed.
 —Take a bit of doing, boss, retaliated that rough diamond palpably a bit peeved in response to the foregoing truism.
@@ -6725,8 +6725,8 @@ They thereupon stopped. Bloom looked at the head of a horse not worth anything l
 He looked sideways in a friendly fashion at the sideface of Stephen, image of his mother, which was not quite the same as the usual handsome blackguard type they unquestionably had an insatiable hankering after as he was perhaps not that way built.
 Still, supposing he had his father's gift as he more than suspected, it opened up new vistas in his mind such as Lady Fingall's Irish industries, concert on the preceding Monday, and aristocracy in general.
 Exquisite variations he was now describing on an air Youth here has End by Jans Pieter Sweelinck, a Dutchman of Amsterdam where the frows come from. Even more he liked an old German song of Johannes Jeep about the clear sea and the voices of sirens, sweet murderers of men, which boggled Bloom a bit:
-     Von der Sirenen Listigkeit
-     Tun die Poeten dichten.
+	 Von der Sirenen Listigkeit
+	 Tun die Poeten dichten.
 These opening bars he sang and translated extempore. Bloom, nodding, said he perfectly understood and begged him to go on by all means which he did.
 A phenomenally beautiful tenor voice like that, the rarest of boons, which Bloom appreciated at the very first note he got out, could easily, if properly handled by some recognised authority on voice production such as Barraclough and being able to read music into the bargain, command its own price where baritones were ten a penny and procure for its fortunate possessor in the near future an entrée into fashionable houses in the best residential quarters of financial magnates in a large way of business and titled people where with his university degree of B. A. (a huge ad in its way) and gentlemanly bearing to all the more influence the good impression he would infallibly score a distinct success, being blessed with brains which also could be utilised for the purpose and other requisites, if his clothes were properly attended to so as to the better worm his way into their good graces as he, a youthful tyro in—society's sartorial niceties, hardly understood how a little thing like that could militate against you. It was in fact only a matter of months and he could easily foresee him participating in their musical and artistic conversaziones during the festivities of the Christmas season, for choice, causing a slight flutter in the dovecotes of the fair sex and being made a lot of by ladies out for sensation, cases of which, as he happened to know, were on record—in fact, without giving the show away, he himself once upon a time, if he cared to, could easily have. Added to which of course would be the pecuniary emolument by no means to be sneezed at, going hand in hand with his tuition fees. Not, he parenthesised, that for the sake of filthy lucre he need necessarily embrace the lyric platform as a walk in life for any lengthy space of time. But a step in the required direction it was beyond yea or nay and both monetarily and mentally it contained no reflection on his dignity in the smallest and it often turned in uncommonly handy to be handed a cheque at a muchneeded moment when every little helped. Besides, though taste latterly had deteriorated to a degree, original music like that, different from the conventional rut, would rapidly have a great vogue as it would be a decided novelty for Dublin's musical world after the usual hackneyed run of catchy tenor solos foisted on a confiding public by Ivan St Austell and Hilton St Just and their genus omne. Yes, beyond a shadow of a doubt he could with all the cards in his hand and he had a capital opening to make a name for himself and win a high place in the city's esteem where he could command a stiff figure and, booking ahead, give a grand concert for the patrons of the King street house, given a backerup, if one were forthcoming to kick him upstairs, so to speak, a big if, however, with some impetus of the goahead sort to obviate the inevitable procrastination which often tripped-up a too much fêted prince of good fellows. And it need not detract from the other by one iota as, being his own master, he would have heaps of time to practise literature in his spare moments when desirous of so doing without its clashing with his vocal career or containing anything derogatory whatsoever as it was a matter for himself alone. In fact, he had the ball at his feet and that was the very reason why the other, possessed of a remarkably sharp nose for smelling a rat of any sort, hung on to him at all.
 The horse was just then. And later on at a propitious opportunity he purposed (Bloom did), without anyway prying into his private affairs on the fools step in where angels principle, advising him to sever his connection with a certain budding practitioner who, he noticed, was prone to disparage and even to a slight extent with some hilarious pretext when not present, deprecate him, or whatever you like to call it which in Bloom's humble opinion threw a nasty sidelight on that side of a person's character, no pun intended.
@@ -6836,26 +6836,26 @@ Concluding by inspection but erroneously that his silent companion was engaged i
 Had he found their solution?
 In spite of careful and repeated reading of certain classical passages, aided by a glossary, he had derived imperfect conviction from the text, the answers not bearing in all points.
 What lines concluded his first piece of original verse written by him, potential poet, at the age of 11 in 1877 on the occasion of the offering of three prizes of 10/-, 5/- and 2/6 respectively for competition by the Shamrock, a weekly newspaper?
-     An ambition to squint
-     At my verses in print
-     Makes me hope that for these you'll find room?.
-     If you so condescend
-     Then please place at the end
-     The name of yours truly, L. Bloom.
+	 An ambition to squint
+	 At my verses in print
+	 Makes me hope that for these you'll find room?.
+	 If you so condescend
+	 Then please place at the end
+	 The name of yours truly, L. Bloom.
 Did he find four separating forces between his temporary guest and him?
 Name, age, race, creed.
 What anagrams had he made on his name in youth?
-     Leopold Bloom
-     Ellpodbomool
-     Molldopeloob
-     Bollopedoom
-     Old Ollebo, M. P.
+	 Leopold Bloom
+	 Ellpodbomool
+	 Molldopeloob
+	 Bollopedoom
+	 Old Ollebo, M. P.
 What acrostic upon the abbreviation of his first name had he (kinetic poet) sent to Miss Marion (Molly) Tweedy on the 14 February 1888?
-     Poets oft have sung in rhyme
-     Of music sweet their praise divine.
-     Let them hymn it nine times nine.
-     Dearer far than song or wine.
-     You are mine. The world is mine.
+	 Poets oft have sung in rhyme
+	 Of music sweet their praise divine.
+	 Let them hymn it nine times nine.
+	 Dearer far than song or wine.
+	 You are mine. The world is mine.
 What had prevented him from completing a topical song (music by R. G. Johnston) on the events of the past, or fixtures for the actual, years, entitled If Brian Boru could but come back and see old Dublin now, commissioned by Michael Gunn, lessee of the Gaiety Theatre, 46, 47, 48, 49 South King street, and to be introduced into the sixth scene, the valley of diamonds, of the second edition (30 January 1893) of the grand annual Christmas pantomime Sinbad the Sailor (produced by R Shelton 26 December 1892, written by Greenleaf Whittier, scenery by George A. Jackson and Cecil Hicks, costumes by Mrs and Miss Whelan under the personal supervision of Mrs Michael Gunn, ballets by Jessie Noir, harlequinade by Thomas Otto) and sung by Nelly Bouverist, principal girl?
 Firstly, oscillation between events of imperial and of local interest, the anticipated diamond jubilee of Queen Victoria (born 1820, acceded 1837) and the posticipated opening of the new municipal fish market: secondly, apprehension of opposition from extreme circles on the questions of the respective visits of Their Royal Highnesses the duke and duchess of York (real) and of His Majesty King Brian Boru (imaginary): thirdly, a conflict between professional etiquette and professional emulation concerning the recent erections of the Grand Lyric Hall on Burgh Quay and the Theatre Royal in Hawkins street: fourthly, distraction resultant from compassion for Nelly Bouverist's non-intellectual, non-political, non-topical expression of countenance and concupiscence caused by Nelly Bouverist's revelations of white articles of non-intellectual, non-political, non-topical underclothing while she (Nelly Bouverist) was in the articles: fifthly, the difficulties of the selection of appropriate music and humorous allusions from Everybody's Book of Jokes (1000 pages and a laugh in every one): sixthly, the rhymes, homophonous and cacophonous, associated with the names of the new lord mayor, Daniel Tallon, the new high sheriff, Thomas Pile and the new solicitorgeneral, Dunbar Plunket Barton.
 What relation existed between their ages?
@@ -6954,8 +6954,8 @@ Theoretical, being confined to certain grammatical rules of accidence and syntax
 What points of contact existed between these languages and between the peoples who spoke them?
 The presence of guttural sounds, diacritic aspirations, epenthetic and servile letters in both languages: their antiquity, both having been taught on the plain of Shinar 242 years after the deluge in the seminary instituted by Fenius Farsaigh, descendant of Noah, progenitor of Israel, and ascendant of Heber and Heremon, progenitors of Ireland: their archaeological, genealogical, hagiographical, exegetical, homiletic, toponomastic, historical and religious literatures comprising the works of rabbis and culdees, Torah, Talmud (Mischna and Ghemara), Massor, Pentateuch, Book of the Dun Cow, Book of Ballymote, Garland of Howth, Book of Kells: their dispersal, persecution, survival and revival: the isolation of their synagogical and ecclesiastical rites in ghetto (S. Mary's Abbey) and masshouse (Adam and Eve's tavern): the proscription of their national costumes in penal laws and jewish dress acts: the restoration in Chanah David of Zion and the possibility of Irish political autonomy or devolution.
 What anthem did Bloom chant partially in anticipation of that multiple, ethnically irreducible consummation?
-     Kolod balejwaw pnimah
-     Nefesch, jehudi, homijah.
+	 Kolod balejwaw pnimah
+	 Nefesch, jehudi, homijah.
 Why was the chant arrested at the conclusion of this first distich?
 In consequence of defective mnemotechnic.
 How did the chanter compensate for this deficiency?
@@ -6974,34 +6974,34 @@ In the church, Roman, Anglican or Nonconformist: exemplars, the very reverend Jo
 Did the host encourage his guest to chant in a modulated voice a strange legend on an allied theme?
 Reassuringly, their place, where none could hear them talk, being secluded, reassured, the decocted beverages, allowing for subsolid residual sediment of a mechanical mixture, water plus sugar plus cream plus cocoa, having been consumed.
 Recite the first (major) part of this chanted legend.
-     Little Harry Hughes and his schoolfellows all
-     Went out for to play ball.
-     And the very first ball little Harry Hughes played
-     He drove it o'er the jew's garden wall.
-     And the very second ball little Harry Hughes played
-     He broke the jew's windows all.
+	 Little Harry Hughes and his schoolfellows all
+	 Went out for to play ball.
+	 And the very first ball little Harry Hughes played
+	 He drove it o'er the jew's garden wall.
+	 And the very second ball little Harry Hughes played
+	 He broke the jew's windows all.
 How did the son of Rudolph receive this first part?
 With unmixed feeling. Smiling, a jew he heard with pleasure and saw the unbroken kitchen window.
 Recite the second part (minor) of the legend.
-     Then out there came the jew's daughter
-     And she all dressed in green.
-     "Come back, come back, you pretty little boy,
-     And play your ball again."
+	 Then out there came the jew's daughter
+	 And she all dressed in green.
+	 "Come back, come back, you pretty little boy,
+	 And play your ball again."
 
-     "I can't come back and I won't come back
-     Without my schoolfellows all.
-     For if my master he did hear
-     He'd make it a sorry ball."
+	 "I can't come back and I won't come back
+	 Without my schoolfellows all.
+	 For if my master he did hear
+	 He'd make it a sorry ball."
 
-     She took him by the lilywhite hand
-     And led him along the hall
-     Until she led him to a room
-     Where none could hear him call.
+	 She took him by the lilywhite hand
+	 And led him along the hall
+	 Until she led him to a room
+	 Where none could hear him call.
 
-     She took a penknife out of her pocket
-     And cut off his little head.
-     And now he'll play his ball no more
-     For he lies among the dead.
+	 She took a penknife out of her pocket
+	 And cut off his little head.
+	 And now he'll play his ball no more
+	 For he lies among the dead.
 How did the father of Millicent receive this second part?
 With mixed feelings. Unsmiling, he heard and saw with wonder a jew's daughter, all dressed in green.
 Condense Stephen's commentary.
@@ -7091,8 +7091,8 @@ Why did he not elaborate these calculations to a more precise result?
 Because some years previously in 1886 when occupied with the problem of the quadrature of the circle he had learned of the existence of a number computed to a relative degree of accuracy to be of such magnitude and of so many places, e.g., the 9th power of the 9th power of 9, that, the result having been obtained, 33 closely printed volumes of 1000 pages each of innumerable quires and reams of India paper would have to be requisitioned in order to contain the complete tale of its printed integers of units, tens, hundreds, thousands, tens of thousands, hundreds of thousands, millions, tens of millions, hundreds of millions, billions, the nucleus of the nebula of every digit of every series containing succinctly the potentiality of being raised to the utmost kinetic elaboration of any power of any of its powers.
 Did he find the problems of the inhabitability of the planets and their satellites by a race, given in species, and of the possible social and moral redemption of said race by a redeemer, easier of solution?
 Of a different order of difficulty. Conscious that the human organism, normally capable of sustaining an atmospheric pressure of 19 tons, when elevated to a considerable altitude in the terrestrial atmosphere suffered with arithmetical progression of intensity, according as the line of demarcation between troposphere and stratosphere was approximated from nasal hemorrhage, impeded respiration and vertigo, when proposing this problem for solution, he had conjectured as a working hypothesis which could not be proved impossible that a more adaptable and differently anatomically constructed race of beings might subsist otherwise under Martian, Mercurial, Veneral, Jovian, Saturnian, Neptunian or Uranian sufficient and equivalent conditions, though an apogean humanity of beings created in varying forms with finite differences resulting similar to the whole and to one another would probably there as here remain inalterably and inalienably attached to vanities, to vanities of vanities and to all that is vanity.
-     And the problem of possible redemption?
-     The minor was proved by the major.
+	 And the problem of possible redemption?
+	 The minor was proved by the major.
 Which various features of the constellations were in turn considered?
 The various colours significant of various degrees of vitality (white, yellow, crimson, vermilion, cinnabar): their degrees of brilliancy: their magnitudes revealed up to and including the 7th: their positions: the waggoner's star: Walsingham way: the chariot of David: the annular cinctures of Saturn: the condensation of spiral nebulae into suns: the interdependent gyrations of double suns: the independent synchronous discoveries of Galileo, Simon Marius, Piazzi, Le Verrier, Herschel, Galle: the systematisations attempted by Bode and Kepler of cubes of distances and squares of times of revolution: the almost infinite compressibility of hirsute comets and their vast elliptical egressive and reentrant orbits from perihelion to aphelion: the sidereal origin of meteoric stones: the Libyan floods on Mars about the period of the birth of the younger astroscopist: the annual recurrence of meteoric showers about the period of the feast of S. Lawrence (martyr, lo August): the monthly recurrence known as the new moon with the old moon in her arms: the posited influence of celestial on human bodies: the appearance of a star (1st magnitude) of exceeding brilliancy dominating by night and day (a new luminous sun generated by the collision and amalgamation in incandescence of two nonluminous exsuns) about the period of the birth of William Shakespeare over delta in the recumbent neversetting constellation of Cassiopeia and of a star (2nd magnitude) of similar origin but of lesser brilliancy which had appeared in and disappeared from the constellation of the Corona Septentrionalis about the period of the birth of Leopold Bloom and of other stars of (presumably) similar origin which had (effectively or presumably) appeared in and disappeared from the constellation of Andromeda about the period of the birth of Stephen Dedalus, and in and from the constellation of Auriga some years after the birth and death of Rudolph Bloom, junior, and in and from other constellations some years before or after the birth or death of other persons: the attendant phenomena of eclipses, solar and lunar, from immersion to emersion, abatement of wind, transit of shadow, taciturnity of winged creatures, emergence of nocturnal or crepuscular animals, persistence of infernal light, obscurity of terrestrial waters, pallor of human beings.
 His (Bloom's) logical conclusion, having weighed the matter and allowing for possible error?
@@ -7128,8 +7128,8 @@ What echoes of that sound were by both and each heard?
 By Stephen:
 Liliata rutilantium. Turma circumdet. Iubilantium te virginum. Chorus excipiat.
 By Bloom:
-     Heigho, heigho,
-     Heigho, heigho.
+	 Heigho, heigho,
+	 Heigho, heigho.
 Where were the several members of the company which with Bloom that day at the bidding of that peal had travelled from Sandymount in the south to Glasnevin in the north?
 Martin Cunningham (in bed), Jack Power (in bed), Simon Dedalus (in bed), Ned Lambert (in bed), Tom Kernan (in bed), Joe Hynes (in bed), John Henry Menton (in bed), Bernard Corrigan (in bed), Patsy Dignam (in bed), Paddy Dignam (in the grave).
 Alone, what did Bloom hear?
@@ -7208,56 +7208,56 @@ He removed his collar, with contained black necktie and collapsible stud, from h
 What involuntary actions followed?
 He compressed between 2 fingers the flesh circumjacent to a cicatrice in the left infracostal region below the diaphragm resulting from a sting inflicted 2 weeks and 3 days previously (23 May 1904) by a bee. He scratched imprecisely with his right hand, though insensible of prurition, various points and surfaces of his partly exposed, wholly abluted skin. He inserted his left hand into the left lower pocket of his waistcoat and extracted and replaced a silver coin (I shilling), placed there (presumably) on the occasion (17 October 1903) of the interment of Mrs Emily Sinico, Sydney Parade.
 Compile the budget for 16 June 1904. DEBIT
-     1 Pork Kidney
-     1 Copy FREEMAN'S JOURNAL
-     1 Bath And Gratification
-     Tramfare
-     1 In Memoriam Patrick Dignam
-     2 Banbury cakes
-     1 Lunch
-     1 Renewal fee for book
-     1 Packet Notepaper and Envelopes
-     1 Dinner and Gratification
-     1 Postal Order and Stamp
-     Tramfare
-     1 Pig's Foot
-     1 Sheep's Trotter
-     1 Cake Fry's Plain Chocolate
-     1 Square Soda Bread
-     1 Coffee and Bun
-     Loan (Stephen Dedalus) refunded
-     BALANCE
-     L. s. d.
-     0—0—3
-     0—0—1
-     0—1—6
-     0—0—1
-     0—5—0
-     0—0—1
-     0—0—7
-     0—1—0
-     0—0—2
-     0—2—0
-     0—2—8
-     0—0—1
-     0—0—4
-     0—0—3
-     0—0—1
-     0—0—4
-     0—0—4
-     1—7—0
-     0-17—5
-     2-19—3
-     CREDIT
+	 1 Pork Kidney
+	 1 Copy FREEMAN'S JOURNAL
+	 1 Bath And Gratification
+	 Tramfare
+	 1 In Memoriam Patrick Dignam
+	 2 Banbury cakes
+	 1 Lunch
+	 1 Renewal fee for book
+	 1 Packet Notepaper and Envelopes
+	 1 Dinner and Gratification
+	 1 Postal Order and Stamp
+	 Tramfare
+	 1 Pig's Foot
+	 1 Sheep's Trotter
+	 1 Cake Fry's Plain Chocolate
+	 1 Square Soda Bread
+	 1 Coffee and Bun
+	 Loan (Stephen Dedalus) refunded
+	 BALANCE
+	 L. s. d.
+	 0—0—3
+	 0—0—1
+	 0—1—6
+	 0—0—1
+	 0—5—0
+	 0—0—1
+	 0—0—7
+	 0—1—0
+	 0—0—2
+	 0—2—0
+	 0—2—8
+	 0—0—1
+	 0—0—4
+	 0—0—3
+	 0—0—1
+	 0—0—4
+	 0—0—4
+	 1—7—0
+	 0-17—5
+	 2-19—3
+	 CREDIT
 
-     Cash in hand
-     Commission recd. Freeman's Journal
-     Loan (Stephen Dedalus)
-     L. s. d.
-     0—4—9
-     1—7—6
-     1—7—0
-     2-19—3
+	 Cash in hand
+	 Commission recd. Freeman's Journal
+	 Loan (Stephen Dedalus)
+	 L. s. d.
+	 0—4—9
+	 1—7—6
+	 1—7—0
+	 2-19—3
 Did the process of divestiture continue?
 Sensible of a benignant persistent ache in his footsoles he extended his foot to one side and observed the creases, protuberances and salient points caused by foot pressure in the course of walking repeatedly in several different directions, then, inclined, he disnoded the laceknots, unhooked and loosened the laces, took off each of his two boots for the second time, detached the partially moistened right sock through the fore part of which the nail of his great toe had again effracted, raised his right foot and, having unhooked a purple elastic sock suspender, took off his right sock, placed his unclothed right foot on the margin of the seat of his chair, picked at and gently lacerated the protruding part of the great toenail, raised the part lacerated to his nostrils and inhaled the odour of the quick, then, with satisfaction, threw away the lacerated ungual fragment.
 Why with satisfaction?

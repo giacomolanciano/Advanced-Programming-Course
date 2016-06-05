@@ -59,32 +59,32 @@ public class WordCount {
 		Path output =new Path(otherArgs.get(1));
 		
 		Job job = Job.getInstance(conf);
-        job.setJarByClass(WordCount.class);
-        job.setJobName("WordCount");
-        
-	    FileInputFormat.addInputPath(job, input);
-	    FileOutputFormat.setOutputPath(job, output);
+		job.setJarByClass(WordCount.class);
+		job.setJobName("WordCount");
+		
+		FileInputFormat.addInputPath(job, input);
+		FileOutputFormat.setOutputPath(job, output);
 
-	    job.setMapperClass(MyMapper.class);
-	    //job.setCombinerClass(MyReducer.class);
-	    job.setReducerClass(MyReducer.class);
+		job.setMapperClass(MyMapper.class);
+		//job.setCombinerClass(MyReducer.class);
+		job.setReducerClass(MyReducer.class);
 
-        // An InputFormat for plain text files. 
-        // Files are broken into lines. Either linefeed or carriage-return are used 
-        // to signal end of line. Keys are the position in the file, and values 
-        // are the line of text.
-	    job.setInputFormatClass(TextInputFormat.class);
+		// An InputFormat for plain text files. 
+		// Files are broken into lines. Either linefeed or carriage-return are used 
+		// to signal end of line. Keys are the position in the file, and values 
+		// are the line of text.
+		job.setInputFormatClass(TextInputFormat.class);
 
-	    job.setOutputKeyClass(Text.class);
-	    job.setOutputValueClass(IntWritable.class);
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(IntWritable.class);
 
-	    job.waitForCompletion(true);
+		job.waitForCompletion(true);
 
 	}
 	
 	public static class MyMapper extends Mapper<LongWritable, Text, Text, IntWritable>{
 		private final static IntWritable one = new IntWritable(1);
-        private Text word = new Text();
+		private Text word = new Text();
 		
 		@Override
 		protected void cleanup(Context context) throws IOException,
@@ -102,7 +102,7 @@ public class WordCount {
 				word.set(scanner.next());
 				context.write(word, one);
 			}
-       	}
+	   	}
 
 		@Override
 		public void run(Context context) throws IOException,

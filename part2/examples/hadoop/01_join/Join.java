@@ -60,25 +60,25 @@ public class Join {
 		Path output =new Path(otherArgs.get(1));
 		
 		Job job = Job.getInstance(conf, "join program");
-        job.setJarByClass(Join.class);
-        
-	    FileInputFormat.addInputPath(job, input);
-	    FileOutputFormat.setOutputPath(job, output);
+		job.setJarByClass(Join.class);
+		
+		FileInputFormat.addInputPath(job, input);
+		FileOutputFormat.setOutputPath(job, output);
 
-	    job.setMapperClass(MyMapper.class);
-	    //job.setCombinerClass(MyReducer.class);
-	    job.setReducerClass(MyReducer.class);
+		job.setMapperClass(MyMapper.class);
+		//job.setCombinerClass(MyReducer.class);
+		job.setReducerClass(MyReducer.class);
 
-        // An InputFormat for plain text files. 
-        // Files are broken into lines. Either linefeed or carriage-return are used 
-        // to signal end of line. Keys are the position in the file, and values 
-        // are the line of text.
-	    job.setInputFormatClass(TextInputFormat.class);
+		// An InputFormat for plain text files. 
+		// Files are broken into lines. Either linefeed or carriage-return are used 
+		// to signal end of line. Keys are the position in the file, and values 
+		// are the line of text.
+		job.setInputFormatClass(TextInputFormat.class);
 
-	    job.setOutputKeyClass(Text.class);
-	    job.setOutputValueClass(Text.class);
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(Text.class);
 
-	    job.waitForCompletion(true);
+		job.waitForCompletion(true);
 	}
 	
 	public static class MyMapper extends Mapper<LongWritable, Text, Text, Text>{
@@ -86,25 +86,25 @@ public class Join {
 		@Override
 		protected void map(LongWritable key, Text value, Context context)
 				throws IOException, InterruptedException {
-                    
-            //DEBUG -> printed in log, not stdout
-            System.out.println("[mapper] value = " + value);
+					
+			//DEBUG -> printed in log, not stdout
+			System.out.println("[mapper] value = " + value);
 
 			String[] tok = value.toString().split(" ");
 			String rel = tok[0];
-            String v1 = tok[1];
-            String v2 = tok[2];
-            
-            //DEBUG -> printed in log, not stdout
-            System.out.println("[mapper] rel name = " + rel + " v1 = " + v1 + " v2 = " + v2);
+			String v1 = tok[1];
+			String v2 = tok[2];
+			
+			//DEBUG -> printed in log, not stdout
+			System.out.println("[mapper] rel name = " + rel + " v1 = " + v1 + " v2 = " + v2);
 
-            if (rel.equals("A")) 
-                 context.write(new Text(v1),       // name
-                              new Text("A "+v2));  // (rel, age)
-            else 
-                 context.write(new Text(v2),       // name
-                              new Text("B "+v1));  // (rel, class)
-       	}
+			if (rel.equals("A")) 
+				 context.write(new Text(v1),	   // name
+							  new Text("A "+v2));  // (rel, age)
+			else 
+				 context.write(new Text(v2),	   // name
+							  new Text("B "+v1));  // (rel, class)
+	   	}
 	}
 	
 	public static class MyReducer extends Reducer<Text, Text, Text, Text>{
@@ -113,25 +113,25 @@ public class Join {
 		protected void reduce(Text name, Iterable<Text> values, Context context)
 				throws IOException, InterruptedException {
 
-            List<String> A = new ArrayList<String>();
-            List<String> B = new ArrayList<String>();
-            
-            Iterator<Text> it = values.iterator();
-            
-            while (it.hasNext()) {
-                String v = it.next().toString();
-                String[] tok = v.split(" ");
-                if (tok[0].equals("A")) A.add(tok[1]);
-                else B.add(tok[1]);
-            }
-            
-            //DEBUG -> printed in log, not stdout
-            System.out.println("[reducer] key = " + name + " [A] = " + A.size() + " [B] = " + B.size());
+			List<String> A = new ArrayList<String>();
+			List<String> B = new ArrayList<String>();
+			
+			Iterator<Text> it = values.iterator();
+			
+			while (it.hasNext()) {
+				String v = it.next().toString();
+				String[] tok = v.split(" ");
+				if (tok[0].equals("A")) A.add(tok[1]);
+				else B.add(tok[1]);
+			}
+			
+			//DEBUG -> printed in log, not stdout
+			System.out.println("[reducer] key = " + name + " [A] = " + A.size() + " [B] = " + B.size());
 
-            for (String age:A)
-                for (String cls:B)
-                    context.write(new Text("C"), 
-                                  new Text(name+" "+age+" "+cls));
+			for (String age:A)
+				for (String cls:B)
+					context.write(new Text("C"), 
+								  new Text(name+" "+age+" "+cls));
 		}
 	}
 }

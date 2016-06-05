@@ -22,10 +22,10 @@ import org.apache.hadoop.util.ToolRunner;
 
 
 public class InvertEdges {
-    
-    private static final String JOB_NAME = "InvertEdges";
-    private static final String MAP_TAG_1 = "[mapper1] ";
-    private static final String RED_TAG_1 = "[reducer1] ";
+	
+	private static final String JOB_NAME = "InvertEdges";
+	private static final String MAP_TAG_1 = "[mapper1] ";
+	private static final String RED_TAG_1 = "[reducer1] ";
 	
 	static int printUsage() {
 		System.out.println(JOB_NAME + " [-r <reducers>] <input> <output>");
@@ -42,7 +42,7 @@ public class InvertEdges {
 		for(int i=0; i < args.length; ++i) {
 			try {
 				if ("-r".equals(args[i])) { 
-                    //to customize the number of reducers
+					//to customize the number of reducers
 					conf.setInt("mapreduce.job.reduces", Integer.parseInt(args[++i]));
 				} else {
 					otherArgs.add(args[i]);
@@ -64,40 +64,40 @@ public class InvertEdges {
 			System.exit(printUsage());
 		}
 		
-        //take input and output folders from command line
+		//take input and output folders from command line
 		Path input = new Path(otherArgs.get(0));
 		Path output =new Path(otherArgs.get(1));
-        
-        
-        
-        Job job = Job.getInstance(conf);
-        job.setJarByClass(InvertEdges.class);
-        job.setJobName(JOB_NAME);
-        
-	    FileInputFormat.addInputPath(job, input);
-	    //FileOutputFormat.setOutputPath(job, tmpOut_1);
-	    FileOutputFormat.setOutputPath(job, output);
-
-	    job.setMapperClass(MyMapper.class);
-	    //job.setCombinerClass(MyReducer.class);
-	    job.setReducerClass(MyReducer.class);
-
-    
-	    job.setInputFormatClass(KeyValueTextInputFormat.class);
-        
-        //to specify the types of intermediate result key and value
-        job.setMapOutputKeyClass(IntWritable.class);
-        job.setMapOutputValueClass(IntWritable.class);
-
-        //to specify the types of output key and value
-	    job.setOutputKeyClass(IntWritable.class);
-	    job.setOutputValueClass(IntWritable.class);
-
-	    job.waitForCompletion(true);
-        
-        
 		
-    }
+		
+		
+		Job job = Job.getInstance(conf);
+		job.setJarByClass(InvertEdges.class);
+		job.setJobName(JOB_NAME);
+		
+		FileInputFormat.addInputPath(job, input);
+		//FileOutputFormat.setOutputPath(job, tmpOut_1);
+		FileOutputFormat.setOutputPath(job, output);
+
+		job.setMapperClass(MyMapper.class);
+		//job.setCombinerClass(MyReducer.class);
+		job.setReducerClass(MyReducer.class);
+
+	
+		job.setInputFormatClass(KeyValueTextInputFormat.class);
+		
+		//to specify the types of intermediate result key and value
+		job.setMapOutputKeyClass(IntWritable.class);
+		job.setMapOutputValueClass(IntWritable.class);
+
+		//to specify the types of output key and value
+		job.setOutputKeyClass(IntWritable.class);
+		job.setOutputValueClass(IntWritable.class);
+
+		job.waitForCompletion(true);
+		
+		
+		
+	}
 
 	
 	public static class MyMapper extends Mapper<Text, Text, IntWritable, IntWritable> {
@@ -112,8 +112,8 @@ public class InvertEdges {
 			
 			xi = Integer.parseInt(x.toString());
 			yi = Integer.parseInt(y.toString());
-			z.set(xi);        // boxing
-			w.set(yi);        // boxing
+			z.set(xi);		// boxing
+			w.set(yi);		// boxing
 			
 			if(xi > yi) {
 				context.write(w, z);
@@ -141,12 +141,12 @@ public class InvertEdges {
 			for (IntWritable x: values) {
 				alreaySeen.add(new Integer(x.get()));
 			}
-                        
-            for (Integer x: alreaySeen) {
+						
+			for (Integer x: alreaySeen) {
 				yt.set(x.intValue());
 				context.write(key, yt);
 			}
-            
+			
 		}
 	}
 }

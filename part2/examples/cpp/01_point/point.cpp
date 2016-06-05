@@ -12,19 +12,19 @@ point::point(double a, double b) : x(a), y(b) {}
 point::point(double a) : x(a), y(0) {}
 
 point::~point() {
-    cout << "sayonara\n";
+	cout << "sayonara\n";
 }
 
 void point::print() {
-    cout << x << " " << y << "\n";
+	cout << x << " " << y << "\n";
 }
 
 point point::sum(point a) {
-    point t(a.x + x, a.y + y);
-    return t;
+	point t(a.x + x, a.y + y);
+	return t;
 }
 
 point point::operator+(point a) {
-    point t(a.x + x, a.y + y);
-    return t;
+	point t(a.x + x, a.y + y);
+	return t;
 }

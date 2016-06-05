@@ -34,7 +34,7 @@ public class WordCount {
 		for(int i=0; i < args.length; ++i) {
 			try {
 				if ("-r".equals(args[i])) { 
-                    //to customize the number of reducers
+					//to customize the number of reducers
 					conf.setInt("mapreduce.job.reduces", Integer.parseInt(args[++i]));
 				} else {
 					otherArgs.add(args[i]);
@@ -56,47 +56,47 @@ public class WordCount {
 			System.exit(printUsage());
 		}
 		
-        //take input and output folders from command line
+		//take input and output folders from command line
 		Path input = new Path(otherArgs.get(0));
 		Path output =new Path(otherArgs.get(1));
 		
 		Job job = Job.getInstance(conf);
-        job.setJarByClass(WordCount.class);
-        job.setJobName("WordCount");
-        
-	    FileInputFormat.addInputPath(job, input);
-	    FileOutputFormat.setOutputPath(job, output);
+		job.setJarByClass(WordCount.class);
+		job.setJobName("WordCount");
+		
+		FileInputFormat.addInputPath(job, input);
+		FileOutputFormat.setOutputPath(job, output);
 
-	    job.setMapperClass(MyMapper.class);
-	    job.setReducerClass(MyReducer.class);
-	    
-	    /*
-	     * make a combiner execute the same function as the reducer
-	     * */
-	    //job.setCombinerClass(MyReducer.class);
-	    job.setCombinerClass(MyCombiner.class);
+		job.setMapperClass(MyMapper.class);
+		job.setReducerClass(MyReducer.class);
+		
+		/*
+		 * make a combiner execute the same function as the reducer
+		 * */
+		//job.setCombinerClass(MyReducer.class);
+		job.setCombinerClass(MyCombiner.class);
 
-        // An InputFormat for plain text files. 
-        // Files are broken into lines. Either linefeed or carriage-return are used 
-        // to signal end of line. Keys are the position in the file, and values 
-        // are the line of text.
-	    job.setInputFormatClass(TextInputFormat.class);
+		// An InputFormat for plain text files. 
+		// Files are broken into lines. Either linefeed or carriage-return are used 
+		// to signal end of line. Keys are the position in the file, and values 
+		// are the line of text.
+		job.setInputFormatClass(TextInputFormat.class);
 
-        //tells the system the types of output key and value
-	    job.setOutputKeyClass(Text.class);
-	    job.setOutputValueClass(IntWritable.class);
+		//tells the system the types of output key and value
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(IntWritable.class);
 
-	    job.waitForCompletion(true);
+		job.waitForCompletion(true);
 	}
 	
-    //NESTED CLASS (not INNER) because of the 'static', i want the WordCounter class to be
-    //a name space with the mapper and reducer in it
+	//NESTED CLASS (not INNER) because of the 'static', i want the WordCounter class to be
+	//a name space with the mapper and reducer in it
 	public static class MyMapper extends Mapper<LongWritable, Text, Text, IntWritable>{
 		
-        //i declare 'one' and 'word' outside the method to save TIME, 
-        //avoid the garbage collector to destroy it
-        private final static IntWritable one = new IntWritable(1);
-        private Text word = new Text();
+		//i declare 'one' and 'word' outside the method to save TIME, 
+		//avoid the garbage collector to destroy it
+		private final static IntWritable one = new IntWritable(1);
+		private Text word = new Text();
 		
 		@Override
 		protected void map(LongWritable key, Text value, Context context)
@@ -107,7 +107,7 @@ public class WordCount {
 				word.set(scanner.next().toLowerCase());
 				context.write(word, one);
 			}
-       	}
+	   	}
 	}
 	
 	public static class MyReducer extends Reducer<Text, IntWritable, Text, IntWritable>{
@@ -115,9 +115,9 @@ public class WordCount {
 		@Override
 		protected void reduce(Text key, Iterable<IntWritable> values, Context context)
 				throws IOException, InterruptedException {
-            
-            //values is a list given by an iterable        
-            
+			
+			//values is a list given by an iterable		
+			
 			int sum = 0;
 			for (IntWritable value : values) {
 				sum += value.get();
@@ -138,9 +138,9 @@ public class WordCount {
 		@Override
 		protected void reduce(Text key, Iterable<IntWritable> values, Context context)
 				throws IOException, InterruptedException {
-            
-            //values is a list given by an iterable        
-            
+			
+			//values is a list given by an iterable		
+			
 			int sum = 0;
 			for (IntWritable value : values) {
 				sum += value.get();
