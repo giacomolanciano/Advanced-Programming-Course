@@ -25,15 +25,22 @@ class node {
 	friend class tree<T>;
 public:
 	/*
-	 * instead of define a custom node iterator, simply "box" the one that
+	 * instead of define custom node iterators, simply "box" the ones that
 	 * vector class provides
 	 * */
 	typedef typename std::vector<node<T>*>::iterator iterator;
+	typedef typename std::vector<node<T>*>::reverse_iterator reverse_iterator;
 	iterator begin() {
 		return children.begin();
 	}
 	iterator end() {
 		return children.end();
+	}
+	reverse_iterator rbegin() {
+		return children.rbegin();
+	}
+	reverse_iterator rend() {
+		return children.rend();
 	}
 	T get() {
 		return info;
@@ -52,6 +59,7 @@ class tree {
 public:
 	class iterator {
 		std::vector<node<T>*> nodes;
+		
 		/*
 		 * defined in order to use empty iterator (see below)
 		 * */
@@ -70,7 +78,6 @@ public:
 			 * assuming that operator is only used to check wheter iterator
 			 * has been entirely consumed (i.e. it is the result of end())
 			 * */
-			 
 			return nodes.size() != it.nodes.size();   
 		}
 		
@@ -79,10 +86,18 @@ public:
 			 * this works only for pre-increment
 			 * side-effect on nodes
 			 * */
-			std::vector<node<T>*> children = nodes.back()->children;
+			node<T>* top = nodes.back();
 			nodes.pop_back();
-			for(typename std::vector<node<T>*>::reverse_iterator 
-					it = children.rbegin(); it != children.rend(); ++it)
+			
+			/*
+			 * since the structure we are iterating over will not be
+			 * modified, we can apply loop invariant code motion to 
+			 * improve performances (rend() is called only once instead
+			 * of once per iteration)
+			 * */
+			typename node<T>::reverse_iterator end = top->rend();
+			for(typename node<T>::reverse_iterator it = top->rbegin(); 
+					it != end; ++it)
 				nodes.push_back(*it);
 		}
 		
