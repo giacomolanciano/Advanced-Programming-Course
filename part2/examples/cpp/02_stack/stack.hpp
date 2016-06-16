@@ -1,34 +1,11 @@
 #include <stddef.h>
 
-
-//old implementation can be found in stack.cpp
-
-/*
-template <class T>
-class node;
-*/
-
 template <class T>
 class node {
 	public:
 		T elem;
 		node<T>* next;
 };
-
-/*
-template <class T>
-class stack {
-	node<T>* head;
-	public:
-		stack() : head(NULL) {};
-		bool isempty();
-		void push(T); //T& for efficiency
-		T pop();
-		T top();
-};
-*/
-
-
 
 template <class T>
 class stack {
