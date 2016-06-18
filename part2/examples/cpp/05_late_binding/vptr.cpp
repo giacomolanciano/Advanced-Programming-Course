@@ -28,6 +28,7 @@ public:
 
 int main() {
 	person* s = new student("mike", 971);
+	//student* s = new student("mike", 971);
 	person* p = new person("mike");
 	person* q = new person("mike");
 	
@@ -58,6 +59,11 @@ int main() {
 	cout << sizeof(student) << endl;   
 	
 	/*
+	 * if person::print() is virtual then
+	 * 		*(long*)p = *(long*)q != *(long*)s	(different vtables)
+	 * else
+	 * 		*(long*)p = *(long*)q = *(long*)s	(same vtable ???)
+	 * 
 	 * vtable is used to implement late binding in c++. given a class A
 	 * that declares some virtual functions, vtable of A has an entry for 
 	 * (i.e. a pointer to) each of that functions. when a class B inherit
