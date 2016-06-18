@@ -8,7 +8,7 @@ public:
 	char* name;
 	person() {}
 	person(char* n) : name(n) {}
-	virtual void print() {
+	/*virtual*/ void print() {
 		cout << name << endl;
 	}
 };
@@ -61,8 +61,6 @@ int main() {
 	/*
 	 * if person::print() is virtual then
 	 * 		*(long*)p = *(long*)q != *(long*)s	(different vtables)
-	 * else
-	 * 		*(long*)p = *(long*)q = *(long*)s	(same vtable ???)
 	 * 
 	 * vtable is used to implement late binding in c++. given a class A
 	 * that declares some virtual functions, vtable of A has an entry for 
@@ -77,10 +75,17 @@ int main() {
 	 * the address at which vtable starts for each object. 
 	 * it is always the same, since the table is created once for all 
 	 * (for each class).
+	 * to do that we need to dereference the pointers.
+	 * see https://en.wikipedia.org/wiki/Virtual_method_table for details
 	 * 
-	 * NOTE: to do that we need to dereference the pointers
+	 * NOTE: 
+	 * in this particular example we have that:
+	 * if person::print() is NOT virtual then *(long*)p = *(long*)q = *(long*)s
 	 * 
-	 * see also: https://en.wikipedia.org/wiki/Virtual_method_table
+	 * it does NOT mean that first field of student and person points to
+	 * the same vtable. in this case we pass to all objects the same string
+	 * ("mike") as name. hence, first field of all objects is a pointer 
+	 * to the same string object, that is converted to char* (deprecated)
 	 * */
 	cout << *(long*)p << endl;
 	cout << *(long*)q << endl;
