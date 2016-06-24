@@ -7,7 +7,7 @@ std::ostream& operator << (std::ostream& o, const pair& p) {
 }
 
 int main() {
-    pair p = {5,7};
-    std::cout << p << std::endl;
-    return 0;
+	pair p = {5,7};
+	std::cout << p << std::endl;
+	return 0;
 }
