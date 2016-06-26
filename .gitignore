@@ -68,3 +68,5 @@ nbactions.xml
 
 # Linux trash folder which might appear on any partition or disk
 .Trash-*
+/exams/2015_06/ws/LabTest2015-1stSession/nbproject/private/
+/exams/2015_06/ws/LabTest2015-1stSession-Client/nbproject/private/
