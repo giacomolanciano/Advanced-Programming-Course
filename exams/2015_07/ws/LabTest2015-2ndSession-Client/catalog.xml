@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/LabTest2015-1stSession/BankWS?wsdl" uri="xml-resources/web-service-references/BankWS/wsdl/localhost_8080/LabTest2015-1stSession/BankWS.wsdl"/>
+    <system systemId="http://localhost:8080/LabTest2015-1stSession/BankWS?xsd=1" uri="xml-resources/web-service-references/BankWS/wsdl/localhost_8080/LabTest2015-1stSession/BankWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/LabTest2015-1stSession/AAAWS?wsdl" uri="xml-resources/web-service-references/AAAWS/wsdl/localhost_8080/LabTest2015-1stSession/AAAWS.wsdl"/>
+    <system systemId="http://localhost:8080/LabTest2015-1stSession/AAAWS?xsd=1" uri="xml-resources/web-service-references/AAAWS/wsdl/localhost_8080/LabTest2015-1stSession/AAAWS.xsd_1.xsd"/>
+</catalog>
