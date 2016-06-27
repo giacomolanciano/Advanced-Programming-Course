@@ -89,8 +89,8 @@ public class Undirected {
 		job.setInputFormatClass(KeyValueTextInputFormat.class);
 		
 		//to specify the types of intermediate result key and value
-		job.setMapOutputKeyClass(DontCareWritable.class);
-		job.setMapOutputValueClass(EdgeWritable.class);
+		job.setMapOutputKeyClass(EdgeWritable.class);
+		job.setMapOutputValueClass(DontCareWritable.class);
 
 		//to specify the types of output key and value
 		job.setOutputKeyClass(IntWritable.class);
@@ -101,10 +101,10 @@ public class Undirected {
 	}
 
 	
-	public static class MyMapper extends Mapper<Text, Text, DontCareWritable, EdgeWritable> {
+	public static class MyMapper extends Mapper<Text, Text, EdgeWritable, DontCareWritable> {
 
-		private EdgeWritable value = new EdgeWritable();
-		private DontCareWritable key = new DontCareWritable();
+		private EdgeWritable key = new EdgeWritable();
+		private DontCareWritable value = new DontCareWritable();
 		int xi, yi;
 
 		@Override
@@ -114,18 +114,20 @@ public class Undirected {
 			xi = Integer.parseInt(x.toString());
 			yi = Integer.parseInt(y.toString());
 			
-			/*
-			 * NOTE: send all values (edges) to same reducer, performances
-			 * could be improved (but constraints are satisfied)
-			 * */
-			value.setX(xi);		// boxing
-			value.setY(yi);		// boxing
+			if(xi < yi) {
+				key.setX(xi);		// boxing
+				key.setY(yi);		// boxing
+			} else {
+				key.setX(yi);		// boxing
+				key.setY(xi);		// boxing
+			}
+			
 			context.write(key, value);
 			
 		}
 	}
 
-	public static class MyReducer extends Reducer<DontCareWritable, EdgeWritable, IntWritable, IntWritable> {
+	public static class MyReducer extends Reducer<EdgeWritable, DontCareWritable, IntWritable, IntWritable> {
 
 		private IntWritable xt = new IntWritable();
 		private IntWritable yt = new IntWritable();
@@ -134,49 +136,25 @@ public class Undirected {
 		boolean in;
 
 		@Override
-		protected void reduce(DontCareWritable key, Iterable<EdgeWritable> values, Context context)
+		protected void reduce(EdgeWritable key, Iterable<DontCareWritable> values, Context context)
 						throws IOException, InterruptedException {
+				
+			xt.set(key.getX());
+			yt.set(key.getY());
 			
-			for(EdgeWritable e : values) {
-				in = false;
-				
-				/*
-				 * NOTE: when inserting into hashset, equals method of
-				 * EdgeWritable seems not to be automatically called.
-				 * Hence, it is necessary to check whether an element is
-				 * already in or not "by hand".
-				 * */
-				for(EdgeWritable f : edges) {
-					if(e.equals(f)) {
-						in = true;
-						break;
-					}
-				}
-					
-				if(!in)
-					edges.add(new EdgeWritable(e.getX(), e.getY()));
-			}
+			context.write(xt, yt);
 			
-			for(EdgeWritable e : edges) {
-				
-				xt.set(e.getX());
-				yt.set(e.getY());
-				
-				context.write(xt, yt);
-				
-				/*
-				 * NOTE: do not write the inverse edge if x = y
-				 * (otherwise a duplicate is created)
-				 * */
-				if(xt.get() != yt.get())
-					context.write(yt, xt);
-			}
-			
+			/*
+			 * NOTE: do not write the inverse edge if x = y
+			 * (otherwise a duplicate is created)
+			 * */
+			if(xt.get() != yt.get())
+				context.write(yt, xt);
 			
 		}
 	}
 	
-	public static class EdgeWritable implements Writable {
+	public static class EdgeWritable implements WritableComparable<EdgeWritable> {
 		
 		private int x, y;
 		
@@ -204,6 +182,13 @@ public class Undirected {
 		public void write(DataOutput out) throws IOException {
 			out.writeInt(x);
 			out.writeInt(y);
+		}
+		
+		@Override
+		public int compareTo(EdgeWritable o) {
+			if(this.x < o.getX()) return -1;
+			if(this.x > o.getX()) return 1;
+			return new Integer(this.y).compareTo(o.getY());
 		}
 		
 		@Override
@@ -239,7 +224,7 @@ public class Undirected {
 	public static class DontCareWritable implements WritableComparable<DontCareWritable> {
 		
 		/*
-		 * "dumb" class, map out key is not relevant in this implementation
+		 * "dumb" class, map out value is not relevant in this implementation
 		 * */
 		
 		private int x;
