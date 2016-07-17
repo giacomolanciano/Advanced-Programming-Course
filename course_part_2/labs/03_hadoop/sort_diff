@@ -27,7 +27,7 @@ fi
 TEMP_FILE_1=$TEMP_DIR/sort_diff.$$.$RANDOM
 TEMP_FILE_2=$TEMP_DIR/sort_diff.$$.$RANDOM
 while [ "$TEMP_FILE_1" == "$TEMP_FILE_2" ]; do
-    TEMP_FILE_1=$TEMP_DIR/sort_diff.$$.$RANDOM
+	TEMP_FILE_1=$TEMP_DIR/sort_diff.$$.$RANDOM
 	TEMP_FILE_2=$TEMP_DIR/sort_diff.$$.$RANDOM
 done
 
