@@ -58,6 +58,10 @@ class tree {
 	}
 public:
 	class iterator {
+		/*
+		 * implements a pre-order visit over tree nodes
+		 * */
+		
 		std::vector<node<T>*> nodes;
 		
 		/*
