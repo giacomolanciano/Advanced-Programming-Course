@@ -2,7 +2,7 @@
 
 # Check for required arguments
 if [ $# -ne 2 ]; then
-	echo "usage: $./out_diff file_1 file_2" 1>&2
+	echo "usage: $./sort_diff file_1 file_2" 1>&2
 	exit 1
 fi
 
