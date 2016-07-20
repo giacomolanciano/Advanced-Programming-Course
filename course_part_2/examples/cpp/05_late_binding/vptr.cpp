@@ -27,6 +27,17 @@ public:
 };
 
 int main() {
+	
+	/*
+	 * NOTE:
+	 * 
+	 * person* t = student("mike", 971);
+	 * student* t = student("mike", 971);
+	 * 
+	 * the above lines give error at compile time. it is not possible 
+	 * to assign a pointer using that syntax for the constructor (we have
+	 * to use 'new' and therefore allocate objects on heap)
+	 * */
 	person* s = new student("mike", 971);
 	//student* s = new student("mike", 971);
 	person* p = new person("mike");
