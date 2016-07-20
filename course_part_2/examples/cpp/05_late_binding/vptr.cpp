@@ -91,5 +91,13 @@ int main() {
 	cout << *(long*)q << endl;
 	cout << *(long*)s << endl;
 	
+	/*
+	 * since objects have been dynamically allocated, it is necessary to
+	 * explicitly deallocate them with delete
+	 * */
+	delete s;
+	delete p;
+	delete q;
+	
 	return 0;
 }
