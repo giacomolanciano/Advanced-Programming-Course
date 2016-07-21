@@ -34,10 +34,14 @@ int main() {
 	/*
 	 * 1-par constructor is called when variables are assigned (no need 
 	 * to overload operator '=')
-	 * operator '+' overloading is needed
 	 * */
 	x = 10;
 	y = 20;
+	
+	/*
+	 * operator '+' overloading is needed
+	 * NOTE: 1-par constructor is called in operator overloading
+	 * */
 	x = x + y;
 	
 	/*
